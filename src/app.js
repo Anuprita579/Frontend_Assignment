@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM  from "react-dom/client";
-import foodvista_logo from "./public/resources/foodvista_logo.png";
+import foodvista_logo from "/public/resources/foodvista_logo.png";
 
 const Header = () => {
     return(
