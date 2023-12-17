@@ -627,6 +627,999 @@ const fooditem = [
               
             }
         }
+    },
+    {
+        "info": 
+        {
+            "id": "124510",
+            "name": "Dadi Ka Khazana",
+            "cloudinaryImageId": "oi1jjmbplrq20laffynk",
+            "locality": "thane west",
+            "areaName": "Thane Hiranandani",
+            "costForTwo": "₹250 for two",
+            "cuisines": [
+              "North Indian",
+              "Rajasthani",
+              "Thalis",
+              "Home Food",
+              "Healthy Food",
+              "Biryani"
+            ],
+            "avgRating": 4.1,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "124510",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3900
+            },
+            "parentId": "6958",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 25,
+              "lastMileTravel": 0.8,
+              "serviceability": "SERVICEABLE",
+              "slaString": "25 mins",
+              "lastMileTravelString": "0.8 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 15:30:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1695133679/badges/Pure_Veg111.png",
+                  "description": "pureveg"
+                }
+              ],
+              "textExtendedBadges": [
+                {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available",
+                  "fontColor": "#7E808C"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "pureveg",
+                        "imageId": "v1695133679/badges/Pure_Veg111.png"
+                      }
+                    }
+                  ]
+                },
+                "textExtendedBadges": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "description": "",
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "20% OFF",
+              "subHeader": "UPTO ₹45"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "299968",
+            "name": "Bala Dosa Plaza",
+            "cloudinaryImageId": "co6lvkimournlhxktdj3",
+            "locality": "Tulsidham Road",
+            "areaName": "Tulsi Dham",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+              "South Indian"
+            ],
+            "avgRating": 4.6,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "299968",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 6000
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 6000
+            },
+            "parentId": "40486",
+            "avgRatingString": "4.6",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 23,
+              "lastMileTravel": 5,
+              "serviceability": "SERVICEABLE",
+              "slaString": "23 mins",
+              "lastMileTravelString": "5.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 14:00:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1695133679/badges/Pure_Veg111.png",
+                  "description": "pureveg"
+                }
+              ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
+            },
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                      }
+                    }
+                  ]
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "562872",
+            "name": "Taco Bell",
+            "cloudinaryImageId": "d3b3db238b6448c3f297c851e9d0b96b",
+            "locality": "Thane West",
+            "areaName": "Thane West",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+              "Mexican"
+            ],
+            "avgRating": 4.1,
+            "feeDetails": {
+              "restaurantId": "562872",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 4400
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 4400
+            },
+            "parentId": "1557",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "promoted": true,
+            "adTrackingId": "cid=9817359~p=3~eid=0000018c-764b-471e-2ff0-0cfc0093034c~srvts=1702791694110~45995",
+            "sla": {
+              "deliveryTime": 27,
+              "lastMileTravel": 2.3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "27 mins",
+              "lastMileTravelString": "2.3 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-18 02:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "50% OFF",
+              "subHeader": "UPTO ₹100"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "487628",
+            "name": "Poetry By Love & Cheesecake",
+            "cloudinaryImageId": "d63c7c51ff0962f22d30957ba3f1ff74",
+            "locality": "Hiranandani Estate",
+            "areaName": "Hiranandani Estate",
+            "costForTwo": "₹900 for two",
+            "cuisines": [
+              "Desserts"
+            ],
+            "avgRating": 4.4,
+            "feeDetails": {
+              "restaurantId": "487628",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 4400
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 4400
+            },
+            "parentId": "11330",
+            "avgRatingString": "4.4",
+            "totalRatingsString": "100+",
+            "sla": {
+              "deliveryTime": 26,
+              "lastMileTravel": 2.3,
+              "serviceability": "SERVICEABLE",
+              "slaString": "26 mins",
+              "lastMileTravelString": "2.3 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 23:30:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1669879258/GFF_logo_new_xbycg6.png",
+                  "description": "gourmet"
+                }
+              ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
+            },
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "gourmet",
+                        "imageId": "v1669879258/GFF_logo_new_xbycg6.png"
+                      }
+                    }
+                  ]
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "379826",
+            "name": "Gaurav Sweets and Namkeen",
+            "cloudinaryImageId": "a4ab60c4539d2cccfda10ab2f9359bcf",
+            "locality": "Wagbil Road",
+            "areaName": "Waghbil",
+            "costForTwo": "₹200 for two",
+            "cuisines": [
+              "Desserts",
+              "Sweets"
+            ],
+            "avgRating": 4.5,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "379826",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3900
+            },
+            "parentId": "86624",
+            "avgRatingString": "4.5",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 13,
+              "lastMileTravel": 0.8,
+              "serviceability": "SERVICEABLE",
+              "slaString": "13 mins",
+              "lastMileTravelString": "0.8 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 21:30:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1695133679/badges/Pure_Veg111.png",
+                  "description": "pureveg"
+                }
+              ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
+            },
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "pureveg",
+                        "imageId": "v1695133679/badges/Pure_Veg111.png"
+                      }
+                    }
+                  ]
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "236178",
+            "name": "Swamy - South Indian Food Express",
+            "cloudinaryImageId": "mt6mhfey6rita3fpss9b",
+            "locality": "Next To Hakone",
+            "areaName": "Thane Hiranandani Estate",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+              "Indian",
+              "South Indian"
+            ],
+            "avgRating": 4.3,
+            "feeDetails": {
+              "restaurantId": "236178",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3900
+            },
+            "parentId": "22054",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 22,
+              "lastMileTravel": 2.1,
+              "serviceability": "SERVICEABLE",
+              "slaString": "22 mins",
+              "lastMileTravelString": "2.1 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 22:00:00",
+              "opened": true
+            },
+            "badges": {
+              "textExtendedBadges": [
+                {
+                  "iconId": "guiltfree/GF_Logo_android_3x",
+                  "shortDescription": "options available",
+                  "fontColor": "#7E808C"
+                }
+              ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
+            },
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textExtendedBadges": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "shortDescription": "options available",
+                        "fontColor": "#7E808C",
+                        "iconId": "guiltfree/GF_Logo_android_3x",
+                        "description": ""
+                      }
+                    }
+                  ]
+                },
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  
+                }
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "10002",
+            "name": "Subway",
+            "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+            "locality": "Hypercity, Thane(W)",
+            "areaName": "Thane Hiranandani Estate",
+            "costForTwo": "₹350 for two",
+            "cuisines": [
+              "Salads",
+              "Snacks",
+              "Desserts",
+              "Beverages"
+            ],
+            "avgRating": 4.2,
+            "feeDetails": {
+              "restaurantId": "10002",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3900
+            },
+            "parentId": "2",
+            "avgRatingString": "4.2",
+            "totalRatingsString": "10K+",
+            "promoted": true,
+            "adTrackingId": "cid=9981816~p=4~eid=0000018c-764b-471e-2ff0-0cfd0093044a~srvts=1702791694110~45995",
+            "sla": {
+              "deliveryTime": 19,
+              "lastMileTravel": 1.9,
+              "serviceability": "SERVICEABLE",
+              "slaString": "19 mins",
+              "lastMileTravelString": "1.9 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 23:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "40% OFF",
+              "subHeader": "UPTO ₹80"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "389789",
+            "name": "Praja Snacks Veg",
+            "cloudinaryImageId": "76a81538ebefd44b392c2e33e0328670",
+            "locality": "Majiwada",
+            "areaName": "Thane West",
+            "costForTwo": "₹100 for two",
+            "cuisines": [
+              "South Indian",
+              "Maharashtrian",
+              "Fast Food",
+              "Street Food",
+              "Snacks"
+            ],
+            "avgRating": 4.1,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "389789",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 7300
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 7300
+            },
+            "parentId": "252881",
+            "avgRatingString": "4.1",
+            "totalRatingsString": "1K+",
+            "sla": {
+              "deliveryTime": 28,
+              "lastMileTravel": 6,
+              "serviceability": "SERVICEABLE",
+              "slaString": "28 mins",
+              "lastMileTravelString": "6.0 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 22:30:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1695133679/badges/Pure_Veg111.png",
+                  "description": "pureveg"
+                }
+              ]
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
+            },
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "description": "pureveg",
+                        "imageId": "v1695133679/badges/Pure_Veg111.png"
+                      }
+                    }
+                  ]
+                },
+                "textExtendedBadges": {
+                  
+                },
+                "textBased": {
+                  
+                }
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "41581",
+            "name": "Hangout Cakes & More",
+            "cloudinaryImageId": "ea4af98c511f7f4fd2f860cb10d67d2b",
+            "locality": "Opposite Shri Maa School, Patlipada",
+            "areaName": "Thane Hiranandani Estate",
+            "costForTwo": "₹150 for two",
+            "cuisines": [
+              "Desserts",
+              "Bakery"
+            ],
+            "avgRating": 4.3,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "41581",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 5700
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 5700
+            },
+            "parentId": "4508",
+            "avgRatingString": "4.3",
+            "totalRatingsString": "10K+",
+            "sla": {
+              "deliveryTime": 19,
+              "lastMileTravel": 3.8,
+              "serviceability": "SERVICEABLE",
+              "slaString": "19 mins",
+              "lastMileTravelString": "3.8 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 23:59:00",
+              "opened": true
+            },
+            "badges": {
+              "imageBadges": [
+                {
+                  "imageId": "v1695133679/badges/Pure_Veg111.png",
+                  "description": "pureveg"
+                }
+              ]
+            },
+            "isOpen": true,
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  "badgeObject": [
+                    {
+                      "attributes": {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                      }
+                    }
+                  ]
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "aggregatedDiscountInfoV3": {
+              "header": "60% OFF",
+              "subHeader": "UPTO ₹120"
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
+    },
+    {
+        "info": 
+        {
+            "id": "746229",
+            "name": "Punjab Sind Premium Dairy",
+            "cloudinaryImageId": "1aa2148e2a8abd14b7a21fe239685d5b",
+            "locality": "Silverlink Chs Ltd",
+            "areaName": "Thane",
+            "costForTwo": "₹300 for two",
+            "cuisines": [
+              "Beverages"
+            ],
+            "avgRating": 4.7,
+            "veg": true,
+            "feeDetails": {
+              "restaurantId": "746229",
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900
+                },
+                {
+                  "name": "BASE_TIME"
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE"
+                }
+              ],
+              "totalFee": 3900
+            },
+            "parentId": "415074",
+            "avgRatingString": "4.7",
+            "totalRatingsString": "20+",
+            "sla": {
+              "deliveryTime": 17,
+              "lastMileTravel": 2.6,
+              "serviceability": "SERVICEABLE",
+              "slaString": "17 mins",
+              "lastMileTravelString": "2.6 km",
+              "iconType": "ICON_TYPE_EMPTY"
+            },
+            "availability": {
+              "nextCloseTime": "2023-12-17 21:00:00",
+              "opened": true
+            },
+            "badges": {
+              
+            },
+            "isOpen": true,
+            "aggregatedDiscountInfoV2": {
+              
+            },
+            "type": "F",
+            "badgesV2": {
+              "entityBadges": {
+                "textBased": {
+                  
+                },
+                "imageBased": {
+                  
+                },
+                "textExtendedBadges": {
+                  
+                }
+              }
+            },
+            "differentiatedUi": {
+              "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+              "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {
+                  
+                },
+                "video": {
+                  
+                }
+              }
+            },
+            "reviewsSummary": {
+              
+            },
+            "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+            "isNewlyOnboarded": true,
+            "restaurantOfferPresentationInfo": {
+              
+            }
+        }
     }
 ];
 
