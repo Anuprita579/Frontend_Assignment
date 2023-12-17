@@ -2,7 +2,6 @@
   "name": "foodvista",
   "version": "1.0.0",
   "description": "This is a food website",
-  "main": "index.html",
   "scripts": {
     "test": "jest",
     "start": "parcel index.html",
