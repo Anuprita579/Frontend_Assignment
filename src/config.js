@@ -1,28 +1,6 @@
-import React from "react";
-import ReactDOM  from "react-dom/client";
-import foodvista_logo from "/public/resources/foodvista_logo.png";
+export const IMG_CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 
-const Header = () => {
-    return(
-        <>
-        <div className="header">
-            <div className="header-left">
-                <img src={foodvista_logo} />
-                <h1>FoodVista</h1>
-            </div>
-            <div className="header-right">
-                <ul className="navlist">
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Cart</li>
-                </ul>
-            </div>
-        </div>
-        </> 
-    )
-}
-
-const fooditem = [
+export const fooditem = [
     {
         "info": 
         {
@@ -1622,45 +1600,3 @@ const fooditem = [
         }
     }
 ];
-
-const RestaurantList = ({cloudinaryImageId, name, cuisines, avgRating}) => {
-    return(
-        <>
-            <div className="food-card">
-                <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/" + cloudinaryImageId} />
-                <h2 className="truncate">{name}</h2>
-                <p className="truncate">{cuisines.join(", ")}</p>
-                <h3> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Green_star_41-108-41.svg/2153px-Green_star_41-108-41.svg.png"/>  {avgRating} </h3>
-                
-            </div>  
-        </>
-    )
-}
-
-const Body = () => {
-    return(
-        <>
-            <div className="food-list">
-                {
-                    fooditem.map((res) => {
-                        return <RestaurantList {...res.info}/>
-                    })
-                }
-                
-            </div>
-        </>
-    )
-}
-
-
-const AppLayout = () => {
-    return(
-        <>
-        <Header />
-        <Body />
-        
-        </>
-    )
-}
-const display = ReactDOM.createRoot(document.getElementById("root"));
-display.render(<AppLayout />);

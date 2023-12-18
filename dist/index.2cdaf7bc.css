@@ -53,6 +53,7 @@
 .food-card img {
   border-radius: 5%;
   width: 100%;
+  height: 200px;
 }
 
 .food-card h3 img {
@@ -69,6 +70,39 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+}
+
+.search-container {
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.search-input {
+  border: 1px solid #f16230;
+  border-radius: 15px;
+  outline: none;
+  width: 20%;
+  height: 30px;
+  margin: 1%;
+  padding-left: 15px;
+}
+
+.search-btn {
+  color: #f0f8ff;
+  cursor: pointer;
+  background-color: #f16230;
+  border: none;
+  height: 30px;
+  padding: 5px;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  box-shadow: 0 5px 5px #000c;
+}
+
+.search-btn:hover {
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=index.2cdaf7bc.css.map */

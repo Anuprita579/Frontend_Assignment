@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"iWvxK":[function(require,module,exports) {
+})({"2VgV4":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "fe4256060641b553";
+module.bundle.HMR_BUNDLE_ID = "1287f3a1dc264952";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -2935,11 +2935,11 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"bNKaB":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f79a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"kY5kY":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$547d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f79a.prelude(module);
+$parcel$ReactRefreshHelpers$547d.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -2956,12 +2956,12 @@ const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
-                fileName: "src/app.js",
+                fileName: "src/Components/app.js",
                 lineNumber: 13,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
-                fileName: "src/app.js",
+                fileName: "src/Components/app.js",
                 lineNumber: 14,
                 columnNumber: 9
             }, undefined)
@@ -2971,19 +2971,19 @@ const AppLayout = ()=>{
 _c = AppLayout;
 const display = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 display.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
-    fileName: "src/app.js",
+    fileName: "src/Components/app.js",
     lineNumber: 20,
     columnNumber: 16
 }, undefined));
 var _c;
 $RefreshReg$(_c, "AppLayout");
 
-  $parcel$ReactRefreshHelpers$f79a.postlude(module);
+  $parcel$ReactRefreshHelpers$547d.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Header":"lhQzv","./Body":"5pK3b"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./Header":"fNIx6","./Body":"6J35F","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27170,6 +27170,139 @@ module.exports = require("ef03b89c8fe2794e");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
+},{}],"fNIx6":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2257 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2257.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _foodvistaLogoPng = require("/public/resources/foodvista_logo.png");
+var _foodvistaLogoPngDefault = parcelHelpers.interopDefault(_foodvistaLogoPng);
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "header",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "header-left",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _foodvistaLogoPngDefault.default)
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 7,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            children: "FoodVista"
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 8,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Header.js",
+                    lineNumber: 6,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "header-right",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: "navlist",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "Home"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 12,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "About Us"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 13,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                children: "Cart"
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Header.js",
+                        lineNumber: 11,
+                        columnNumber: 17
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Components/Header.js",
+                    lineNumber: 10,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Header.js",
+            lineNumber: 5,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
+};
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$2257.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","/public/resources/foodvista_logo.png":"hVnXW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hVnXW":[function(require,module,exports) {
+module.exports = require("7a416b46dbbe768").getBundleURL("1ADHI") + "foodvista_logo.b777d2e3.png" + "?" + Date.now();
+
+},{"7a416b46dbbe768":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+}
+// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
 },{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
@@ -27338,193 +27471,109 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"lhQzv":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$9196 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"7422ead32dcc1e6b":"786KC"}],"6J35F":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4f14 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$9196.prelude(module);
+$parcel$ReactRefreshHelpers$4f14.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _foodvistaLogoPng = require("/public/resources/foodvista_logo.png");
-var _foodvistaLogoPngDefault = parcelHelpers.interopDefault(_foodvistaLogoPng);
-const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "header",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "header-left",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _foodvistaLogoPngDefault.default)
-                        }, void 0, false, {
-                            fileName: "src/Header.js",
-                            lineNumber: 7,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            children: "FoodVista"
-                        }, void 0, false, {
-                            fileName: "src/Header.js",
-                            lineNumber: 8,
-                            columnNumber: 17
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Header.js",
-                    lineNumber: 6,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "header-right",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        className: "navlist",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Home"
-                            }, void 0, false, {
-                                fileName: "src/Header.js",
-                                lineNumber: 12,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "About Us"
-                            }, void 0, false, {
-                                fileName: "src/Header.js",
-                                lineNumber: 13,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Cart"
-                            }, void 0, false, {
-                                fileName: "src/Header.js",
-                                lineNumber: 14,
-                                columnNumber: 21
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Header.js",
-                        lineNumber: 11,
-                        columnNumber: 17
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/Header.js",
-                    lineNumber: 10,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/Header.js",
-            lineNumber: 5,
-            columnNumber: 9
-        }, undefined)
-    }, void 0, false);
-};
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$9196.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","/public/resources/foodvista_logo.png":"8tULD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8tULD":[function(require,module,exports) {
-module.exports = require("76c3c58f5e8a2a3d").getBundleURL("lPpKD") + "foodvista_logo.b777d2e3.png" + "?" + Date.now();
-
-},{"76c3c58f5e8a2a3d":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-}
-// TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"5pK3b":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$5d06 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5d06.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
 var _restaurantList = require("./RestaurantList");
 var _restaurantListDefault = parcelHelpers.interopDefault(_restaurantList);
-var _config = require("./config");
+var _config = require("../config");
+var _s = $RefreshSig$();
+function filterData(searchText, restaurantDisplay) {
+    const filterData = restaurantDisplay.filter((res)=>res.info.name.includes(searchText));
+    return filterData;
+}
 const Body = ()=>{
+    _s();
+    const [restaurantDisplay, setRestaurantDisplay] = (0, _react.useState)((0, _config.fooditem));
+    const [searchText, setSearchText] = (0, _react.useState)("");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "food-list",
-            children: (0, _config.fooditem).map((res)=>{
-                return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantListDefault.default), {
-                    ...res.info
-                }, void 0, false, {
-                    fileName: "src/Body.js",
-                    lineNumber: 9,
-                    columnNumber: 32
-                }, undefined);
-            })
-        }, void 0, false, {
-            fileName: "src/Body.js",
-            lineNumber: 6,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false);
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "search-container",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        className: "search-input",
+                        type: "text",
+                        placeholder: "Search",
+                        value: searchText,
+                        onChange: (e)=>{
+                            setSearchText(e.target.value);
+                        }
+                    }, void 0, false, {
+                        fileName: "src/Components/Body.js",
+                        lineNumber: 16,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "search-btn",
+                        onClick: ()=>{
+                            const data = filterData(searchText, restaurantDisplay);
+                            setRestaurantDisplay(data);
+                        },
+                        children: "Search"
+                    }, void 0, false, {
+                        fileName: "src/Components/Body.js",
+                        lineNumber: 17,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 15,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "food-list",
+                children: restaurantDisplay.map((res)=>{
+                    return /*#__PURE__*/ (0, _react.createElement)((0, _restaurantListDefault.default), {
+                        ...res.info,
+                        key: res.info.id,
+                        __source: {
+                            fileName: "src/Components/Body.js",
+                            lineNumber: 26,
+                            columnNumber: 32
+                        },
+                        __self: undefined
+                    });
+                })
+            }, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 23,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true);
 };
+_s(Body, "x8odHaj8msGnUoKYFMlUo2keag8=");
 _c = Body;
 exports.default = Body;
 var _c;
 $RefreshReg$(_c, "Body");
 
-  $parcel$ReactRefreshHelpers$5d06.postlude(module);
+  $parcel$ReactRefreshHelpers$4f14.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./RestaurantList":"h9OV4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"h9OV4":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$d4f8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./RestaurantList":"3xaC7","../config":"jtCLN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3xaC7":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$a398 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$d4f8.prelude(module);
+$parcel$ReactRefreshHelpers$a398.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _config = require("./config");
+var _config = require("../config");
 const RestaurantList = ({ cloudinaryImageId, name, cuisines, avgRating })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27533,24 +27582,24 @@ const RestaurantList = ({ cloudinaryImageId, name, cuisines, avgRating })=>{
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _config.IMG_CDN_URL) + cloudinaryImageId
                 }, void 0, false, {
-                    fileName: "src/RestaurantList.js",
-                    lineNumber: 6,
+                    fileName: "src/Components/RestaurantList.js",
+                    lineNumber: 7,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     className: "truncate",
                     children: name
                 }, void 0, false, {
-                    fileName: "src/RestaurantList.js",
-                    lineNumber: 7,
+                    fileName: "src/Components/RestaurantList.js",
+                    lineNumber: 8,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     className: "truncate",
                     children: cuisines.join(", ")
                 }, void 0, false, {
-                    fileName: "src/RestaurantList.js",
-                    lineNumber: 8,
+                    fileName: "src/Components/RestaurantList.js",
+                    lineNumber: 9,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
@@ -27559,8 +27608,8 @@ const RestaurantList = ({ cloudinaryImageId, name, cuisines, avgRating })=>{
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Green_star_41-108-41.svg/2153px-Green_star_41-108-41.svg.pg"
                         }, void 0, false, {
-                            fileName: "src/RestaurantList.js",
-                            lineNumber: 9,
+                            fileName: "src/Components/RestaurantList.js",
+                            lineNumber: 10,
                             columnNumber: 22
                         }, undefined),
                         "  ",
@@ -27568,14 +27617,14 @@ const RestaurantList = ({ cloudinaryImageId, name, cuisines, avgRating })=>{
                         " "
                     ]
                 }, void 0, true, {
-                    fileName: "src/RestaurantList.js",
-                    lineNumber: 9,
+                    fileName: "src/Components/RestaurantList.js",
+                    lineNumber: 10,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
-            fileName: "src/RestaurantList.js",
-            lineNumber: 5,
+            fileName: "src/Components/RestaurantList.js",
+            lineNumber: 6,
             columnNumber: 13
         }, undefined)
     }, void 0, false);
@@ -27585,17 +27634,17 @@ exports.default = RestaurantList;
 var _c;
 $RefreshReg$(_c, "RestaurantList");
 
-  $parcel$ReactRefreshHelpers$d4f8.postlude(module);
+  $parcel$ReactRefreshHelpers$a398.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./config":"jtCLN"}],"jtCLN":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../config":"jtCLN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jtCLN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IMG_CDN_URL", ()=>IMG_CDN_URL);
 parcelHelpers.export(exports, "fooditem", ()=>fooditem);
-const IMG_CDN_URL = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Green_star_41-108-41.svg/2153px-Green_star_41-108-41.svg.png";
+const IMG_CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 const fooditem = [
     {
         "info": {
@@ -28957,6 +29006,6 @@ const fooditem = [
     }
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["iWvxK","1xC6H","bNKaB"], "bNKaB", "parcelRequire47c6")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["2VgV4","1xC6H","kY5kY"], "kY5kY", "parcelRequire47c6")
 
-//# sourceMappingURL=index.0641b553.js.map
+//# sourceMappingURL=index.dc264952.js.map
