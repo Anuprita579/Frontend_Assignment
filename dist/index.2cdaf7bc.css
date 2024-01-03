@@ -105,4 +105,12 @@
   box-shadow: none;
 }
 
+.shimmer-card {
+  background-color: gray;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+}
+
 /*# sourceMappingURL=index.2cdaf7bc.css.map */

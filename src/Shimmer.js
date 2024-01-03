@@ -3,7 +3,9 @@ import React from 'react'
 function Shimmer() {
   return (
     <>
-        <h1>Shimmer UI Loading..........</h1> 
+        <div className='food-list'>
+          {Array(10).fill("").map((e)=>(<div className='shimmer-card'></div>))}
+        </div>
     </>
   )
 }

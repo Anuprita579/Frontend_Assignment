@@ -27529,19 +27529,13 @@ const Body = ()=>{
         const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2622342&lng=72.9735531&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         const json = await data.json();
         console.log(json);
-        setAllRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        setFilteredRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setAllRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setFilteredRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     }
     //Early return
     if (!allRestaurant) return null;
     //Not found
-    if (filteredRestaurant?.length === 0) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "Not Found"
-    }, void 0, false, {
-        fileName: "src/Components/Body.js",
-        lineNumber: 33,
-        columnNumber: 49
-    }, undefined);
+    //if(filteredRestaurant?.length === 0) return <h1>Not Found</h1>
     return allRestaurant?.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
         fileName: "src/Components/Body.js",
         lineNumber: 35,
@@ -29072,8 +29066,15 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 function Shimmer() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "Shimmer UI Loading.........."
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "food-list",
+            children: Array(10).fill("").map((e)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "shimmer-card"
+                }, void 0, false, {
+                    fileName: "src/Shimmer.js",
+                    lineNumber: 7,
+                    columnNumber: 41
+                }, this))
         }, void 0, false, {
             fileName: "src/Shimmer.js",
             lineNumber: 6,
