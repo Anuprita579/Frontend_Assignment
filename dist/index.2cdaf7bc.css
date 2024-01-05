@@ -145,4 +145,26 @@
   box-shadow: 0 5px 5px #d3d3d3;
 }
 
+.menu-card {
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+  display: flex;
+}
+
+.menu-card h2 {
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+}
+
+.menu-card h3 {
+  color: gray;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+}
+
+.menu-card img {
+  height: 150px;
+  margin-right: 2%;
+  box-shadow: 0 5px 5px #d3d3d3;
+}
+
 /*# sourceMappingURL=index.2cdaf7bc.css.map */

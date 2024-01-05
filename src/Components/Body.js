@@ -2,6 +2,7 @@ import RestaurantList from "./RestaurantList";
 import {fooditem} from "../config";
 import { useEffect, useState } from "react";
 import Shimmer from "../Shimmer";
+import { Link as ReactRouterLink } from "react-router-dom";
 
 function filterData(searchText, restaurantDisplay){
     const filterData = restaurantDisplay.filter((res)=>res?.info?.name?.toLowerCase().includes(searchText.toLowerCase()));
@@ -45,8 +46,11 @@ const Body = () => {
             <div className="food-list">
                 {
                     filteredRestaurant.map((res) => {
-                        return <RestaurantList {...res.info} key={res.info.id}/>
-                    })
+                        return (
+                        <ReactRouterLink to={"/restaurant/"+ res.info.id} key={res.info.id}> 
+                            <RestaurantList {...res.info} />
+                        </ReactRouterLink>
+                    )})
                 }
             </div>
         </>

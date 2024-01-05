@@ -20,14 +20,16 @@ function RestaurantMenu() {
         //console.log(json?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
         //setMenu(json?.data?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards);
     };
-  return (
+  return (!restaurant)? <Shimmer /> : (
     <>
-        <div>
-            <h2> {restaurant.name}</h2>
+        <div className='menu-card'>
             <img src={IMG_CDN_URL + restaurant.cloudinaryImageId}/>
-            <h2> {restaurant.costForTwoMessage}</h2>
-            <h2> {restaurant.avgRating}</h2>
-            <h2> {restaurant.city}</h2>
+            <div>
+                <h2> {restaurant.name}</h2>
+                <h3> {restaurant.costForTwoMessage}</h3>
+                <h3> {restaurant.city}</h3>
+                <h3> {restaurant.avgRating}</h3>
+            </div>
         </div>
       
     </>
