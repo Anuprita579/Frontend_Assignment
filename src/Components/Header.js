@@ -1,5 +1,6 @@
 import { useState } from "react";
 import foodvista_logo from "/public/resources/foodvista_logo.png";
+import { Link } from "react-router-dom";
 
 const loggedIn = () => {
     //Authenticate
@@ -13,17 +14,17 @@ const Header = () => {
         <div className="header">
             <div className="header-left">
                 <img src={foodvista_logo} />
-                <h1>FoodVista</h1>
             </div>
             <div className="header-right">
                 <ul className="navlist">
-                    <li>Home</li>
-                    <li>About Us</li>
+                    <Link to="/" className="navlist-link"><li>Home</li></Link>
+                    <Link to="/about" className="navlist-link"><li>About Us</li></Link>
+                    <Link to="/contact" className="navlist-link"><li>Contact Us</li></Link>
                     <li>Cart</li>
                 </ul>
             </div>
             {
-                isLoggedIn ? <button onClick={()=>setIsLoggedIn(false)}>Logout</button> : <button onClick={()=>setIsLoggedIn(true)}>Login</button> 
+                isLoggedIn ? <button onClick={()=>setIsLoggedIn(false)} className="login-button">Logout</button> : <button onClick={()=>setIsLoggedIn(true)} className="login-button">Login</button> 
             }
             
         </div>
