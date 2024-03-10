@@ -1,8 +1,9 @@
 import RestaurantList from "./RestaurantList";
 import {fooditem} from "../config";
 import { useEffect, useState } from "react";
-import Shimmer from "../Shimmer";
+import Shimmer from "./Shimmer";
 import { Link as ReactRouterLink } from "react-router-dom";
+import useOnline from "../utils/useOnline";
 
 function filterData(searchText, restaurantDisplay){
     const filterData = restaurantDisplay.filter((res)=>res?.info?.name?.toLowerCase().includes(searchText.toLowerCase()));
@@ -13,6 +14,8 @@ const Body = () => {
     const [allRestaurant, setAllRestaurant] = useState([]);
     const [filteredRestaurant, setFilteredRestaurant] = useState([]);
     const [searchText, setSearchText] = useState("");
+    const isOnline = useOnline();
+    
 
     useEffect(()=>{
         //API call
@@ -20,11 +23,25 @@ const Body = () => {
     }, []);
 
     async function getRestaurants(){
-        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2622342&lng=72.9735531&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
-        const json = await data.json();
-        console.log(json);
-        setAllRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        setFilteredRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        //const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=19.2622342&lng=72.9735531&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        //const json = await data.json();
+        //console.log(json);
+        //setAllRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        //setFilteredRestaurant(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setAllRestaurant(fooditem);
+        setFilteredRestaurant(fooditem);
+    }
+
+    if (!isOnline){
+        return(
+            <div className='error-page'>
+            <div className='error-box'>
+                <h1>Offline</h1>
+                <h2>Check your internet connection!</h2>
+            </div>
+        </div>
+
+        )    
     }
 
     //Early return
@@ -47,9 +64,11 @@ const Body = () => {
                 {
                     filteredRestaurant.map((res) => {
                         return (
-                        <ReactRouterLink to={"/restaurant/"+ res.info.id} key={res.info.id}> 
-                            <RestaurantList {...res.info} />
-                        </ReactRouterLink>
+                        <div className="food-card-click" key={res.info.id}>
+                            <ReactRouterLink to={"/restaurant/"+ res.info.id} key={res.info.id}> 
+                                <RestaurantList {...res.info} />
+                            </ReactRouterLink>
+                        </div>
                     )})
                 }
             </div>

@@ -59,11 +59,33 @@
   font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
 }
 
+.person-account {
+  float: right;
+  padding: none;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+}
+
+.online-status {
+  float: right;
+  padding: none;
+  border-radius: 50%;
+  place-items: flex-end baseline;
+  font-size: 10px;
+  display: flex;
+  position: relative;
+  left: 13px;
+}
+
 .food-card {
+  color: #000;
   width: 250px;
   margin: 10px;
   padding: 10px;
   font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
 
 .food-card img {

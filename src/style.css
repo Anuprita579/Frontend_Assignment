@@ -51,11 +51,32 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 1px solid #f16230;
 }
+.person-account{
+    float: right;
+    border-radius: 50%;
+    padding: none;
+    height: 50px;
+    border: 2px solid white;
+    background-color: white;
+}
+.online-status{
+    float: right;
+    border-radius: 50%;
+    padding: none;
+    font-size: 10px;
+    display: flex;
+    justify-items: baseline;
+    align-items: flex-end;
+    position: relative;
+    left: 13px;
+}
 .food-card{
     margin: 10px;
     padding: 10px;
     width: 250px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
 }
 .food-card img{
     width: 100%;
