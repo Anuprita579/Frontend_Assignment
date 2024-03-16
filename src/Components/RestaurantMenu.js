@@ -18,7 +18,7 @@ function RestaurantMenu() {
     
   return (!restaurant)? <Shimmer /> : (
     <>
-        <div className='flex mt-10 justify-center items-center'>
+        <div className='flex mt-10 justify-center items-center max-sm:flex-col'>
             <img src={IMG_CDN_URL + restaurant.cloudinaryImageId} className='mr-5 h-40 rounded-xl'/>
             <div>
                 <h2 className='font-bold font-xl'> {restaurant.name}</h2>

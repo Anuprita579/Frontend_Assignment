@@ -27276,7 +27276,7 @@ const Header = ()=>{
             className: "bg-orange-600 flex w-full",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "bg-orange-600 flex items-center pl-5 text-white w-1/2",
+                    className: "bg-orange-600 flex items-center pl-5 text-white w-1/2 max-sm:justify-center max-sm:w-full ",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: (0, _foodvistaLogoPngDefault.default),
                         className: "h-10 w-10"
@@ -27291,117 +27291,119 @@ const Header = ()=>{
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "bg-orange-600 flex justify-center w-1/2",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                        className: " list-none flex justify-evenly items-center font-md text-white w-10/12",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/",
-                                className: "no-underline text-white hover:text-slate-300",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Home"
+                    className: "bg-orange-600 flex justify-center w-1/2 max-sm:hidden max-md:hidden",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: " list-none flex justify-evenly items-center font-md text-white w-10/12",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/",
+                                    className: "no-underline text-white hover:text-slate-300",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Home"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 16,
+                                        columnNumber: 91
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
                                     lineNumber: 16,
-                                    columnNumber: 91
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/Components/Header.js",
-                                lineNumber: 16,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/about",
-                                className: "no-underline text-white hover:text-slate-300",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "About Us"
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/about",
+                                    className: "no-underline text-white hover:text-slate-300",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "About Us"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 17,
+                                        columnNumber: 96
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
                                     lineNumber: 17,
-                                    columnNumber: 96
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/Components/Header.js",
-                                lineNumber: 17,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/contact",
-                                className: "no-underline text-white hover:text-slate-300",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Contact Us"
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/contact",
+                                    className: "no-underline text-white hover:text-slate-300",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Contact Us"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 18,
+                                        columnNumber: 98
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
                                     lineNumber: 18,
-                                    columnNumber: 98
-                                }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/Components/Header.js",
-                                lineNumber: 18,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                children: "Cart"
-                            }, void 0, false, {
-                                fileName: "src/Components/Header.js",
-                                lineNumber: 19,
-                                columnNumber: 21
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                to: "/instamart",
-                                className: "no-underline text-white hover:text-slate-300",
-                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                    children: "Instamart"
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Cart"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 19,
+                                    columnNumber: 21
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/instamart",
+                                    className: "no-underline text-white hover:text-slate-300",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: "Instamart"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 20,
+                                        columnNumber: 100
+                                    }, undefined)
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
                                     lineNumber: 20,
-                                    columnNumber: 100
+                                    columnNumber: 21
                                 }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 15,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "float-right rounded-full bg-transperant text-sm flex justify-end relative h-6 left-3",
+                            children: isOnline ? "\uD83D\uDFE2" : "\u26AA"
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 22,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
+                            className: "float-right rounded-full bg-white border-2 border-white",
+                            xmlns: "http://www.w3.org/2000/svg",
+                            width: "48",
+                            height: "48",
+                            fill: "none",
+                            viewBox: "0 0 48 48",
+                            id: "person",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
+                                fill: "#333",
+                                fillRule: "evenodd",
+                                d: "M24 24C28.4204 24 32 20.4204 32 16 32 11.5796 28.4204 8 24 8 19.5796 8 16 11.5796 16 16 16 20.4204 19.5796 24 24 24zM34 16C34 21.525 29.525 26 24 26 18.475 26 14 21.525 14 16 14 10.475 18.475 6 24 6 29.525 6 34 10.475 34 16zM9.22348 34.2119C8.22038 35.0211 8 35.6291 8 36V40H40V36C40 35.6291 39.7796 35.0211 38.7765 34.2119 37.7958 33.4207 36.3341 32.6669 34.5622 32.015 31.0199 30.7117 26.7532 30 24 30 21.2468 30 16.9801 30.7117 13.4378 32.015 11.6659 32.6669 10.2042 33.4207 9.22348 34.2119zM24 28C17.9925 28 6 31.0347 6 36V42H42V36C42 31.0347 30.0075 28 24 28z",
+                                clipRule: "evenodd"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 20,
-                                columnNumber: 21
+                                lineNumber: 23,
+                                columnNumber: 192
                             }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/Header.js",
-                        lineNumber: 15,
-                        columnNumber: 17
-                    }, undefined)
-                }, void 0, false, {
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 23,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, void 0, true, {
                     fileName: "src/Components/Header.js",
                     lineNumber: 14,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                    className: "float-right rounded-full bg-transperant text-sm flex justify-end relative h-6 left-3",
-                    children: isOnline ? "\uD83D\uDFE2" : "\u26AA"
-                }, void 0, false, {
-                    fileName: "src/Components/Header.js",
-                    lineNumber: 24,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                    className: "float-right rounded-full bg-white border-2 border-white",
-                    xmlns: "http://www.w3.org/2000/svg",
-                    width: "48",
-                    height: "48",
-                    fill: "none",
-                    viewBox: "0 0 48 48",
-                    id: "person",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                        fill: "#333",
-                        fillRule: "evenodd",
-                        d: "M24 24C28.4204 24 32 20.4204 32 16 32 11.5796 28.4204 8 24 8 19.5796 8 16 11.5796 16 16 16 20.4204 19.5796 24 24 24zM34 16C34 21.525 29.525 26 24 26 18.475 26 14 21.525 14 16 14 10.475 18.475 6 24 6 29.525 6 34 10.475 34 16zM9.22348 34.2119C8.22038 35.0211 8 35.6291 8 36V40H40V36C40 35.6291 39.7796 35.0211 38.7765 34.2119 37.7958 33.4207 36.3341 32.6669 34.5622 32.015 31.0199 30.7117 26.7532 30 24 30 21.2468 30 16.9801 30.7117 13.4378 32.015 11.6659 32.6669 10.2042 33.4207 9.22348 34.2119zM24 28C17.9925 28 6 31.0347 6 36V42H42V36C42 31.0347 30.0075 28 24 28z",
-                        clipRule: "evenodd"
-                    }, void 0, false, {
-                        fileName: "src/Components/Header.js",
-                        lineNumber: 25,
-                        columnNumber: 188
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/Components/Header.js",
-                    lineNumber: 25,
                     columnNumber: 13
                 }, undefined)
             ]
@@ -34258,7 +34260,7 @@ const Body = ()=>{
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-wrap",
+                className: "flex flex-wrap justify-center",
                 children: filteredRestaurant.map((res)=>{
                     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "food-card-click",
@@ -35973,7 +35975,7 @@ function RestaurantMenu() {
         columnNumber: 25
     }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex mt-10 justify-center items-center",
+            className: "flex mt-10 justify-center items-center max-sm:flex-col",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _config.IMG_CDN_URL) + restaurant.cloudinaryImageId,
