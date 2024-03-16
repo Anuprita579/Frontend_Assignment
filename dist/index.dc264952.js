@@ -27261,19 +27261,15 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
 var _foodvistaLogoPng = require("/public/resources/foodvista_logo.png");
 var _foodvistaLogoPngDefault = parcelHelpers.interopDefault(_foodvistaLogoPng);
 var _reactRouterDom = require("react-router-dom");
 var _useOnline = require("../utils/useOnline");
 var _useOnlineDefault = parcelHelpers.interopDefault(_useOnline);
 var _s = $RefreshSig$();
-const loggedIn = ()=>{
-    //Authenticate
-    return false;
-};
 const Header = ()=>{
     _s();
-    const [isLoggedIn, setIsLoggedIn] = (0, _react.useState)(false);
     const isOnline = (0, _useOnlineDefault.default)();
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27286,12 +27282,12 @@ const Header = ()=>{
                         className: "h-10 w-10"
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 18,
+                        lineNumber: 12,
                         columnNumber: 17
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/Components/Header.js",
-                    lineNumber: 17,
+                    lineNumber: 11,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27306,12 +27302,12 @@ const Header = ()=>{
                                     children: "Home"
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
-                                    lineNumber: 22,
+                                    lineNumber: 16,
                                     columnNumber: 91
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 22,
+                                lineNumber: 16,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27321,12 +27317,12 @@ const Header = ()=>{
                                     children: "About Us"
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
-                                    lineNumber: 23,
+                                    lineNumber: 17,
                                     columnNumber: 96
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 23,
+                                lineNumber: 17,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27336,19 +27332,19 @@ const Header = ()=>{
                                     children: "Contact Us"
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
-                                    lineNumber: 24,
+                                    lineNumber: 18,
                                     columnNumber: 98
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 24,
+                                lineNumber: 18,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                 children: "Cart"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 25,
+                                lineNumber: 19,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -27358,48 +27354,31 @@ const Header = ()=>{
                                     children: "Instamart"
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
-                                    lineNumber: 26,
+                                    lineNumber: 20,
                                     columnNumber: 100
                                 }, undefined)
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 26,
+                                lineNumber: 20,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 21,
+                        lineNumber: 15,
                         columnNumber: 17
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/Components/Header.js",
-                    lineNumber: 20,
+                    lineNumber: 14,
                     columnNumber: 13
-                }, undefined),
-                isLoggedIn ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: ()=>setIsLoggedIn(false),
-                    className: "bg-white text-orange-600 p-3 border-2 border-orange-600",
-                    children: "Logout"
-                }, void 0, false, {
-                    fileName: "src/Components/Header.js",
-                    lineNumber: 30,
-                    columnNumber: 30
-                }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: ()=>setIsLoggedIn(true),
-                    className: "bg-white text-orange-600 p-3 border-2 border-orange-600",
-                    children: "Login"
-                }, void 0, false, {
-                    fileName: "src/Components/Header.js",
-                    lineNumber: 30,
-                    columnNumber: 159
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                     className: "float-right rounded-full bg-transperant text-sm flex justify-end relative h-6 left-3",
                     children: isOnline ? "\uD83D\uDFE2" : "\u26AA"
                 }, void 0, false, {
                     fileName: "src/Components/Header.js",
-                    lineNumber: 32,
+                    lineNumber: 24,
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
@@ -27417,23 +27396,23 @@ const Header = ()=>{
                         clipRule: "evenodd"
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
-                        lineNumber: 33,
+                        lineNumber: 25,
                         columnNumber: 188
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/Components/Header.js",
-                    lineNumber: 33,
+                    lineNumber: 25,
                     columnNumber: 13
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/Components/Header.js",
-            lineNumber: 16,
+            lineNumber: 10,
             columnNumber: 9
         }, undefined)
     }, void 0, false);
 };
-_s(Header, "PrsXAfs+HwnRMNEFUEuu2GNBwCM=", false, function() {
+_s(Header, "XQZuNqwLTT5c423yVrgGXkXVqoc=", false, function() {
     return [
         (0, _useOnlineDefault.default)
     ];
