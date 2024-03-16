@@ -607,34 +607,114 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Section = ({ title, description, isVisible, setIsVisible })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "border-2 border-black p-4 m-4",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: title
+            }, void 0, false, {
+                fileName: "src/Components/InstaMart.js",
+                lineNumber: 5,
+                columnNumber: 7
+            }, undefined),
+            !isVisible ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: ()=>{
+                    setIsVisible(true);
+                },
+                children: "Show"
+            }, void 0, false, {
+                fileName: "src/Components/InstaMart.js",
+                lineNumber: 7,
+                columnNumber: 9
+            }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                onClick: ()=>{
+                    setIsVisible(false);
+                },
+                children: "Hide"
+            }, void 0, false, {
+                fileName: "src/Components/InstaMart.js",
+                lineNumber: 9,
+                columnNumber: 9
+            }, undefined),
+            isVisible && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: description
+            }, void 0, false, {
+                fileName: "src/Components/InstaMart.js",
+                lineNumber: 12,
+                columnNumber: 21
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/InstaMart.js",
+        lineNumber: 4,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Section;
 const InstaMart = ()=>{
+    _s();
+    const [sectionConfig, setSectionConfig] = (0, _react.useState)("about");
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 children: "Instamart"
             }, void 0, false, {
                 fileName: "src/Components/InstaMart.js",
-                lineNumber: 6,
+                lineNumber: 23,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: " There are 1000s of compoenents here "
             }, void 0, false, {
                 fileName: "src/Components/InstaMart.js",
-                lineNumber: 7,
+                lineNumber: 24,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
+                title: "About InstaMart",
+                description: "This is the section for About Instamart",
+                isVisible: sectionConfig === "about",
+                setIsVisible: ()=>setSectionConfig("about")
+            }, void 0, false, {
+                fileName: "src/Components/InstaMart.js",
+                lineNumber: 25,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
+                title: "Team InstaMart",
+                description: "This is the section for Team Instamart",
+                isVisible: sectionConfig === "team",
+                setIsVisible: ()=>setSectionConfig("team")
+            }, void 0, false, {
+                fileName: "src/Components/InstaMart.js",
+                lineNumber: 26,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
+                title: "Carreers",
+                description: "This is the section for Carreers of Instamart",
+                isVisible: sectionConfig === "carreers",
+                setIsVisible: ()=>setSectionConfig("carreers")
+            }, void 0, false, {
+                fileName: "src/Components/InstaMart.js",
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/InstaMart.js",
-        lineNumber: 5,
+        lineNumber: 22,
         columnNumber: 5
     }, undefined);
 };
-_c = InstaMart;
+_s(InstaMart, "Zw4YPGaXUbnZT0gdJu43rDGooSU=");
+_c1 = InstaMart;
 exports.default = InstaMart;
-var _c;
-$RefreshReg$(_c, "InstaMart");
+var _c, _c1;
+$RefreshReg$(_c, "Section");
+$RefreshReg$(_c1, "InstaMart");
 
   $parcel$ReactRefreshHelpers$e42a.postlude(module);
 } finally {

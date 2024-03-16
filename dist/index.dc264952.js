@@ -27429,7 +27429,7 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","/public/resources/foodvista_logo.png":"hVnXW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-router-dom":"9xmpe","../utils/useOnline":"74Yls"}],"hVnXW":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","/public/resources/foodvista_logo.png":"hVnXW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe","../utils/useOnline":"74Yls","react":"21dqq"}],"hVnXW":[function(require,module,exports) {
 module.exports = require("7a416b46dbbe768").getBundleURL("1ADHI") + "foodvista_logo.b777d2e3.png" + "?" + Date.now();
 
 },{"7a416b46dbbe768":"lgJ39"}],"lgJ39":[function(require,module,exports) {
