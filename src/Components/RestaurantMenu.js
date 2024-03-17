@@ -18,14 +18,26 @@ function RestaurantMenu() {
     
   return (!restaurant)? <Shimmer /> : (
     <>
-        <div className='flex mt-10 justify-center items-center max-sm:flex-col'>
-            <img src={IMG_CDN_URL + restaurant.cloudinaryImageId} className='mr-5 h-40 rounded-xl'/>
-            <div>
-                <h2 className='font-bold font-xl'> {restaurant.name}</h2>
-                <h3 className='text-slate-400'> {restaurant.costForTwo}</h3>
-                <h3 className='text-slate-400'> {restaurant.locality}</h3>
-                <h3 className='text-slate-400'> {restaurant.areaName}</h3>
-                <h3 className='text-slate-400'> {restaurant.avgRating}</h3>
+        <div>
+            <div className='flex mt-10 justify-center items-center max-sm:flex-col'>
+                <img src={IMG_CDN_URL + restaurant.cloudinaryImageId} className='mr-5 h-40 rounded-xl'/>
+                <div>
+                    <h2 className='font-bold font-xl'> {restaurant.name}</h2>
+                    <h3 className='text-slate-400'> {restaurant.costForTwo}</h3>
+                    <h3 className='text-slate-400'> {restaurant.locality}</h3>
+                    <h3 className='text-slate-400'> {restaurant.areaName}</h3>
+                    <h3 className='text-slate-400'> {restaurant.avgRating}</h3>
+                </div>
+            </div>
+            <div className='flex flex-col justify-center items-center w-full'>
+                {restaurant.menu?.items.map((menuItem, index)=>{
+                    return(
+                        <div key={index} className='grid grid-cols-2 gap-6'>
+                            <h3>{menuItem.name}</h3>
+                            <h3>{menuItem.price}</h3>
+                        </div>
+                    )
+                })}
             </div>
         </div>
       
