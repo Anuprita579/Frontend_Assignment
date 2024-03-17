@@ -2,9 +2,12 @@ import React from "react";
 import foodvista_logo from "/public/resources/foodvista_logo.png";
 import { Link } from "react-router-dom";
 import useOnline from "../utils/useOnline";
+import { useSelector } from "react-redux";
 
 const Header = () => {
     const isOnline = useOnline();
+    const cartItems = useSelector(store => store.cart.items);
+    console.log(cartItems);
     return(
         <>
         <div className="bg-orange-600 flex w-full">
@@ -16,7 +19,7 @@ const Header = () => {
                     <Link to="/" className="no-underline text-white hover:text-slate-300"><li>Home</li></Link>
                     <Link to="/about" className="no-underline text-white hover:text-slate-300"><li>About Us</li></Link>
                     <Link to="/contact" className="no-underline text-white hover:text-slate-300"><li>Contact Us</li></Link>
-                    <li>Cart</li>
+                    <Link to="/cart" className="no-underline text-white hover:text-slate-300"><li>Cart - {cartItems.length}</li></Link>
                     <Link to="/instamart" className="no-underline text-white hover:text-slate-300"><li>Instamart</li></Link>
                 </ul>
                 <span className="float-right rounded-full bg-transperant text-sm flex justify-end relative h-6 left-3">{isOnline? "🟢": "⚪"}</span>
