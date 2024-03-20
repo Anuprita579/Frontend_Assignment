@@ -21,9 +21,9 @@ const FoodItem = ({id, name, category, price, quantity}) => {
                     <h3 className="flex italic text-slate-600"> {category} </h3>
                     <h3 className="flex"> &#8377; {price} </h3>
                     <div className="flex border-2 border-orange-600 max-w-20">
-                        <button onClick={handleIncrement} className='w-7 py-2 bg-orange-600 text-white font-bold'>+</button>
-                        <h3 className="bg-white p-2">{quantity}</h3>
                         <button onClick={handleDecrement} className='w-7 py-2 bg-orange-600 text-white font-bold'>-</button>
+                        <h3 className="bg-white p-2">{quantity}</h3>
+                        <button onClick={handleIncrement} className='w-7 py-2 bg-orange-600 text-white font-bold'>+</button>
                     </div>
                     
                 </div>

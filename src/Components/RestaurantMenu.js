@@ -48,9 +48,9 @@ function RestaurantMenu() {
                             <h3 className='font-bold'>{menuItem.name}</h3>
                             <h3> &#8377; {menuItem.price}</h3>
                             <div className='flex border-2 border-orange-600 max-w-20'>
-                                <button onClick={()=>handleAdd(menuItem)} className='w-7 py-2 bg-orange-600 text-white font-bold'>+</button>
-                                <h1 className='p-2'>{quantity}</h1>
                                 <button onClick={()=>handleRemove(menuItem)} className='w-7 py-2 bg-orange-600 text-white font-bold'>-</button>
+                                <h1 className='p-2'>{quantity}</h1>
+                                <button onClick={()=>handleAdd(menuItem)} className='w-7 py-2 bg-orange-600 text-white font-bold'>+</button>
                             </div>
                         </div>
                     )

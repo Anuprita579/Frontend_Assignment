@@ -38309,9 +38309,9 @@ function RestaurantMenu() {
                                     className: "flex border-2 border-orange-600 max-w-20",
                                     children: [
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                            onClick: ()=>handleAdd(menuItem),
+                                            onClick: ()=>handleRemove(menuItem),
                                             className: "w-7 py-2 bg-orange-600 text-white font-bold",
-                                            children: "+"
+                                            children: "-"
                                         }, void 0, false, {
                                             fileName: "src/Components/RestaurantMenu.js",
                                             lineNumber: 51,
@@ -38326,9 +38326,9 @@ function RestaurantMenu() {
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                            onClick: ()=>handleRemove(menuItem),
+                                            onClick: ()=>handleAdd(menuItem),
                                             className: "w-7 py-2 bg-orange-600 text-white font-bold",
-                                            children: "-"
+                                            children: "+"
                                         }, void 0, false, {
                                             fileName: "src/Components/RestaurantMenu.js",
                                             lineNumber: 53,
@@ -38411,8 +38411,12 @@ const cartSlice = (0, _toolkit.createSlice)({
             if (item) item.quantity += 1;
         },
         decrementItem: (state, action)=>{
-            const item = state.items.find((item)=>item.id === action.payload.id);
-            if (item && item.quantity > 1) item.quantity -= 1;
+            const itemIndex = state.items.findIndex((item)=>item.id === action.payload.id);
+            if (itemIndex !== -1) {
+                const item = state.items[itemIndex];
+                if (item && item.quantity > 1) item.quantity -= 1;
+                else state.items.splice(itemIndex, 1);
+            }
         }
     }
 });
@@ -42605,9 +42609,9 @@ const FoodItem = ({ id, name, category, price, quantity })=>{
                             className: "flex border-2 border-orange-600 max-w-20",
                             children: [
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    onClick: handleIncrement,
+                                    onClick: handleDecrement,
                                     className: "w-7 py-2 bg-orange-600 text-white font-bold",
-                                    children: "+"
+                                    children: "-"
                                 }, void 0, false, {
                                     fileName: "src/Components/FoodItem.js",
                                     lineNumber: 24,
@@ -42622,9 +42626,9 @@ const FoodItem = ({ id, name, category, price, quantity })=>{
                                     columnNumber: 25
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    onClick: handleDecrement,
+                                    onClick: handleIncrement,
                                     className: "w-7 py-2 bg-orange-600 text-white font-bold",
-                                    children: "-"
+                                    children: "+"
                                 }, void 0, false, {
                                     fileName: "src/Components/FoodItem.js",
                                     lineNumber: 26,
