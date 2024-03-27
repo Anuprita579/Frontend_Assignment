@@ -18,7 +18,6 @@ const Header = () => {
                 <ul className=" list-none flex justify-evenly items-center font-md text-white w-10/12">
                     <Link to="/" className="no-underline text-white hover:text-slate-300"><li>Home</li></Link>
                     <Link to="/about" className="no-underline text-white hover:text-slate-300"><li>About Us</li></Link>
-                    <Link to="/contact" className="no-underline text-white hover:text-slate-300"><li>Contact Us</li></Link>
                     <Link to="/cart" className="no-underline text-white hover:text-slate-300"><li>Cart - {cartItems.length}</li></Link>
                     <Link to="/instamart" className="no-underline text-white hover:text-slate-300"><li>Instamart</li></Link>
                 </ul>

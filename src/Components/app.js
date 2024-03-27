@@ -6,7 +6,6 @@ import { Provider } from "react-redux";
 import Header from "./Header";
 import Body from "./Body";
 import About from "./About";
-import Contact from "./Contact";
 import Error from "./Error";
 import RestaurantMenu from "./RestaurantMenu";
 import Shimmer from "./Shimmer";
@@ -38,10 +37,6 @@ const appRouter = createBrowserRouter([
             {
                 path:"/about",
                 element: <About />
-            },
-            {
-                path:"/contact",
-                element: <Contact />
             },
             {
                 path:"/cart",
