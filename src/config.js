@@ -2705,3 +2705,282 @@ export const company_number = [
     count: "500"
   },
 ];
+
+
+export const instamart_items = [
+  {
+    "@type": "Product",
+    "name": "Onion, Potato &amp; Hybrid Tomato",
+    "image": [
+            "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/d77abbcb56c4e631a90aca5b06734a67"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 110,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Onion (Kanda)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/765ff374dd4023fde2d3936ec482814d",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/05b5c3c44a0fd1ac737337add052f4a3"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 31,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Organic Certified Onion (Kanda)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/1e33bcda197ac3fa049b55edd21feec3",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/8be8b0b1982af1a32dd387743c38a9a2",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/a500e77825510aadae5112d5321a9d6d"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 37,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Potato (Batate)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/0fd6f926feeab1b82e3579673277e01a",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/e4e6aac5e407b3cb41b667fd2153e1c9"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 44,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Organic Certified Potato (Batate)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/62dcb64ffe8e03419c79d5b621a784d5",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/eb30d285ea5775511afb9c28e1047a1b"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 53,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Hybrid Tomato (Tamatar)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/4a50a7b9bb1791dc454235a8943fcb90",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/cadf7af37de6a356a1ecce7f8fd2375c"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 37,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Indian Tomato (Tamatar)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/054e83b5ebe789cf4b7b146319df4cfc",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/f00e32194bcd76550c7e3dc1fe2e4ac4"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 39,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Organic Certified Hybrid Tomato (Tamata)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/6294841c36b68534ec2edcccea0fa41b",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/cadf7af37de6a356a1ecce7f8fd2375c"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 23,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Organic Certified Indian Tomato (Tamata)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/90fba939adf709ef8f8ead5c936ae3fc",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/d039c76b32c904f9e778bee65160fb24"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 24,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Organic Certified Potato,Onion,Hybrid Tomato",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/896225aa7a9d0d0ff0c925d1ede1c7e9"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 128,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Coconut (Fresh)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/e7e8024fcf502df6a3cf87ae3f681e51",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/182a860f9fc3d9d617f592828186ce31"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 38,
+        "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Cauliflower (Fulkobi)",
+    "image": [
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/d09c188edec2c8652bc56594b7ae57af",
+      "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/2ef0c61dab6809a963ccf52510ce8da2"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "price": 26,
+      "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Organic Certified Cauliflower (Fulkobi)",
+    "image": ["https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/90ad882555482c17d0a6ed7603eaa23c"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 31,
+        "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Carrot (Gajar)",
+    "image": [
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/962791dcb4483f4aad3ace68ca592217",
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/d00087f08bdd05844c83e1beb6c6b87e"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 29,
+        "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Green Peas (Vatana)",
+    "image": [
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/9334ed74e5ec6472e4ac60404fc22a5e",
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/e07e0954951773ff1488c40bb217ebfc"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 86,
+        "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Fresh Green Peas Peeled",
+    "image": [
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/b717f623925e2f256eceb67ec2a559f9",
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/e89fbfd55c5183d34e1f1a0f9dba35da",
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/39620f16d0efa9a8da52882b132a4f74"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 79,
+        "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Fresh Seasonal Vegetable",
+    "image": [
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/09eb84a611d41c5154e9c2e7ccb15d18"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 86,
+        "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Vegetable Mix Best Seller",
+    "image": [
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/060c25911d6ab4cfabee0cb4f597646a"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 70,
+        "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Lady Finger (Bhendi)",
+    "image": [
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/576c7500d96e8d87fa5194ecc977a9ce",
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/83b2b1365e771c008e5dcb18b8c6c766"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 29,
+        "priceCurrency": "INR"
+    }
+  },
+  {
+    "@type": "Product",
+    "name": "Organic Certified Lady Finger (Bhendi)",
+    "image": [
+        "https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/453075e6eea4c156a8214418abf08089"
+    ],
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "price": 22,
+        "priceCurrency": "INR"
+    }
+  }
+] 
