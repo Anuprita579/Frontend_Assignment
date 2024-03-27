@@ -2686,3 +2686,22 @@ export const fooditem = [
         }
     }
 ];
+
+export const company_number = [
+  {
+    title:"Restaurant Partners Countrywide",
+    count: "150000"
+  },
+  {
+    title:"Employees across the Country",
+    count: "5000"
+  },
+  {
+    title:"Delivery Executives",
+    count: "260000"
+  },
+  {
+    title:"Cites PAN India",
+    count: "500"
+  },
+];

@@ -35429,7 +35429,7 @@ var _config = require("../config");
 const RestaurantList = ({ cloudinaryImageId, name, cuisines, avgRating })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "m-5 p-5 w-60 text-black shadow-2xl shadow-orange-100 hover:scale-105",
+            className: "m-5 p-5 w-60 text-black shadow-2xl shadow-orange-100 hover:scale-105 comic-neue",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                     src: (0, _config.IMG_CDN_URL) + cloudinaryImageId,
@@ -35440,7 +35440,7 @@ const RestaurantList = ({ cloudinaryImageId, name, cuisines, avgRating })=>{
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "truncate",
+                    className: "truncate font-bold",
                     children: name
                 }, void 0, false, {
                     fileName: "src/Components/RestaurantList.js",
@@ -35499,6 +35499,7 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IMG_CDN_URL", ()=>IMG_CDN_URL);
 parcelHelpers.export(exports, "fooditem", ()=>fooditem);
+parcelHelpers.export(exports, "company_number", ()=>company_number);
 const IMG_CDN_URL = "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 const fooditem = [
     {
@@ -37957,6 +37958,24 @@ const fooditem = [
         }
     }
 ];
+const company_number = [
+    {
+        title: "Restaurant Partners Countrywide",
+        count: "150000"
+    },
+    {
+        title: "Employees across the Country",
+        count: "5000"
+    },
+    {
+        title: "Delivery Executives",
+        count: "260000"
+    },
+    {
+        title: "Cites PAN India",
+        count: "500"
+    }
+];
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c7s09":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5bd8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -38010,23 +38029,158 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-function About() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                children: "This is about section"
-            }, void 0, false, {
+var _styleCss = require("../style.css");
+var _config = require("../config");
+const About = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "w-full flex flex-col justify-center items-center",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "bg-gradient-to-b from-white from-50% to-orange-500 to-50% w-full flex flex-col justify-center items-center",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "text-7xl p-10 galada",
+                        children: "FoodVista"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.js",
+                        lineNumber: 10,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://img.freepik.com/free-photo/high-angle-delicious-pakistan-meal-assortment-basket_23-2148821573.jpg?t=st=1711514324~exp=1711517924~hmac=5fbbeb24d6e981d41ddb3b09ae180fe1a6ed722620c5b0b19f34316fec1a23ba&w=740",
+                        alt: "food",
+                        className: "w-96 h-96 object-cover"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.js",
+                        lineNumber: 11,
+                        columnNumber: 7
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/Components/About.js",
-                lineNumber: 7,
-                columnNumber: 13
-            }, this)
-        }, void 0, false, {
-            fileName: "src/Components/About.js",
-            lineNumber: 6,
-            columnNumber: 9
-        }, this)
-    }, void 0, false);
-}
+                lineNumber: 9,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex justify-center items-center",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-1/2 p-20 comic-neue",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                className: "text-4xl font-bold",
+                                children: "Who are we?"
+                            }, void 0, false, {
+                                fileName: "src/Components/About.js",
+                                lineNumber: 16,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                                className: "w-20 border-2 border-orange-600 mb-5"
+                            }, void 0, false, {
+                                fileName: "src/Components/About.js",
+                                lineNumber: 17,
+                                columnNumber: 9
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                className: "text-xl",
+                                children: "Welcome to FoodVista, your one-stop solution for all your food delivery needs. At FoodVista, we believe that good food should be accessible, convenient, and delivered right to your doorstep. Our mission is to connect you with the best local restaurants and cafes, ensuring that you can enjoy your favorite dishes without the hassle of cooking or navigating busy streets. Our platform is designed with user experience in mind, offering a seamless and enjoyable ordering process. Whether you're craving a quick bite or planning a gourmet dinner, FoodVista makes it easy to find and order from a wide range of cuisines. From fast-food favorites to fine dining experiences, we've got you covered."
+                            }, void 0, false, {
+                                fileName: "src/Components/About.js",
+                                lineNumber: 18,
+                                columnNumber: 9
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/About.js",
+                        lineNumber: 15,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://img.freepik.com/free-vector/delivery-staff-ride-motorcycles-shopping-concept_1150-34879.jpg?t=st=1711523911~exp=1711527511~hmac=97708b52cc7215a63c3d4e2c7f6c86cd7e666e24166cc91d55d1dd8331548e61&w=996",
+                        className: "w-1/2"
+                    }, void 0, false, {
+                        fileName: "src/Components/About.js",
+                        lineNumber: 23,
+                        columnNumber: 7
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/About.js",
+                lineNumber: 14,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "flex justify-center items-center",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-40 mx-10",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            className: "font-mono text-4xl",
+                            children: [
+                                "Changing ",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "font-bold",
+                                    children: "the game"
+                                }, void 0, false, {
+                                    fileName: "src/Components/About.js",
+                                    lineNumber: 28,
+                                    columnNumber: 53
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/About.js",
+                            lineNumber: 28,
+                            columnNumber: 9
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/Components/About.js",
+                        lineNumber: 27,
+                        columnNumber: 7
+                    }, undefined),
+                    (0, _config.company_number).map((no, index)=>{
+                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "border-2 border-orange-600 p-2 m-5 rounded-xl w-40 min-h-32 text-center",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    className: "text-3xl font-bold",
+                                    children: [
+                                        no.count,
+                                        " +"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/About.js",
+                                    lineNumber: 33,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                    className: "font-thin comic-neue",
+                                    children: no.title
+                                }, void 0, false, {
+                                    fileName: "src/Components/About.js",
+                                    lineNumber: 34,
+                                    columnNumber: 13
+                                }, undefined)
+                            ]
+                        }, index, true, {
+                            fileName: "src/Components/About.js",
+                            lineNumber: 32,
+                            columnNumber: 11
+                        }, undefined);
+                    })
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/About.js",
+                lineNumber: 26,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/About.js",
+        lineNumber: 7,
+        columnNumber: 3
+    }, undefined);
+};
 _c = About;
 exports.default = About;
 var _c;
@@ -38037,7 +38191,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"66EYZ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../style.css":"bhJkM","../config":"jtCLN"}],"bhJkM":[function() {},{}],"66EYZ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$84fc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38191,7 +38345,7 @@ function RestaurantMenu() {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex mt-10 justify-center items-center max-sm:flex-col",
+                    className: "flex mt-10 justify-center items-center max-sm:flex-col comic-neue",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                             src: (0, _config.IMG_CDN_URL) + restaurant.cloudinaryImageId,
@@ -38271,7 +38425,7 @@ function RestaurantMenu() {
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex justify-center items-center w-full flex-wrap",
+                    className: "flex justify-center items-center w-full flex-wrap comic-neue",
                     children: restaurant.menu?.items.map((menuItem, index)=>{
                         const itemInCart = cartItems.find((item)=>item.id === menuItem.id);
                         const quantity = itemInCart ? itemInCart.quantity : 0;
@@ -42481,7 +42635,7 @@ const Cart = ()=>{
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-col justify-center items-center",
+                className: "flex flex-col justify-center items-center comic-neue",
                 children: cartItems.map((items, index)=>{
                     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _foodItemDefault.default), {
                         ...items,

@@ -22,11 +22,11 @@ const InstaMart = () => {
     <div>
       <h1>Instamart</h1>
       <p> There are 1000s of compoenents here </p>
-      <Section title={"About InstaMart"} description={"This is the section for About Instamart"} isVisible={sectionConfig==="about"} setIsVisible={()=>setSectionConfig("about")}/>
+      <Section title={"About InstaMart"} description={"This is the section for About Instamart"} isVisible={sectionConfig==="about"} setIsVisible={() => setSectionConfig(sectionConfig==="about"? "": "about")}/>
       <Section title={"Team InstaMart"} description={"This is the section for Team Instamart"} isVisible={sectionConfig==="team"} 
-      setIsVisible={()=>setSectionConfig("team")}/>
+      setIsVisible={() => setSectionConfig(sectionConfig==="team"? "": "team")}/>
       <Section title={"Carreers"} description={"This is the section for Carreers of Instamart"} isVisible={sectionConfig==="carreers"} 
-      setIsVisible={()=>setSectionConfig("carreers")}/>
+      setIsVisible={() => setSectionConfig(sectionConfig==="carreers"?"":"carreers")}/>
       
     </div>
   )

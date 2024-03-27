@@ -28,7 +28,7 @@ function RestaurantMenu() {
   return (!restaurant)? <Shimmer /> : (
     <>
         <div>
-            <div className='flex mt-10 justify-center items-center max-sm:flex-col'>
+            <div className='flex mt-10 justify-center items-center max-sm:flex-col comic-neue'>
                 <img src={IMG_CDN_URL + restaurant.cloudinaryImageId} className='mr-5 h-40 rounded-xl'/>
                 <div>
                     <h2 className='font-bold font-xl'> {restaurant.name}</h2>
@@ -38,7 +38,7 @@ function RestaurantMenu() {
                     <h3 className='text-slate-400'> {restaurant.avgRating}</h3>
                 </div>
             </div>
-            <div className='flex justify-center items-center w-full flex-wrap'>
+            <div className='flex justify-center items-center w-full flex-wrap comic-neue'>
                 {restaurant.menu?.items.map((menuItem, index)=>{
                     const itemInCart = cartItems.find(item => item.id === menuItem.id);
                     const quantity = itemInCart ? itemInCart.quantity : 0;

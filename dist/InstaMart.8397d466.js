@@ -676,7 +676,7 @@ const InstaMart = ()=>{
                 title: "About InstaMart",
                 description: "This is the section for About Instamart",
                 isVisible: sectionConfig === "about",
-                setIsVisible: ()=>setSectionConfig("about")
+                setIsVisible: ()=>setSectionConfig(sectionConfig === "about" ? "" : "about")
             }, void 0, false, {
                 fileName: "src/Components/InstaMart.js",
                 lineNumber: 25,
@@ -686,7 +686,7 @@ const InstaMart = ()=>{
                 title: "Team InstaMart",
                 description: "This is the section for Team Instamart",
                 isVisible: sectionConfig === "team",
-                setIsVisible: ()=>setSectionConfig("team")
+                setIsVisible: ()=>setSectionConfig(sectionConfig === "team" ? "" : "team")
             }, void 0, false, {
                 fileName: "src/Components/InstaMart.js",
                 lineNumber: 26,
@@ -696,7 +696,7 @@ const InstaMart = ()=>{
                 title: "Carreers",
                 description: "This is the section for Carreers of Instamart",
                 isVisible: sectionConfig === "carreers",
-                setIsVisible: ()=>setSectionConfig("carreers")
+                setIsVisible: ()=>setSectionConfig(sectionConfig === "carreers" ? "" : "carreers")
             }, void 0, false, {
                 fileName: "src/Components/InstaMart.js",
                 lineNumber: 28,

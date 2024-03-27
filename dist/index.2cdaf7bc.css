@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Galada&display=swap";
 *, :before, :after {
   box-sizing: border-box;
   border: 0 solid #e5e7eb;
@@ -264,6 +265,15 @@ img, video {
   margin: 1.25rem;
 }
 
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-10 {
   margin-left: 2.5rem;
 }
@@ -308,8 +318,16 @@ img, video {
   height: 15rem;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.min-h-32 {
+  min-height: 8rem;
 }
 
 .w-1\/2 {
@@ -328,8 +346,16 @@ img, video {
   width: 40%;
 }
 
+.w-20 {
+  width: 5rem;
+}
+
 .w-4\/6 {
   width: 66.6667%;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .w-5 {
@@ -342,6 +368,10 @@ img, video {
 
 .w-7 {
   width: 1.75rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-full {
@@ -451,8 +481,42 @@ img, video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.from-white {
+  --tw-gradient-from: #fff var(--tw-gradient-from-position);
+  --tw-gradient-to: #fff0 var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-50\% {
+  --tw-gradient-from-position: 50%;
+}
+
+.to-orange-500 {
+  --tw-gradient-to: #f97316 var(--tw-gradient-to-position);
+}
+
+.to-50\% {
+  --tw-gradient-to-position: 50%;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
 .p-2 {
   padding: .5rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .p-4 {
@@ -476,9 +540,23 @@ img, video {
   text-align: center;
 }
 
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
 }
 
 .text-sm {
@@ -486,8 +564,17 @@ img, video {
   line-height: 1.25rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .italic {
@@ -568,6 +655,14 @@ img, video {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.galada {
+  font-family: Galada, "sans-serif";
+}
+
+.comic-neue {
+  font-family: Comic Neue, "sans-serif";
 }
 
 .hover\:scale-105:hover {
