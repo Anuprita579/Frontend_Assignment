@@ -12,7 +12,7 @@ const Header = () => {
         <>
         <div className="bg-orange-600 flex w-full">
             <div className="bg-orange-600 flex items-center pl-5 text-white w-1/2 max-sm:justify-center max-sm:w-full ">
-                <img src={foodvista_logo} className="h-10 w-10" />
+                <Link to="/"><img src={foodvista_logo} className="h-10 w-10" /></Link>
             </div>
             <div className="bg-orange-600 flex justify-center w-1/2 max-sm:hidden max-md:hidden">
                 <ul className=" list-none flex justify-evenly items-center font-md text-white w-10/12">
