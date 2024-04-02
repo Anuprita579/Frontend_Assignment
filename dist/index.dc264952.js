@@ -38310,7 +38310,7 @@ const About = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                         src: "https://img.freepik.com/free-photo/high-angle-delicious-pakistan-meal-assortment-basket_23-2148821573.jpg?t=st=1711514324~exp=1711517924~hmac=5fbbeb24d6e981d41ddb3b09ae180fe1a6ed722620c5b0b19f34316fec1a23ba&w=740",
                         alt: "food",
-                        className: "w-96 h-96 object-cover"
+                        className: "w-96 h-96 object-cover max-sm:w-60 max-md:w-60 max-sm:h-60 max-md:h-60"
                     }, void 0, false, {
                         fileName: "src/Components/About.js",
                         lineNumber: 11,
@@ -38323,10 +38323,10 @@ const About = ()=>{
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center items-center",
+                className: "flex justify-center items-center max-sm:flex-col max-md:flex-col",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "w-1/2 p-20 comic-neue",
+                        className: "w-1/2 p-20 comic-neue max-sm:w-full max-md:w-full",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                                 className: "text-4xl font-bold",
@@ -38372,7 +38372,7 @@ const About = ()=>{
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center items-center",
+                className: "flex justify-center items-center max-sm:flex-col max-md:flex-col",
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "w-40 mx-10",

@@ -8,11 +8,11 @@ const About = () => {
     {/* Hero Section */}
     <div className='bg-gradient-to-b from-white from-50% to-orange-500 to-50% w-full flex flex-col justify-center items-center'>
       <h1 className='text-7xl p-10 galada'>FoodVista</h1>
-      <img src="https://img.freepik.com/free-photo/high-angle-delicious-pakistan-meal-assortment-basket_23-2148821573.jpg?t=st=1711514324~exp=1711517924~hmac=5fbbeb24d6e981d41ddb3b09ae180fe1a6ed722620c5b0b19f34316fec1a23ba&w=740" alt='food' className='w-96 h-96 object-cover'/>
+      <img src="https://img.freepik.com/free-photo/high-angle-delicious-pakistan-meal-assortment-basket_23-2148821573.jpg?t=st=1711514324~exp=1711517924~hmac=5fbbeb24d6e981d41ddb3b09ae180fe1a6ed722620c5b0b19f34316fec1a23ba&w=740" alt='food' className='w-96 h-96 object-cover max-sm:w-60 max-md:w-60 max-sm:h-60 max-md:h-60'/>
     </div>
     {/* Section 1*/}
-    <div className='flex justify-center items-center'>
-      <div className='w-1/2 p-20 comic-neue'>
+    <div className='flex justify-center items-center max-sm:flex-col max-md:flex-col'>
+      <div className='w-1/2 p-20 comic-neue max-sm:w-full max-md:w-full'>
         <h1 className='text-4xl font-bold'>Who are we?</h1>
         <hr className='w-20 border-2 border-orange-600 mb-5'></hr>
         <p className='text-xl'>
@@ -23,7 +23,7 @@ const About = () => {
       <img src='https://img.freepik.com/free-vector/delivery-staff-ride-motorcycles-shopping-concept_1150-34879.jpg?t=st=1711523911~exp=1711527511~hmac=97708b52cc7215a63c3d4e2c7f6c86cd7e666e24166cc91d55d1dd8331548e61&w=996' className='w-1/2'/>
     </div>
     {/* Section 2 */}
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center max-sm:flex-col max-md:flex-col'>
       <div className='w-40 mx-10'>
         <h1 className='font-mono text-4xl'>Changing <span className='font-bold'>the game</span></h1>
       </div>
