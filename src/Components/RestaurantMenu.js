@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { IMG_CDN_URL, fooditem } from '../config';
 import Shimmer from './Shimmer';
-import { additem, removeItem } from '../utils/cartSlice';
+import { additem, decrementItem, removeItem } from '../utils/cartSlice';
 import { useDispatch, useSelector } from 'react-redux';
 
 function RestaurantMenu() {
@@ -22,7 +22,7 @@ function RestaurantMenu() {
         dispatch(additem(menuItem));
     }
     const handleRemove = (menuItem) => {
-        dispatch(removeItem(menuItem))
+        dispatch(decrementItem(menuItem))
     }
     
   return (!restaurant)? <Shimmer /> : (

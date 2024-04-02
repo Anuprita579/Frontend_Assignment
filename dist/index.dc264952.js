@@ -27287,10 +27287,17 @@ const Header = ()=>{
             className: "bg-orange-600 flex w-full",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "bg-orange-600 flex items-center pl-5 text-white w-1/2 max-sm:justify-center max-sm:w-full ",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _foodvistaLogoPngDefault.default),
-                        className: "h-10 w-10"
+                    className: "bg-orange-600 flex items-center pl-5 text-white w-1/2 max-sm:justify-center max-sm:w-1/6",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: (0, _foodvistaLogoPngDefault.default),
+                            className: "h-10 w-10"
+                        }, void 0, false, {
+                            fileName: "src/Components/Header.js",
+                            lineNumber: 15,
+                            columnNumber: 30
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Header.js",
                         lineNumber: 15,
@@ -27302,7 +27309,7 @@ const Header = ()=>{
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "bg-orange-600 flex justify-center w-1/2 max-sm:hidden max-md:hidden",
+                    className: "bg-orange-600 flex justify-center w-1/2 max-sm:w-full max-md:w-full max-sm:text-sm max-md:text-sm",
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                             className: " list-none flex justify-evenly items-center font-md text-white w-10/12",
@@ -38552,7 +38559,7 @@ function RestaurantMenu() {
         dispatch((0, _cartSlice.additem)(menuItem));
     };
     const handleRemove = (menuItem)=>{
-        dispatch((0, _cartSlice.removeItem)(menuItem));
+        dispatch((0, _cartSlice.decrementItem)(menuItem));
     };
     return !restaurant ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
         fileName: "src/Components/RestaurantMenu.js",

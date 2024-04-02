@@ -695,6 +695,15 @@ img, video {
   .max-md\:hidden {
     display: none;
   }
+
+  .max-md\:w-full {
+    width: 100%;
+  }
+
+  .max-md\:text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
+  }
 }
 
 @media not all and (width >= 640px) {
@@ -706,12 +715,21 @@ img, video {
     width: 100%;
   }
 
+  .max-sm\:w-1\/6 {
+    width: 16.6667%;
+  }
+
   .max-sm\:flex-col {
     flex-direction: column;
   }
 
   .max-sm\:justify-center {
     justify-content: center;
+  }
+
+  .max-sm\:text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem;
   }
 }
 

@@ -11,10 +11,10 @@ const Header = () => {
     return(
         <>
         <div className="bg-orange-600 flex w-full">
-            <div className="bg-orange-600 flex items-center pl-5 text-white w-1/2 max-sm:justify-center max-sm:w-full ">
+            <div className="bg-orange-600 flex items-center pl-5 text-white w-1/2 max-sm:justify-center max-sm:w-1/6">
                 <Link to="/"><img src={foodvista_logo} className="h-10 w-10" /></Link>
             </div>
-            <div className="bg-orange-600 flex justify-center w-1/2 max-sm:hidden max-md:hidden">
+            <div className="bg-orange-600 flex justify-center w-1/2 max-sm:w-full max-md:w-full max-sm:text-sm max-md:text-sm">
                 <ul className=" list-none flex justify-evenly items-center font-md text-white w-10/12">
                     <Link to="/" className="no-underline text-white hover:text-slate-300"><li>Home</li></Link>
                     <Link to="/about" className="no-underline text-white hover:text-slate-300"><li>About Us</li></Link>
