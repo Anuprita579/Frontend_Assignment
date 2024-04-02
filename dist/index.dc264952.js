@@ -42927,7 +42927,7 @@ const FoodItem = ({ id, name, category, price, quantity })=>{
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "m-5 p-5 text-black shadow-2xl shadow-orange-100 w-4/6 flex",
+            className: "m-5 p-5 text-black shadow-2xl shadow-orange-100 w-4/6 flex max-sm:w-full max-md:w-full",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     className: "w-60",

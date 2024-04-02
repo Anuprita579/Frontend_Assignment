@@ -12,7 +12,7 @@ const FoodItem = ({id, name, category, price, quantity}) => {
     }
     return(
         <>
-            <div className="m-5 p-5 text-black shadow-2xl shadow-orange-100 w-4/6 flex">
+            <div className="m-5 p-5 text-black shadow-2xl shadow-orange-100 w-4/6 flex max-sm:w-full max-md:w-full">
                 <div className="w-60">
                     <img src={IMG_CDN_URL+id} alt="food" className="h-40 rounded-2xl w-full"/>
                 </div>

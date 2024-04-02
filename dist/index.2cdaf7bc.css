@@ -692,10 +692,6 @@ img, video {
 }
 
 @media not all and (width >= 768px) {
-  .max-md\:hidden {
-    display: none;
-  }
-
   .max-md\:w-full {
     width: 100%;
   }
@@ -707,16 +703,12 @@ img, video {
 }
 
 @media not all and (width >= 640px) {
-  .max-sm\:hidden {
-    display: none;
+  .max-sm\:w-1\/6 {
+    width: 16.6667%;
   }
 
   .max-sm\:w-full {
     width: 100%;
-  }
-
-  .max-sm\:w-1\/6 {
-    width: 16.6667%;
   }
 
   .max-sm\:flex-col {
