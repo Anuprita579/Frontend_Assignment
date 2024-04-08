@@ -2,6 +2,8 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import FoodItem from './FoodItem'
 import { clearCart } from '../utils/cartSlice'
+import EmptyCart from './EmptyCart'
+import Bill from './Bill'
 
 const Cart = () => {
     const cartItems = useSelector((store) => store.cart.items);
@@ -9,10 +11,13 @@ const Cart = () => {
     const handleClear = () => {
         dispatch(clearCart())
     }
+    if (cartItems.length === 0) return <EmptyCart />
   return (
     <div>
-        <h1 className='text-3xl font-bold text-orange-600'>Cart - {cartItems.length}</h1>
-        <button onClick={()=>handleClear()} className='h-4 p-4 bg-orange-600 text-white cursor-pointer font-bold flex justify-center items-center border-2 border-orange-600 shadow-lg shadow-orange-200 hover:shadow-none float-right'>Clear Cart</button>
+        <button onClick={()=>handleClear()} className='h-4 p-4 bg-orange-600 text-white cursor-pointer font-bold flex justify-center items-center border-2 border-orange-600 shadow-lg shadow-orange-200 hover:shadow-none float-right mt-2'>Clear Cart</button>
+        <br></br>
+        <br></br>
+        <div className='flex justify-center items-center float-right'><Bill /></div>
         <div className='flex flex-col justify-center items-center comic-neue' >
             {cartItems.map((items, index)=>{
                 return <FoodItem key={index} {...items} quantity={items.quantity}/>

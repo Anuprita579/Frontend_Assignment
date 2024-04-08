@@ -11,6 +11,7 @@ import RestaurantMenu from "./RestaurantMenu";
 import Shimmer from "./Shimmer";
 import store from "../utils/store";
 import Cart from "./Cart";
+import EmptyCart from "./EmptyCart";
 
 const InstaMart = lazy(()=>import("./InstaMart"));
 
@@ -45,6 +46,10 @@ const appRouter = createBrowserRouter([
             {
                 path:"/restaurant/:resId",
                 element: <RestaurantMenu />
+            },
+            {
+                path:"/emptycart",
+                element: <EmptyCart />
             },
             {
                 path:"/instamart",

@@ -43,7 +43,7 @@ function RestaurantMenu() {
                     const itemInCart = cartItems.find(item => item.id === menuItem.id);
                     const quantity = itemInCart ? itemInCart.quantity : 0;
                     return(
-                        <div key={index} className='bg-slate-50 p-4 m-4 w-60 shadow-xl shadow-orange-50 hover:scale-95'>
+                        <div key={index} className='bg-slate-50 p-4 m-4 w-60 shadow-xl shadow-orange-50 hover:scale-105'>
                             <img src={IMG_CDN_URL+menuItem.id} alt='food' className='h-40 w-full rounded-2xl'/>
                             <h3 className='font-bold'>{menuItem.name}</h3>
                             <h3> &#8377; {menuItem.price}</h3>
