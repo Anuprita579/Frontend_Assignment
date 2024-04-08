@@ -17,7 +17,7 @@ const Cart = () => {
         <button onClick={()=>handleClear()} className='h-4 p-4 bg-orange-600 text-white cursor-pointer font-bold flex justify-center items-center border-2 border-orange-600 shadow-lg shadow-orange-200 hover:shadow-none float-right mt-2'>Clear Cart</button>
         <br></br>
         <br></br>
-        <div className='flex justify-center items-center float-right'><Bill /></div>
+        <div className='flex justify-center items-center float-right max-sm:float-none max-md:float-none'><Bill /></div>
         <div className='flex flex-col justify-center items-center comic-neue' >
             {cartItems.map((items, index)=>{
                 return <FoodItem key={index} {...items} quantity={items.quantity}/>

@@ -42708,11 +42708,11 @@ const Cart = ()=>{
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center items-center float-right",
+                className: "flex justify-center items-center float-right max-sm:float-none max-md:float-none",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _billDefault.default), {}, void 0, false, {
                     fileName: "src/Components/Cart.js",
                     lineNumber: 20,
-                    columnNumber: 71
+                    columnNumber: 107
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/Components/Cart.js",
