@@ -10,7 +10,7 @@ const Header = () => {
     console.log(cartItems);
     return(
         <>
-        <div className="bg-orange-600 flex w-full">
+        <div className="bg-orange-600 flex w-full top-0 left-0 sticky">
             <div className="bg-orange-600 flex items-center pl-5 text-white w-1/2 max-sm:justify-center max-sm:w-1/6">
                 <Link to="/"><img src={foodvista_logo} className="h-10 w-10" /></Link>
             </div>
