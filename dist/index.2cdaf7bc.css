@@ -245,16 +245,16 @@ img, video {
   --tw-backdrop-sepia: ;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .relative {
   position: relative;
 }
 
 .sticky {
   position: sticky;
+}
+
+.left-0 {
+  left: 0;
 }
 
 .left-3 {
@@ -265,8 +265,8 @@ img, video {
   top: 0;
 }
 
-.left-0 {
-  left: 0;
+.z-50 {
+  z-index: 50;
 }
 
 .float-right {
