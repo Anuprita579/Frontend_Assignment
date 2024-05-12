@@ -5,15 +5,9 @@ import { Provider } from "react-redux";
 
 import Header from "./Header";
 import Body from "./Body";
-import About from "./About";
 import Error from "./Error";
-import RestaurantMenu from "./RestaurantMenu";
 import Shimmer from "./Shimmer";
 import store from "../utils/store";
-import Cart from "./Cart";
-import EmptyCart from "./EmptyCart";
-
-const InstaMart = lazy(()=>import("./InstaMart"));
 
 const AppLayout = () => {
     return(
@@ -34,29 +28,6 @@ const appRouter = createBrowserRouter([
             {
                 path:"/",
                 element: <Body />
-            },
-            {
-                path:"/about",
-                element: <About />
-            },
-            {
-                path:"/cart",
-                element: <Cart />
-            },
-            {
-                path:"/restaurant/:resId",
-                element: <RestaurantMenu />
-            },
-            {
-                path:"/emptycart",
-                element: <EmptyCart />
-            },
-            {
-                path:"/instamart",
-                element: 
-                    <Suspense fallback={<Shimmer />}>
-                        <InstaMart />
-                    </Suspense>
             },
         ]
     }

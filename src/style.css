@@ -8,3 +8,9 @@
 .comic-neue{
     font-family: "Comic Neue", "sans-serif";
 }
+.banner_image{
+    background-image: url('https://img.freepik.com/free-vector/abstract-banner-with-world-map_1048-12232.jpg?size=626&ext=jpg&ga=GA1.1.1538071365.1715440418&semt=ais_user');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

@@ -1,9 +1,19 @@
-import RestaurantList from "./RestaurantList";
 import {fooditem} from "../config";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link as ReactRouterLink } from "react-router-dom";
 import useOnline from "../utils/useOnline";
+import Banner from "./Banner";
+import SectionHeader from "./SectionHeader";
+import SectionA from "./SectionA";
+import SectionB from "./SectionB";
+import FAQ from "./FAQ";
+import Feedback from "./Feedback";
+import Testimonials from "./Testimonial";
+import Doctors from "./Doctors";
+import Hospitals from "./Hospitals";
+import ContactUs from "./ContactUs";
+import Footer from "./Footer";
 
 function filterData(searchText, restaurantDisplay){
     const filterData = restaurantDisplay.filter((res)=>res?.info?.name?.toLowerCase().includes(searchText.toLowerCase()));
@@ -52,26 +62,28 @@ const Body = () => {
 
     return (allRestaurant?.length === 0)? <Shimmer /> : (
         <>
-            <div className="flex items-center justify-center mt-5">
-                <input className="h-4 w-2/5 p-4 outline-none border-2 border-orange-600" type="text" placeholder="Search for restaurants" value={searchText} onChange={(e)=>{setSearchText(e.target.value)}}/>
-                <button className="h-4 p-4 bg-orange-600 text-white cursor-pointer font-bold flex justify-center items-center border-2 border-orange-600 shadow-lg shadow-orange-200 hover:shadow-none" onClick={()=>{
-                    const data = filterData(searchText, allRestaurant);
-                    setFilteredRestaurant(data);
-                }}>Search</button>
+            <Banner />
+            <SectionHeader />
+            <SectionA />
+            <div className="flex w-full">
+                <div className="w-2/3">
+                    <SectionB title="Eligibility for Treatment"/>
+                    <SectionB title="Preparation before Treatment"/>
+                    <SectionB title="About Treatment"/>
+                    <SectionB title="Post-Treatment Care"/>
+                    <SectionB title="Treatment Recovery Tips"/>
+                </div>
+                <div className="w-1/3">
+                    <Feedback />
+                </div>
+                
             </div>
-
-            <div className="flex flex-wrap justify-center">
-                {
-                    filteredRestaurant.map((res) => {
-                        return (
-                        <div className="food-card-click" key={res.info.id}>
-                            <ReactRouterLink to={"/restaurant/"+ res.info.id} key={res.info.id}> 
-                                <RestaurantList {...res.info} />
-                            </ReactRouterLink>
-                        </div>
-                    )})
-                }
-            </div>
+            <FAQ />
+            <Testimonials />
+            <Doctors />
+            <Hospitals />
+            <ContactUs />
+            <Footer />
         </>
     )
 }

@@ -2911,55 +2911,45 @@ var _header = require("./Header");
 var _headerDefault = parcelHelpers.interopDefault(_header);
 var _body = require("./Body");
 var _bodyDefault = parcelHelpers.interopDefault(_body);
-var _about = require("./About");
-var _aboutDefault = parcelHelpers.interopDefault(_about);
 var _error = require("./Error");
 var _errorDefault = parcelHelpers.interopDefault(_error);
-var _restaurantMenu = require("./RestaurantMenu");
-var _restaurantMenuDefault = parcelHelpers.interopDefault(_restaurantMenu);
 var _shimmer = require("./Shimmer");
 var _shimmerDefault = parcelHelpers.interopDefault(_shimmer);
 var _store = require("../utils/store");
 var _storeDefault = parcelHelpers.interopDefault(_store);
-var _cart = require("./Cart");
-var _cartDefault = parcelHelpers.interopDefault(_cart);
-var _emptyCart = require("./EmptyCart");
-var _emptyCartDefault = parcelHelpers.interopDefault(_emptyCart);
-const InstaMart = /*#__PURE__*/ (0, _react.lazy)(()=>require("e4d83c3877f37e2a"));
-_c = InstaMart;
 const AppLayout = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRedux.Provider), {
         store: (0, _storeDefault.default),
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/Components/app.js",
-                lineNumber: 21,
+                lineNumber: 15,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
                 fileName: "src/Components/app.js",
-                lineNumber: 22,
+                lineNumber: 16,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/app.js",
-        lineNumber: 20,
+        lineNumber: 14,
         columnNumber: 9
     }, undefined);
 };
-_c1 = AppLayout;
+_c = AppLayout;
 const appRouter = (0, _reactRouterDom.createBrowserRouter)([
     {
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
             fileName: "src/Components/app.js",
-            lineNumber: 31,
+            lineNumber: 25,
             columnNumber: 18
         }, undefined),
         errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
             fileName: "src/Components/app.js",
-            lineNumber: 32,
+            lineNumber: 26,
             columnNumber: 23
         }, undefined),
         children: [
@@ -2967,55 +2957,8 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "src/Components/app.js",
-                    lineNumber: 36,
+                    lineNumber: 30,
                     columnNumber: 26
-                }, undefined)
-            },
-            {
-                path: "/about",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
-                    fileName: "src/Components/app.js",
-                    lineNumber: 40,
-                    columnNumber: 26
-                }, undefined)
-            },
-            {
-                path: "/cart",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cartDefault.default), {}, void 0, false, {
-                    fileName: "src/Components/app.js",
-                    lineNumber: 44,
-                    columnNumber: 26
-                }, undefined)
-            },
-            {
-                path: "/restaurant/:resId",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantMenuDefault.default), {}, void 0, false, {
-                    fileName: "src/Components/app.js",
-                    lineNumber: 48,
-                    columnNumber: 26
-                }, undefined)
-            },
-            {
-                path: "/emptycart",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _emptyCartDefault.default), {}, void 0, false, {
-                    fileName: "src/Components/app.js",
-                    lineNumber: 52,
-                    columnNumber: 26
-                }, undefined)
-            },
-            {
-                path: "/instamart",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react.Suspense), {
-                    fallback: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, void 0, void 0),
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(InstaMart, {}, void 0, false, {
-                        fileName: "src/Components/app.js",
-                        lineNumber: 58,
-                        columnNumber: 25
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/Components/app.js",
-                    lineNumber: 57,
-                    columnNumber: 21
                 }, undefined)
             }, 
         ]
@@ -3026,19 +2969,18 @@ display.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Rout
     router: appRouter
 }, void 0, false, {
     fileName: "src/Components/app.js",
-    lineNumber: 65,
+    lineNumber: 36,
     columnNumber: 16
 }, undefined));
-var _c, _c1;
-$RefreshReg$(_c, "InstaMart");
-$RefreshReg$(_c1, "AppLayout");
+var _c;
+$RefreshReg$(_c, "AppLayout");
 
   $parcel$ReactRefreshHelpers$547d.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-redux":"62sf7","./Header":"fNIx6","./Body":"6J35F","./About":"19tXb","./Error":"iQH4s","./RestaurantMenu":"7pgwL","./Shimmer":"c7s09","../utils/store":"k2jPV","./Cart":"c9G2d","e4d83c3877f37e2a":"9eaVN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./EmptyCart":"4cxCd"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","react-redux":"62sf7","./Header":"fNIx6","./Body":"6J35F","./Error":"iQH4s","./Shimmer":"c7s09","../utils/store":"k2jPV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -34783,26 +34725,178 @@ var _reactRedux = require("react-redux");
 var _s = $RefreshSig$();
 const Header = ()=>{
     _s();
-    const isOnline = (0, _useOnlineDefault.default)();
+    const [searchText, setSearchText] = (0, _react.useState)("");
     const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
     console.log(cartItems);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "bg-orange-600 flex w-full top-0 left-0 sticky z-50",
+            className: "bg-blue-400 flex-col w-full top-0 left-0 sticky z-50",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "bg-orange-600 flex items-center pl-5 text-white w-1/2 max-sm:justify-center max-sm:w-1/6",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _foodvistaLogoPngDefault.default),
-                            className: "h-10 w-10"
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.js",
-                            lineNumber: 15,
-                            columnNumber: 30
-                        }, undefined)
-                    }, void 0, false, {
+                    className: "bg-white text-black flex justify-center w-full max-sm:w-full max-md:w-full max-sm:text-sm max-md:text-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: " list-none flex justify-evenly items-center font-md text-black w-10/12",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/",
+                                className: "no-underline",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: "https://images.thecompanycheck.com/companylogo/AAFIYA_MEDIRETREATS_PRIVATE_LIMITED_435194.webp",
+                                    className: "h-20 w-40"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 16,
+                                    columnNumber: 59
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 16,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex items-center justify-center",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "https://cdn.iconscout.com/icon/premium/png-512-thumb/consultation-23-568195.png?f=webp&w=256",
+                                        className: "h-8 w-8 m-2"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 18,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                children: "Second Medical Opinion"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Header.js",
+                                                lineNumber: 20,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                className: "font-bold",
+                                                children: "Book Consultation"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Header.js",
+                                                lineNumber: 21,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 19,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 17,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex items-center justify-center",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "https://cdn.iconscout.com/icon/premium/png-512-thumb/contact-us-3891228-3227425.png?f=webp&w=256",
+                                        className: "h-5 w-5 m-2"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 25,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                children: "Call us on"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Header.js",
+                                                lineNumber: 27,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                className: "font-bold",
+                                                children: "9858962222"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Header.js",
+                                                lineNumber: 28,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 26,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "flex items-center justify-center",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                        src: "https://cdn.iconscout.com/icon/premium/png-512-thumb/email-1157-826175.png?f=webp&w=256",
+                                        className: "h-5 w-5 m-2"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 32,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                children: "Email us on"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Header.js",
+                                                lineNumber: 34,
+                                                columnNumber: 29
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                className: "font-bold",
+                                                children: "info@mediretreats.com"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Header.js",
+                                                lineNumber: 35,
+                                                columnNumber: 29
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 33,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 31,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("select", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        children: "English"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 39,
+                                        columnNumber: 25
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("option", {
+                                        children: "Hindi"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Header.js",
+                                        lineNumber: 40,
+                                        columnNumber: 25
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 38,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Header.js",
                         lineNumber: 15,
                         columnNumber: 17
@@ -34813,115 +34907,152 @@ const Header = ()=>{
                     columnNumber: 13
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "bg-orange-600 flex justify-center w-1/2 max-sm:w-full max-md:w-full max-sm:text-sm max-md:text-sm",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                            className: " list-none flex justify-evenly items-center font-md text-white w-10/12",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/",
-                                    className: "no-underline text-white hover:text-slate-300",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Home"
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Header.js",
-                                        lineNumber: 19,
-                                        columnNumber: 91
-                                    }, undefined)
+                    className: "bg-blue-400 flex justify-center w-full max-sm:w-full max-md:w-full max-sm:text-sm max-md:text-sm",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                        className: " list-none flex justify-evenly items-center font-md text-white w-10/12",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/",
+                                className: "no-underline text-white hover:text-slate-300",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Home"
                                 }, void 0, false, {
                                     fileName: "src/Components/Header.js",
-                                    lineNumber: 19,
-                                    columnNumber: 21
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/about",
-                                    className: "no-underline text-white hover:text-slate-300",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "About Us"
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Header.js",
-                                        lineNumber: 20,
-                                        columnNumber: 96
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/Components/Header.js",
-                                    lineNumber: 20,
-                                    columnNumber: 21
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/cart",
-                                    className: "no-underline text-white hover:text-slate-300",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: [
-                                            "Cart - ",
-                                            cartItems.length
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "src/Components/Header.js",
-                                        lineNumber: 21,
-                                        columnNumber: 95
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/Components/Header.js",
-                                    lineNumber: 21,
-                                    columnNumber: 21
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                    to: "/instamart",
-                                    className: "no-underline text-white hover:text-slate-300",
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                                        children: "Instamart"
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Header.js",
-                                        lineNumber: 22,
-                                        columnNumber: 100
-                                    }, undefined)
-                                }, void 0, false, {
-                                    fileName: "src/Components/Header.js",
-                                    lineNumber: 22,
-                                    columnNumber: 21
+                                    lineNumber: 46,
+                                    columnNumber: 91
                                 }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/Header.js",
-                            lineNumber: 18,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                            className: "float-right rounded-full bg-transperant text-sm flex justify-end relative h-6 left-3",
-                            children: isOnline ? "\uD83D\uDFE2" : "⚪"
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.js",
-                            lineNumber: 24,
-                            columnNumber: 17
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("svg", {
-                            className: "float-right rounded-full bg-white border-2 border-white",
-                            xmlns: "http://www.w3.org/2000/svg",
-                            width: "48",
-                            height: "48",
-                            fill: "none",
-                            viewBox: "0 0 48 48",
-                            id: "person",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("path", {
-                                fill: "#333",
-                                fillRule: "evenodd",
-                                d: "M24 24C28.4204 24 32 20.4204 32 16 32 11.5796 28.4204 8 24 8 19.5796 8 16 11.5796 16 16 16 20.4204 19.5796 24 24 24zM34 16C34 21.525 29.525 26 24 26 18.475 26 14 21.525 14 16 14 10.475 18.475 6 24 6 29.525 6 34 10.475 34 16zM9.22348 34.2119C8.22038 35.0211 8 35.6291 8 36V40H40V36C40 35.6291 39.7796 35.0211 38.7765 34.2119 37.7958 33.4207 36.3341 32.6669 34.5622 32.015 31.0199 30.7117 26.7532 30 24 30 21.2468 30 16.9801 30.7117 13.4378 32.015 11.6659 32.6669 10.2042 33.4207 9.22348 34.2119zM24 28C17.9925 28 6 31.0347 6 36V42H42V36C42 31.0347 30.0075 28 24 28z",
-                                clipRule: "evenodd"
                             }, void 0, false, {
                                 fileName: "src/Components/Header.js",
-                                lineNumber: 25,
-                                columnNumber: 192
+                                lineNumber: 46,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/about",
+                                className: "no-underline text-white hover:text-slate-300",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "About Us"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 47,
+                                    columnNumber: 96
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 47,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/cart",
+                                className: "no-underline text-white hover:text-slate-300",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Treatments + "
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 48,
+                                    columnNumber: 95
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 48,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/cart",
+                                className: "no-underline text-white hover:text-slate-300",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Destinations + "
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 49,
+                                    columnNumber: 95
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 49,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/instamart",
+                                className: "no-underline text-white hover:text-slate-300",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Hospitals"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 50,
+                                    columnNumber: 100
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 50,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/instamart",
+                                className: "no-underline text-white hover:text-slate-300",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "FAQ"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 51,
+                                    columnNumber: 100
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 51,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/instamart",
+                                className: "no-underline text-white hover:text-slate-300",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Blog"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 52,
+                                    columnNumber: 100
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 52,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                to: "/instamart",
+                                className: "no-underline text-white hover:text-slate-300",
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Request A Quote"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Header.js",
+                                    lineNumber: 53,
+                                    columnNumber: 100
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 53,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                className: "h-4 w-2/5 p-4 outline-none text-white bg-blue-600",
+                                type: "text",
+                                placeholder: "Search",
+                                value: searchText,
+                                onChange: (e)=>{
+                                    setSearchText(e.target.value);
+                                }
+                            }, void 0, false, {
+                                fileName: "src/Components/Header.js",
+                                lineNumber: 54,
+                                columnNumber: 21
                             }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/Components/Header.js",
-                            lineNumber: 25,
-                            columnNumber: 17
-                        }, undefined)
-                    ]
-                }, void 0, true, {
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Header.js",
+                        lineNumber: 45,
+                        columnNumber: 17
+                    }, undefined)
+                }, void 0, false, {
                     fileName: "src/Components/Header.js",
-                    lineNumber: 17,
+                    lineNumber: 44,
                     columnNumber: 13
                 }, undefined)
             ]
@@ -34932,9 +35063,8 @@ const Header = ()=>{
         }, undefined)
     }, void 0, false);
 };
-_s(Header, "1TTauuG53JY09tstPDT+sxxs/XE=", false, function() {
+_s(Header, "Sqecy4R2HyyHPNc4axXZHR/6JwE=", false, function() {
     return [
-        (0, _useOnlineDefault.default),
         (0, _reactRedux.useSelector)
     ];
 });
@@ -35154,8 +35284,6 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _restaurantList = require("./RestaurantList");
-var _restaurantListDefault = parcelHelpers.interopDefault(_restaurantList);
 var _config = require("../config");
 var _react = require("react");
 var _shimmer = require("./Shimmer");
@@ -35163,6 +35291,28 @@ var _shimmerDefault = parcelHelpers.interopDefault(_shimmer);
 var _reactRouterDom = require("react-router-dom");
 var _useOnline = require("../utils/useOnline");
 var _useOnlineDefault = parcelHelpers.interopDefault(_useOnline);
+var _banner = require("./Banner");
+var _bannerDefault = parcelHelpers.interopDefault(_banner);
+var _sectionHeader = require("./SectionHeader");
+var _sectionHeaderDefault = parcelHelpers.interopDefault(_sectionHeader);
+var _sectionA = require("./SectionA");
+var _sectionADefault = parcelHelpers.interopDefault(_sectionA);
+var _sectionB = require("./SectionB");
+var _sectionBDefault = parcelHelpers.interopDefault(_sectionB);
+var _faq = require("./FAQ");
+var _faqDefault = parcelHelpers.interopDefault(_faq);
+var _feedback = require("./Feedback");
+var _feedbackDefault = parcelHelpers.interopDefault(_feedback);
+var _testimonial = require("./Testimonial");
+var _testimonialDefault = parcelHelpers.interopDefault(_testimonial);
+var _doctors = require("./Doctors");
+var _doctorsDefault = parcelHelpers.interopDefault(_doctors);
+var _hospitals = require("./Hospitals");
+var _hospitalsDefault = parcelHelpers.interopDefault(_hospitals);
+var _contactUs = require("./ContactUs");
+var _contactUsDefault = parcelHelpers.interopDefault(_contactUs);
+var _footer = require("./Footer");
+var _footerDefault = parcelHelpers.interopDefault(_footer);
 var _s = $RefreshSig$();
 function filterData(searchText, restaurantDisplay) {
     const filterData = restaurantDisplay.filter((res)=>res?.info?.name?.toLowerCase().includes(searchText.toLowerCase()));
@@ -35196,25 +35346,25 @@ const Body = ()=>{
                     children: "Offline"
                 }, void 0, false, {
                     fileName: "src/Components/Body.js",
-                    lineNumber: 39,
+                    lineNumber: 49,
                     columnNumber: 17
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                     children: "Check your internet connection!"
                 }, void 0, false, {
                     fileName: "src/Components/Body.js",
-                    lineNumber: 40,
+                    lineNumber: 50,
                     columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/Components/Body.js",
-            lineNumber: 38,
+            lineNumber: 48,
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/Components/Body.js",
-        lineNumber: 37,
+        lineNumber: 47,
         columnNumber: 13
     }, undefined);
     //Early return
@@ -35223,72 +35373,118 @@ const Body = ()=>{
     //if(filteredRestaurant?.length === 0) return <h1>Not Found</h1>
     return allRestaurant?.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
         fileName: "src/Components/Body.js",
-        lineNumber: 53,
+        lineNumber: 63,
         columnNumber: 43
     }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bannerDefault.default), {}, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 65,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionHeaderDefault.default), {}, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 66,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionADefault.default), {}, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 67,
+                columnNumber: 13
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex items-center justify-center mt-5",
+                className: "flex w-full",
                 children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                        className: "h-4 w-2/5 p-4 outline-none border-2 border-orange-600",
-                        type: "text",
-                        placeholder: "Search for restaurants",
-                        value: searchText,
-                        onChange: (e)=>{
-                            setSearchText(e.target.value);
-                        }
-                    }, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-2/3",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionBDefault.default), {
+                                title: "Eligibility for Treatment"
+                            }, void 0, false, {
+                                fileName: "src/Components/Body.js",
+                                lineNumber: 70,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionBDefault.default), {
+                                title: "Preparation before Treatment"
+                            }, void 0, false, {
+                                fileName: "src/Components/Body.js",
+                                lineNumber: 71,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionBDefault.default), {
+                                title: "About Treatment"
+                            }, void 0, false, {
+                                fileName: "src/Components/Body.js",
+                                lineNumber: 72,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionBDefault.default), {
+                                title: "Post-Treatment Care"
+                            }, void 0, false, {
+                                fileName: "src/Components/Body.js",
+                                lineNumber: 73,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sectionBDefault.default), {
+                                title: "Treatment Recovery Tips"
+                            }, void 0, false, {
+                                fileName: "src/Components/Body.js",
+                                lineNumber: 74,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Components/Body.js",
-                        lineNumber: 56,
+                        lineNumber: 69,
                         columnNumber: 17
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "h-4 p-4 bg-orange-600 text-white cursor-pointer font-bold flex justify-center items-center border-2 border-orange-600 shadow-lg shadow-orange-200 hover:shadow-none",
-                        onClick: ()=>{
-                            const data = filterData(searchText, allRestaurant);
-                            setFilteredRestaurant(data);
-                        },
-                        children: "Search"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "w-1/3",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _feedbackDefault.default), {}, void 0, false, {
+                            fileName: "src/Components/Body.js",
+                            lineNumber: 77,
+                            columnNumber: 21
+                        }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Body.js",
-                        lineNumber: 57,
+                        lineNumber: 76,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Body.js",
-                lineNumber: 55,
+                lineNumber: 68,
                 columnNumber: 13
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-wrap justify-center",
-                children: filteredRestaurant.map((res)=>{
-                    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "food-card-click",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/restaurant/" + res.info.id,
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantListDefault.default), {
-                                ...res.info
-                            }, void 0, false, {
-                                fileName: "src/Components/Body.js",
-                                lineNumber: 69,
-                                columnNumber: 33
-                            }, undefined)
-                        }, res.info.id, false, {
-                            fileName: "src/Components/Body.js",
-                            lineNumber: 68,
-                            columnNumber: 29
-                        }, undefined)
-                    }, res.info.id, false, {
-                        fileName: "src/Components/Body.js",
-                        lineNumber: 67,
-                        columnNumber: 25
-                    }, undefined);
-                })
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _faqDefault.default), {}, void 0, false, {
                 fileName: "src/Components/Body.js",
-                lineNumber: 63,
+                lineNumber: 81,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _testimonialDefault.default), {}, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 82,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _doctorsDefault.default), {}, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 83,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _hospitalsDefault.default), {}, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 84,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactUsDefault.default), {}, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 85,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
+                fileName: "src/Components/Body.js",
+                lineNumber: 86,
                 columnNumber: 13
             }, undefined)
         ]
@@ -35309,86 +35505,7 @@ $RefreshReg$(_c, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./RestaurantList":"3xaC7","../config":"jtCLN","react":"21dqq","./Shimmer":"c7s09","react-router-dom":"9xmpe","../utils/useOnline":"74Yls","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3xaC7":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a398 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a398.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _config = require("../config");
-const RestaurantList = ({ cloudinaryImageId , name , cuisines , avgRating  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "m-5 p-5 w-60 text-black shadow-2xl shadow-orange-100 hover:scale-105 comic-neue",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _config.IMG_CDN_URL) + cloudinaryImageId,
-                    className: "h-40 w-full rounded-xl "
-                }, void 0, false, {
-                    fileName: "src/Components/RestaurantList.js",
-                    lineNumber: 7,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    className: "truncate font-bold",
-                    children: name
-                }, void 0, false, {
-                    fileName: "src/Components/RestaurantList.js",
-                    lineNumber: 8,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "truncate",
-                    children: cuisines.join(", ")
-                }, void 0, false, {
-                    fileName: "src/Components/RestaurantList.js",
-                    lineNumber: 9,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    className: "flex",
-                    children: [
-                        " ",
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Green_star_41-108-41.svg/2153px-Green_star_41-108-41.svg.png",
-                            className: "h-5 w-5"
-                        }, void 0, false, {
-                            fileName: "src/Components/RestaurantList.js",
-                            lineNumber: 10,
-                            columnNumber: 39
-                        }, undefined),
-                        "  ",
-                        avgRating,
-                        " "
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/RestaurantList.js",
-                    lineNumber: 10,
-                    columnNumber: 17
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/RestaurantList.js",
-            lineNumber: 6,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false);
-};
-_c = RestaurantList;
-exports.default = RestaurantList;
-var _c;
-$RefreshReg$(_c, "RestaurantList");
-
-  $parcel$ReactRefreshHelpers$a398.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","../config":"jtCLN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jtCLN":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../config":"jtCLN","react":"21dqq","./Shimmer":"c7s09","react-router-dom":"9xmpe","../utils/useOnline":"74Yls","./Banner":"6zUpG","./SectionHeader":"gwSBr","./SectionA":"hQsN0","./SectionB":"aqEfa","./FAQ":"1v5Pl","./Feedback":"inBKr","./Testimonial":"dFZtS","./Doctors":"6z3Fk","./Hospitals":"eeQTI","./ContactUs":"hiW44","./Footer":"eUZ6J","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jtCLN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "IMG_CDN_URL", ()=>IMG_CDN_URL);
@@ -38190,11 +38307,11 @@ $RefreshReg$(_c, "Shimmer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"19tXb":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$06db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6zUpG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$65e7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$06db.prelude(module);
+$parcel$ReactRefreshHelpers$65e7.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -38202,169 +38319,2239 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _styleCss = require("../style.css");
-var _config = require("../config");
-const About = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "w-full flex flex-col justify-center items-center",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "bg-gradient-to-b from-white from-50% to-orange-500 to-50% w-full flex flex-col justify-center items-center",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                        className: "text-7xl p-10 galada",
-                        children: "FoodVista"
-                    }, void 0, false, {
-                        fileName: "src/Components/About.js",
-                        lineNumber: 10,
-                        columnNumber: 7
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: "https://img.freepik.com/free-photo/high-angle-delicious-pakistan-meal-assortment-basket_23-2148821573.jpg?t=st=1711514324~exp=1711517924~hmac=5fbbeb24d6e981d41ddb3b09ae180fe1a6ed722620c5b0b19f34316fec1a23ba&w=740",
-                        alt: "food",
-                        className: "w-96 h-96 object-cover max-sm:w-60 max-md:w-60 max-sm:h-60 max-md:h-60"
-                    }, void 0, false, {
-                        fileName: "src/Components/About.js",
-                        lineNumber: 11,
-                        columnNumber: 7
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/About.js",
-                lineNumber: 9,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center items-center max-sm:flex-col max-md:flex-col",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "w-1/2 p-20 comic-neue max-sm:w-full max-md:w-full",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                className: "text-4xl font-bold",
-                                children: "Who are we?"
-                            }, void 0, false, {
-                                fileName: "src/Components/About.js",
-                                lineNumber: 16,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
-                                className: "w-20 border-2 border-orange-600 mb-5"
-                            }, void 0, false, {
-                                fileName: "src/Components/About.js",
-                                lineNumber: 17,
-                                columnNumber: 9
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                className: "text-xl",
-                                children: "Welcome to FoodVista, your one-stop solution for all your food delivery needs. At FoodVista, we believe that good food should be accessible, convenient, and delivered right to your doorstep. Our mission is to connect you with the best local restaurants and cafes, ensuring that you can enjoy your favorite dishes without the hassle of cooking or navigating busy streets. Our platform is designed with user experience in mind, offering a seamless and enjoyable ordering process. Whether you're craving a quick bite or planning a gourmet dinner, FoodVista makes it easy to find and order from a wide range of cuisines. From fast-food favorites to fine dining experiences, we've got you covered."
-                            }, void 0, false, {
-                                fileName: "src/Components/About.js",
-                                lineNumber: 18,
-                                columnNumber: 9
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/About.js",
-                        lineNumber: 15,
-                        columnNumber: 7
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: "https://img.freepik.com/free-vector/delivery-staff-ride-motorcycles-shopping-concept_1150-34879.jpg?t=st=1711523911~exp=1711527511~hmac=97708b52cc7215a63c3d4e2c7f6c86cd7e666e24166cc91d55d1dd8331548e61&w=996",
-                        className: "w-1/2"
-                    }, void 0, false, {
-                        fileName: "src/Components/About.js",
-                        lineNumber: 23,
-                        columnNumber: 7
-                    }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/About.js",
-                lineNumber: 14,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center items-center max-sm:flex-col max-md:flex-col",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "w-40 mx-10",
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "font-mono text-4xl",
+const Banner = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "banner_image flex justify-between align-middle items-center w-full",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "w-1/2 pl-40 relative z-10",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            className: "font-semibold text-white",
                             children: [
-                                "Changing ",
+                                "Home",
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    className: "font-bold",
-                                    children: "the game"
+                                    className: "text-red-600 font-bold",
+                                    children: " > "
                                 }, void 0, false, {
-                                    fileName: "src/Components/About.js",
-                                    lineNumber: 28,
-                                    columnNumber: 53
-                                }, undefined)
+                                    fileName: "src/Components/Banner.js",
+                                    lineNumber: 8,
+                                    columnNumber: 62
+                                }, undefined),
+                                "Treatments",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-red-600 font-bold",
+                                    children: " > "
+                                }, void 0, false, {
+                                    fileName: "src/Components/Banner.js",
+                                    lineNumber: 8,
+                                    columnNumber: 126
+                                }, undefined),
+                                "Orthopaedics",
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-red-600 font-bold",
+                                    children: " > "
+                                }, void 0, false, {
+                                    fileName: "src/Components/Banner.js",
+                                    lineNumber: 8,
+                                    columnNumber: 192
+                                }, undefined),
+                                "Knee Replacement "
                             ]
                         }, void 0, true, {
-                            fileName: "src/Components/About.js",
-                            lineNumber: 28,
-                            columnNumber: 9
+                            fileName: "src/Components/Banner.js",
+                            lineNumber: 8,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            className: "text-5xl text-white font-bold",
+                            children: "Total Knee Replacement"
+                        }, void 0, false, {
+                            fileName: "src/Components/Banner.js",
+                            lineNumber: 9,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-white max-w-1/2",
+                            children: "Total knee replacement is a surgery to remove and replace the whole damaged knee join with artificial joint."
+                        }, void 0, false, {
+                            fileName: "src/Components/Banner.js",
+                            lineNumber: 10,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "bg-blue-400 font-bold p-2 mt-2 text-white",
+                            children: "Enquire Now"
+                        }, void 0, false, {
+                            fileName: "src/Components/Banner.js",
+                            lineNumber: 11,
+                            columnNumber: 17
                         }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/About.js",
-                        lineNumber: 27,
-                        columnNumber: 7
-                    }, undefined),
-                    (0, _config.company_number).map((no, index)=>{
-                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "border-2 border-orange-600 p-2 m-5 rounded-xl w-40 min-h-32 text-center",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    className: "text-3xl font-bold",
-                                    children: [
-                                        no.count,
-                                        " +"
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/About.js",
-                                    lineNumber: 33,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                    className: "font-thin comic-neue",
-                                    children: no.title
-                                }, void 0, false, {
-                                    fileName: "src/Components/About.js",
-                                    lineNumber: 34,
-                                    columnNumber: 13
-                                }, undefined)
-                            ]
-                        }, index, true, {
-                            fileName: "src/Components/About.js",
-                            lineNumber: 32,
-                            columnNumber: 11
-                        }, undefined);
-                    })
-                ]
-            }, void 0, true, {
-                fileName: "src/Components/About.js",
-                lineNumber: 26,
-                columnNumber: 5
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/About.js",
-        lineNumber: 7,
-        columnNumber: 3
-    }, undefined);
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Banner.js",
+                    lineNumber: 7,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: "https://aafiyaindia.com/wp-content/uploads/2019/02/knee-center.jpg",
+                    className: "rounded-l-full border-l-8 border-indigo-800 relative z-10 h-96 w-96"
+                }, void 0, false, {
+                    fileName: "src/Components/Banner.js",
+                    lineNumber: 13,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Banner.js",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
 };
-_c = About;
-exports.default = About;
+_c = Banner;
+exports.default = Banner;
 var _c;
-$RefreshReg$(_c, "About");
+$RefreshReg$(_c, "Banner");
 
-  $parcel$ReactRefreshHelpers$06db.postlude(module);
+  $parcel$ReactRefreshHelpers$65e7.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../style.css":"bhJkM","../config":"jtCLN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bhJkM":[function() {},{}],"iQH4s":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"gwSBr":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1b05 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1b05.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactRouterDom = require("react-router-dom");
+const SectionHeader = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "bg-white flex justify-center w-full max-sm:w-full max-md:w-full max-sm:text-sm max-md:text-sm",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                className: " list-none flex justify-evenly items-center font-semibold w-10/12",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "no-underline border-b-blue-600 border-b-4 p-4 cursor-pointer",
+                        children: "Overview"
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionHeader.js",
+                        lineNumber: 9,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "no-underline hover:border-b-blue-600 hover:border-b-4 p-4 hover:cursor-pointer",
+                        children: "Eligibility"
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionHeader.js",
+                        lineNumber: 10,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "no-underline hover:border-b-blue-600 hover:border-b-4 p-4 hover:cursor-pointer",
+                        children: "Preparation "
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionHeader.js",
+                        lineNumber: 11,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "no-underline hover:border-b-blue-600 hover:border-b-4 p-4 hover:cursor-pointer",
+                        children: "About Treatment "
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionHeader.js",
+                        lineNumber: 12,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "no-underline hover:border-b-blue-600 hover:border-b-4 p-4 hover:cursor-pointer",
+                        children: "Post-Treatment Care "
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionHeader.js",
+                        lineNumber: 13,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "no-underline hover:border-b-blue-600 hover:border-b-4 p-4 hover:cursor-pointer",
+                        children: "Recovery Tips"
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionHeader.js",
+                        lineNumber: 14,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "no-underline hover:border-b-blue-600 hover:border-b-4 p-4 hover:cursor-pointer",
+                        children: "FAQs"
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionHeader.js",
+                        lineNumber: 15,
+                        columnNumber: 21
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                        className: "no-underline hover:border-b-blue-600 hover:border-b-4 p-4 hover:cursor-pointer",
+                        children: "Patient Stories"
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionHeader.js",
+                        lineNumber: 16,
+                        columnNumber: 21
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/SectionHeader.js",
+                lineNumber: 8,
+                columnNumber: 17
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/Components/SectionHeader.js",
+            lineNumber: 7,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
+};
+_c = SectionHeader;
+exports.default = SectionHeader;
+var _c;
+$RefreshReg$(_c, "SectionHeader");
+
+  $parcel$ReactRefreshHelpers$1b05.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hQsN0":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$b50b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$b50b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const SectionA = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex align-middle items-center justify-center w-full",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "w-11/12 flex border-b-2 border-blue-400 py-10",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "px-10",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                className: "text-xl font-semibold",
+                                children: [
+                                    "Treatment Overview",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                        className: "text-red-600",
+                                        children: "."
+                                    }, void 0, false, {
+                                        fileName: "src/Components/SectionA.js",
+                                        lineNumber: 9,
+                                        columnNumber: 77
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/SectionA.js",
+                                lineNumber: 9,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/SectionA.js",
+                                lineNumber: 10,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            }, void 0, false, {
+                                fileName: "src/Components/SectionA.js",
+                                lineNumber: 11,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/Components/SectionA.js",
+                                lineNumber: 12,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                            }, void 0, false, {
+                                fileName: "src/Components/SectionA.js",
+                                lineNumber: 13,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/SectionA.js",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                        src: "https://plus.unsplash.com/premium_photo-1664301859420-5f4bc19b0f0a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZG9jdG9yJTIwd2l0aCUyMHBhdGllbnR8ZW58MHx8MHx8fDA%3D"
+                    }, void 0, false, {
+                        fileName: "src/Components/SectionA.js",
+                        lineNumber: 17,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/SectionA.js",
+                lineNumber: 7,
+                columnNumber: 13
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/Components/SectionA.js",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
+};
+_c = SectionA;
+exports.default = SectionA;
+var _c;
+$RefreshReg$(_c, "SectionA");
+
+  $parcel$ReactRefreshHelpers$b50b.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aqEfa":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e7c2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e7c2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const mediInfo = [
+    {
+        content: "The BMI(Body Mass Index) is 40 or more"
+    },
+    {
+        content: "The BMI is 30 or more with severe weight-related health condition like type-2 diabetes and high blood pressure"
+    },
+    {
+        content: "You are willing to make permanent changes in the lifestyle"
+    }
+];
+const SectionB = ({ title  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex align-middle items-center justify-center w-full",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "w-11/12 flex border-b-2 border-blue-400 py-10",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "px-10",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            className: "text-xl font-semibold",
+                            children: [
+                                title,
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                    className: "text-red-600",
+                                    children: "."
+                                }, void 0, false, {
+                                    fileName: "src/Components/SectionB.js",
+                                    lineNumber: 21,
+                                    columnNumber: 66
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/SectionB.js",
+                            lineNumber: 21,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/Components/SectionB.js",
+                            lineNumber: 22,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        }, void 0, false, {
+                            fileName: "src/Components/SectionB.js",
+                            lineNumber: 23,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/Components/SectionB.js",
+                            lineNumber: 24,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+                        }, void 0, false, {
+                            fileName: "src/Components/SectionB.js",
+                            lineNumber: 25,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                            fileName: "src/Components/SectionB.js",
+                            lineNumber: 26,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            children: mediInfo.map((info, index)=>{
+                                return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "flex items-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                            src: "https://cdn.iconscout.com/icon/premium/png-512-thumb/direction-254-393852.png?f=webp&w=256",
+                                            className: "h-4 w-4 m-2"
+                                        }, void 0, false, {
+                                            fileName: "src/Components/SectionB.js",
+                                            lineNumber: 31,
+                                            columnNumber: 37
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                            children: info.content
+                                        }, void 0, false, {
+                                            fileName: "src/Components/SectionB.js",
+                                            lineNumber: 32,
+                                            columnNumber: 37
+                                        }, undefined)
+                                    ]
+                                }, index, true, {
+                                    fileName: "src/Components/SectionB.js",
+                                    lineNumber: 30,
+                                    columnNumber: 33
+                                }, undefined);
+                            })
+                        }, void 0, false, {
+                            fileName: "src/Components/SectionB.js",
+                            lineNumber: 27,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/SectionB.js",
+                    lineNumber: 20,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/Components/SectionB.js",
+                lineNumber: 19,
+                columnNumber: 13
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/Components/SectionB.js",
+            lineNumber: 18,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
+};
+_c = SectionB;
+exports.default = SectionB;
+var _c;
+$RefreshReg$(_c, "SectionB");
+
+  $parcel$ReactRefreshHelpers$e7c2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1v5Pl":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5365 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5365.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _framerMotion = require("framer-motion");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const items = [
+    {
+        title: "How do I know the clinic I am sarching is verified?",
+        content: "Every clinic registered with us are verified."
+    },
+    {
+        title: "I can't travel alone so can some family memeber or friend of mine accompany me?",
+        content: "Yes, sure. We have made seating arrangements for friends and family as well."
+    },
+    {
+        title: "Can I see my doctor before I decide and what about my post recovery?",
+        content: "Yes, pre and post treatment consulation can be done. You can speak to the doctor at the most appropriate time (before you decide to travel) to boost your connfidence. The team of Mediretreats will also help you with arranging the OPD's after the surgeries."
+    },
+    {
+        title: "How do I share my reports and medical cases with the clinic of my choice?",
+        content: "You have a choice to select your clinic of your choice or you can even choose our clinic for reports and medical cases."
+    }
+];
+function FAQ() {
+    _s();
+    const [activeIndex, setActiveIndex] = (0, _react.useState)(null);
+    const onItemClick = (index)=>{
+        setActiveIndex(activeIndex === index ? null : index);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "flex flex-col justify-center w-full items-center",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "w-11/12 border-b-2 border-blue-400 py-10",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    className: "text-xl font-semibold",
+                    children: [
+                        "Treatment FAQ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "text-red-600",
+                            children: "."
+                        }, void 0, false, {
+                            fileName: "src/Components/FAQ.js",
+                            lineNumber: 34,
+                            columnNumber: 68
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/FAQ.js",
+                    lineNumber: 34,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    fileName: "src/Components/FAQ.js",
+                    lineNumber: 35,
+                    columnNumber: 17
+                }, this),
+                items.map((item, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "mb-2 w-2/3",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                onClick: ()=>onItemClick(index),
+                                className: "cursor-pointer p-2 border-y-2 border-slate-200 flex w-full",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "text-right transition-transform duration-500 text-blue-400 mx-2 font-bold",
+                                        children: activeIndex === index ? "-" : "+"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/FAQ.js",
+                                        lineNumber: 39,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "text-left w-full font-semibold",
+                                        children: [
+                                            " ",
+                                            item.title,
+                                            " "
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/FAQ.js",
+                                        lineNumber: 40,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/FAQ.js",
+                                lineNumber: 38,
+                                columnNumber: 25
+                            }, this),
+                            activeIndex === index && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "p-4 ml-5 text-left border-y-2",
+                                style: {
+                                    borderColor: activeIndex === index ? "#60a5fa" : "transparent"
+                                },
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                    className: "border-l-2 border-l-blue-600 text-slate-600 pl-3",
+                                    children: [
+                                        " ",
+                                        item.content,
+                                        " "
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/Components/FAQ.js",
+                                    lineNumber: 44,
+                                    columnNumber: 33
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "src/Components/FAQ.js",
+                                lineNumber: 43,
+                                columnNumber: 29
+                            }, this)
+                        ]
+                    }, index, true, {
+                        fileName: "src/Components/FAQ.js",
+                        lineNumber: 37,
+                        columnNumber: 21
+                    }, this))
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/FAQ.js",
+            lineNumber: 32,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
+        fileName: "src/Components/FAQ.js",
+        lineNumber: 31,
+        columnNumber: 9
+    }, this);
+}
+_s(FAQ, "E8kOn+IkK/htiBGEqJWkEvOqULU=");
+_c = FAQ;
+exports.default = FAQ;
+var _c;
+$RefreshReg$(_c, "FAQ");
+
+  $parcel$ReactRefreshHelpers$5365.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","framer-motion":"5bZBB","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5bZBB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "createDomMotionComponent", ()=>(0, _motionMjs.createDomMotionComponent));
+parcelHelpers.export(exports, "motion", ()=>(0, _motionMjs.motion));
+parcelHelpers.export(exports, "m", ()=>(0, _motionMinimalMjs.m));
+parcelHelpers.export(exports, "AnimatePresence", ()=>(0, _indexMjs.AnimatePresence));
+parcelHelpers.export(exports, "MotionConfig", ()=>(0, _indexMjs1.MotionConfig));
+parcelHelpers.export(exports, "LazyMotion", ()=>(0, _indexMjs2.LazyMotion));
+parcelHelpers.export(exports, "LayoutGroup", ()=>(0, _indexMjs3.LayoutGroup));
+parcelHelpers.export(exports, "Reorder", ()=>(0, _indexMjs4.Reorder));
+parcelHelpers.export(exports, "domAnimation", ()=>(0, _featuresAnimationMjs.domAnimation));
+parcelHelpers.export(exports, "domMax", ()=>(0, _featuresMaxMjs.domMax));
+parcelHelpers.export(exports, "useMotionValue", ()=>(0, _useMotionValueMjs.useMotionValue));
+parcelHelpers.export(exports, "useMotionTemplate", ()=>(0, _useMotionTemplateMjs.useMotionTemplate));
+parcelHelpers.export(exports, "resolveMotionValue", ()=>(0, _resolveMotionValueMjs.resolveMotionValue));
+parcelHelpers.export(exports, "useTransform", ()=>(0, _useTransformMjs.useTransform));
+parcelHelpers.export(exports, "useSpring", ()=>(0, _useSpringMjs.useSpring));
+parcelHelpers.export(exports, "useVelocity", ()=>(0, _useVelocityMjs.useVelocity));
+parcelHelpers.export(exports, "useScroll", ()=>(0, _useScrollMjs.useScroll));
+parcelHelpers.export(exports, "useElementScroll", ()=>(0, _useElementScrollMjs.useElementScroll));
+parcelHelpers.export(exports, "useViewportScroll", ()=>(0, _useViewportScrollMjs.useViewportScroll));
+parcelHelpers.export(exports, "useTime", ()=>(0, _useTimeMjs.useTime));
+parcelHelpers.export(exports, "useWillChange", ()=>(0, _indexMjs5.useWillChange));
+parcelHelpers.export(exports, "useMotionValueEvent", ()=>(0, _useMotionValueEventMjs.useMotionValueEvent));
+parcelHelpers.export(exports, "useReducedMotion", ()=>(0, _useReducedMotionMjs.useReducedMotion));
+parcelHelpers.export(exports, "useReducedMotionConfig", ()=>(0, _useReducedMotionConfigMjs.useReducedMotionConfig));
+parcelHelpers.export(exports, "animationControls", ()=>(0, _animationControlsMjs.animationControls));
+parcelHelpers.export(exports, "useAnimate", ()=>(0, _useAnimateMjs.useAnimate));
+parcelHelpers.export(exports, "useAnimation", ()=>(0, _useAnimationMjs.useAnimation));
+parcelHelpers.export(exports, "useAnimationControls", ()=>(0, _useAnimationMjs.useAnimationControls));
+parcelHelpers.export(exports, "useAnimationFrame", ()=>(0, _useAnimationFrameMjs.useAnimationFrame));
+parcelHelpers.export(exports, "animateVisualElement", ()=>(0, _visualElementMjs.animateVisualElement));
+parcelHelpers.export(exports, "useCycle", ()=>(0, _useCycleMjs.useCycle));
+parcelHelpers.export(exports, "isValidMotionProp", ()=>(0, _validPropMjs.isValidMotionProp));
+parcelHelpers.export(exports, "useIsPresent", ()=>(0, _usePresenceMjs.useIsPresent));
+parcelHelpers.export(exports, "usePresence", ()=>(0, _usePresenceMjs.usePresence));
+parcelHelpers.export(exports, "useInView", ()=>(0, _useInViewMjs.useInView));
+parcelHelpers.export(exports, "DragControls", ()=>(0, _useDragControlsMjs.DragControls));
+parcelHelpers.export(exports, "useDragControls", ()=>(0, _useDragControlsMjs.useDragControls));
+parcelHelpers.export(exports, "useDomEvent", ()=>(0, _useDomEventMjs.useDomEvent));
+parcelHelpers.export(exports, "createMotionComponent", ()=>(0, _indexMjs6.createMotionComponent));
+parcelHelpers.export(exports, "isMotionComponent", ()=>(0, _isMotionComponentMjs.isMotionComponent));
+parcelHelpers.export(exports, "unwrapMotionComponent", ()=>(0, _unwrapMotionComponentMjs.unwrapMotionComponent));
+parcelHelpers.export(exports, "VisualElement", ()=>(0, _visualElementMjs1.VisualElement));
+parcelHelpers.export(exports, "addScaleCorrector", ()=>(0, _scaleCorrectionMjs.addScaleCorrector));
+parcelHelpers.export(exports, "disableInstantTransitions", ()=>(0, _useInstantTransitionMjs.disableInstantTransitions));
+parcelHelpers.export(exports, "useInstantTransition", ()=>(0, _useInstantTransitionMjs.useInstantTransition));
+parcelHelpers.export(exports, "useInstantLayoutTransition", ()=>(0, _useInstantLayoutTransitionMjs.useInstantLayoutTransition));
+parcelHelpers.export(exports, "useResetProjection", ()=>(0, _useResetProjectionMjs.useResetProjection));
+parcelHelpers.export(exports, "buildTransform", ()=>(0, _buildTransformMjs.buildTransform));
+parcelHelpers.export(exports, "visualElementStore", ()=>(0, _storeMjs.visualElementStore));
+parcelHelpers.export(exports, "animateValue", ()=>(0, _mainThreadAnimationMjs.animateValue));
+parcelHelpers.export(exports, "color", ()=>(0, _indexMjs7.color));
+parcelHelpers.export(exports, "complex", ()=>(0, _indexMjs8.complex));
+parcelHelpers.export(exports, "px", ()=>(0, _unitsMjs.px));
+parcelHelpers.export(exports, "MotionGlobalConfig", ()=>(0, _globalConfigMjs.MotionGlobalConfig));
+parcelHelpers.export(exports, "AcceleratedAnimation", ()=>(0, _acceleratedAnimationMjs.AcceleratedAnimation));
+parcelHelpers.export(exports, "startOptimizedAppearAnimation", ()=>(0, _startMjs.startOptimizedAppearAnimation));
+parcelHelpers.export(exports, "optimizedAppearDataAttribute", ()=>(0, _dataIdMjs.optimizedAppearDataAttribute));
+parcelHelpers.export(exports, "spring", ()=>(0, _indexMjs9.spring));
+parcelHelpers.export(exports, "MotionContext", ()=>(0, _indexMjs10.MotionContext));
+parcelHelpers.export(exports, "MotionConfigContext", ()=>(0, _motionConfigContextMjs.MotionConfigContext));
+parcelHelpers.export(exports, "PresenceContext", ()=>(0, _presenceContextMjs.PresenceContext));
+parcelHelpers.export(exports, "LayoutGroupContext", ()=>(0, _layoutGroupContextMjs.LayoutGroupContext));
+parcelHelpers.export(exports, "SwitchLayoutGroupContext", ()=>(0, _switchLayoutGroupContextMjs.SwitchLayoutGroupContext));
+parcelHelpers.export(exports, "FlatTree", ()=>(0, _flatTreeMjs.FlatTree));
+parcelHelpers.export(exports, "DeprecatedLayoutGroupContext", ()=>(0, _deprecatedLayoutGroupContextMjs.DeprecatedLayoutGroupContext));
+parcelHelpers.export(exports, "useDeprecatedAnimatedState", ()=>(0, _useAnimatedStateMjs.useAnimatedState));
+parcelHelpers.export(exports, "useDeprecatedInvertedScale", ()=>(0, _useInvertedScaleMjs.useInvertedScale));
+parcelHelpers.export(exports, "AnimateSharedLayout", ()=>(0, _animateSharedLayoutMjs.AnimateSharedLayout));
+parcelHelpers.export(exports, "MotionValue", ()=>(0, _indexMjs11.MotionValue));
+parcelHelpers.export(exports, "motionValue", ()=>(0, _indexMjs11.motionValue));
+parcelHelpers.export(exports, "animate", ()=>(0, _animateMjs.animate));
+parcelHelpers.export(exports, "createScopedAnimate", ()=>(0, _animateMjs.createScopedAnimate));
+parcelHelpers.export(exports, "scroll", ()=>(0, _indexMjs12.scroll));
+parcelHelpers.export(exports, "scrollInfo", ()=>(0, _trackMjs.scrollInfo));
+parcelHelpers.export(exports, "inView", ()=>(0, _indexMjs13.inView));
+parcelHelpers.export(exports, "stagger", ()=>(0, _staggerMjs.stagger));
+parcelHelpers.export(exports, "transform", ()=>(0, _transformMjs.transform));
+parcelHelpers.export(exports, "clamp", ()=>(0, _clampMjs.clamp));
+parcelHelpers.export(exports, "mix", ()=>(0, _indexMjs14.mix));
+parcelHelpers.export(exports, "pipe", ()=>(0, _pipeMjs.pipe));
+parcelHelpers.export(exports, "progress", ()=>(0, _progressMjs.progress));
+parcelHelpers.export(exports, "wrap", ()=>(0, _wrapMjs.wrap));
+parcelHelpers.export(exports, "cancelSync", ()=>(0, _indexLegacyMjs.cancelSync));
+parcelHelpers.export(exports, "sync", ()=>(0, _indexLegacyMjs.sync));
+parcelHelpers.export(exports, "anticipate", ()=>(0, _anticipateMjs.anticipate));
+parcelHelpers.export(exports, "backIn", ()=>(0, _backMjs.backIn));
+parcelHelpers.export(exports, "backInOut", ()=>(0, _backMjs.backInOut));
+parcelHelpers.export(exports, "backOut", ()=>(0, _backMjs.backOut));
+parcelHelpers.export(exports, "circIn", ()=>(0, _circMjs.circIn));
+parcelHelpers.export(exports, "circInOut", ()=>(0, _circMjs.circInOut));
+parcelHelpers.export(exports, "circOut", ()=>(0, _circMjs.circOut));
+parcelHelpers.export(exports, "easeIn", ()=>(0, _easeMjs.easeIn));
+parcelHelpers.export(exports, "easeInOut", ()=>(0, _easeMjs.easeInOut));
+parcelHelpers.export(exports, "easeOut", ()=>(0, _easeMjs.easeOut));
+parcelHelpers.export(exports, "cubicBezier", ()=>(0, _cubicBezierMjs.cubicBezier));
+parcelHelpers.export(exports, "mirrorEasing", ()=>(0, _mirrorMjs.mirrorEasing));
+parcelHelpers.export(exports, "reverseEasing", ()=>(0, _reverseMjs.reverseEasing));
+parcelHelpers.export(exports, "delay", ()=>(0, _delayMjs.delay));
+parcelHelpers.export(exports, "distance", ()=>(0, _distanceMjs.distance));
+parcelHelpers.export(exports, "distance2D", ()=>(0, _distanceMjs.distance2D));
+parcelHelpers.export(exports, "invariant", ()=>(0, _errorsMjs.invariant));
+parcelHelpers.export(exports, "warning", ()=>(0, _errorsMjs.warning));
+parcelHelpers.export(exports, "interpolate", ()=>(0, _interpolateMjs.interpolate));
+parcelHelpers.export(exports, "cancelFrame", ()=>(0, _frameMjs.cancelFrame));
+parcelHelpers.export(exports, "frame", ()=>(0, _frameMjs.frame));
+parcelHelpers.export(exports, "frameData", ()=>(0, _frameMjs.frameData));
+parcelHelpers.export(exports, "steps", ()=>(0, _frameMjs.steps));
+parcelHelpers.export(exports, "animations", ()=>(0, _animationsMjs.animations));
+parcelHelpers.export(exports, "createBox", ()=>(0, _modelsMjs.createBox));
+parcelHelpers.export(exports, "calcLength", ()=>(0, _deltaCalcMjs.calcLength));
+parcelHelpers.export(exports, "filterProps", ()=>(0, _filterPropsMjs.filterProps));
+parcelHelpers.export(exports, "makeUseVisualState", ()=>(0, _useVisualStateMjs.makeUseVisualState));
+parcelHelpers.export(exports, "isDragActive", ()=>(0, _lockMjs.isDragActive));
+parcelHelpers.export(exports, "addPointerEvent", ()=>(0, _addPointerEventMjs.addPointerEvent));
+parcelHelpers.export(exports, "addPointerInfo", ()=>(0, _eventInfoMjs.addPointerInfo));
+parcelHelpers.export(exports, "isMotionValue", ()=>(0, _isMotionValueMjs.isMotionValue));
+parcelHelpers.export(exports, "isBrowser", ()=>(0, _isBrowserMjs.isBrowser));
+parcelHelpers.export(exports, "useUnmountEffect", ()=>(0, _useUnmountEffectMjs.useUnmountEffect));
+parcelHelpers.export(exports, "useIsomorphicLayoutEffect", ()=>(0, _useIsomorphicEffectMjs.useIsomorphicLayoutEffect));
+parcelHelpers.export(exports, "useForceUpdate", ()=>(0, _useForceUpdateMjs.useForceUpdate));
+var _motionMjs = require("./render/dom/motion.mjs");
+var _motionMinimalMjs = require("./render/dom/motion-minimal.mjs");
+var _indexMjs = require("./components/AnimatePresence/index.mjs");
+var _indexMjs1 = require("./components/MotionConfig/index.mjs");
+var _indexMjs2 = require("./components/LazyMotion/index.mjs");
+var _indexMjs3 = require("./components/LayoutGroup/index.mjs");
+var _indexMjs4 = require("./components/Reorder/index.mjs");
+var _featuresAnimationMjs = require("./render/dom/features-animation.mjs");
+var _featuresMaxMjs = require("./render/dom/features-max.mjs");
+var _useMotionValueMjs = require("./value/use-motion-value.mjs");
+var _useMotionTemplateMjs = require("./value/use-motion-template.mjs");
+var _resolveMotionValueMjs = require("./value/utils/resolve-motion-value.mjs");
+var _useTransformMjs = require("./value/use-transform.mjs");
+var _useSpringMjs = require("./value/use-spring.mjs");
+var _useVelocityMjs = require("./value/use-velocity.mjs");
+var _useScrollMjs = require("./value/use-scroll.mjs");
+var _useElementScrollMjs = require("./value/scroll/use-element-scroll.mjs");
+var _useViewportScrollMjs = require("./value/scroll/use-viewport-scroll.mjs");
+var _useTimeMjs = require("./value/use-time.mjs");
+var _indexMjs5 = require("./value/use-will-change/index.mjs");
+var _useMotionValueEventMjs = require("./utils/use-motion-value-event.mjs");
+var _useReducedMotionMjs = require("./utils/reduced-motion/use-reduced-motion.mjs");
+var _useReducedMotionConfigMjs = require("./utils/reduced-motion/use-reduced-motion-config.mjs");
+var _animationControlsMjs = require("./animation/hooks/animation-controls.mjs");
+var _useAnimateMjs = require("./animation/hooks/use-animate.mjs");
+var _useAnimationMjs = require("./animation/hooks/use-animation.mjs");
+var _useAnimationFrameMjs = require("./utils/use-animation-frame.mjs");
+var _visualElementMjs = require("./animation/interfaces/visual-element.mjs");
+var _useCycleMjs = require("./utils/use-cycle.mjs");
+var _validPropMjs = require("./motion/utils/valid-prop.mjs");
+var _usePresenceMjs = require("./components/AnimatePresence/use-presence.mjs");
+var _useInViewMjs = require("./utils/use-in-view.mjs");
+var _useDragControlsMjs = require("./gestures/drag/use-drag-controls.mjs");
+var _useDomEventMjs = require("./events/use-dom-event.mjs");
+var _indexMjs6 = require("./motion/index.mjs");
+var _isMotionComponentMjs = require("./motion/utils/is-motion-component.mjs");
+var _unwrapMotionComponentMjs = require("./motion/utils/unwrap-motion-component.mjs");
+var _visualElementMjs1 = require("./render/VisualElement.mjs");
+var _scaleCorrectionMjs = require("./projection/styles/scale-correction.mjs");
+var _useInstantTransitionMjs = require("./utils/use-instant-transition.mjs");
+var _useInstantLayoutTransitionMjs = require("./projection/use-instant-layout-transition.mjs");
+var _useResetProjectionMjs = require("./projection/use-reset-projection.mjs");
+var _buildTransformMjs = require("./render/html/utils/build-transform.mjs");
+var _storeMjs = require("./render/store.mjs");
+var _mainThreadAnimationMjs = require("./animation/animators/MainThreadAnimation.mjs");
+var _indexMjs7 = require("./value/types/color/index.mjs");
+var _indexMjs8 = require("./value/types/complex/index.mjs");
+var _unitsMjs = require("./value/types/numbers/units.mjs");
+var _globalConfigMjs = require("./utils/GlobalConfig.mjs");
+var _acceleratedAnimationMjs = require("./animation/animators/AcceleratedAnimation.mjs");
+var _startMjs = require("./animation/optimized-appear/start.mjs");
+var _dataIdMjs = require("./animation/optimized-appear/data-id.mjs");
+var _indexMjs9 = require("./animation/generators/spring/index.mjs");
+var _indexMjs10 = require("./context/MotionContext/index.mjs");
+var _motionConfigContextMjs = require("./context/MotionConfigContext.mjs");
+var _presenceContextMjs = require("./context/PresenceContext.mjs");
+var _layoutGroupContextMjs = require("./context/LayoutGroupContext.mjs");
+var _switchLayoutGroupContextMjs = require("./context/SwitchLayoutGroupContext.mjs");
+var _flatTreeMjs = require("./render/utils/flat-tree.mjs");
+var _deprecatedLayoutGroupContextMjs = require("./context/DeprecatedLayoutGroupContext.mjs");
+var _useAnimatedStateMjs = require("./animation/hooks/use-animated-state.mjs");
+var _useInvertedScaleMjs = require("./value/use-inverted-scale.mjs");
+var _animateSharedLayoutMjs = require("./components/AnimateSharedLayout.mjs");
+var _indexMjs11 = require("./value/index.mjs");
+var _animateMjs = require("./animation/animate.mjs");
+var _indexMjs12 = require("./render/dom/scroll/index.mjs");
+var _trackMjs = require("./render/dom/scroll/track.mjs");
+var _indexMjs13 = require("./render/dom/viewport/index.mjs");
+var _staggerMjs = require("./animation/utils/stagger.mjs");
+var _transformMjs = require("./utils/transform.mjs");
+var _clampMjs = require("./utils/clamp.mjs");
+var _indexMjs14 = require("./utils/mix/index.mjs");
+var _pipeMjs = require("./utils/pipe.mjs");
+var _progressMjs = require("./utils/progress.mjs");
+var _wrapMjs = require("./utils/wrap.mjs");
+var _indexLegacyMjs = require("./frameloop/index-legacy.mjs");
+var _anticipateMjs = require("./easing/anticipate.mjs");
+var _backMjs = require("./easing/back.mjs");
+var _circMjs = require("./easing/circ.mjs");
+var _easeMjs = require("./easing/ease.mjs");
+var _cubicBezierMjs = require("./easing/cubic-bezier.mjs");
+var _mirrorMjs = require("./easing/modifiers/mirror.mjs");
+var _reverseMjs = require("./easing/modifiers/reverse.mjs");
+var _delayMjs = require("./utils/delay.mjs");
+var _distanceMjs = require("./utils/distance.mjs");
+var _errorsMjs = require("./utils/errors.mjs");
+var _interpolateMjs = require("./utils/interpolate.mjs");
+var _frameMjs = require("./frameloop/frame.mjs");
+var _animationsMjs = require("./motion/features/animations.mjs");
+var _modelsMjs = require("./projection/geometry/models.mjs");
+var _deltaCalcMjs = require("./projection/geometry/delta-calc.mjs");
+var _filterPropsMjs = require("./render/dom/utils/filter-props.mjs");
+var _useVisualStateMjs = require("./motion/utils/use-visual-state.mjs");
+var _lockMjs = require("./gestures/drag/utils/lock.mjs");
+var _addPointerEventMjs = require("./events/add-pointer-event.mjs");
+var _eventInfoMjs = require("./events/event-info.mjs");
+var _isMotionValueMjs = require("./value/utils/is-motion-value.mjs");
+var _isBrowserMjs = require("./utils/is-browser.mjs");
+var _useUnmountEffectMjs = require("./utils/use-unmount-effect.mjs");
+var _useIsomorphicEffectMjs = require("./utils/use-isomorphic-effect.mjs");
+var _useForceUpdateMjs = require("./utils/use-force-update.mjs");
+
+},{"./render/dom/motion.mjs":false,"./render/dom/motion-minimal.mjs":false,"./components/AnimatePresence/index.mjs":false,"./components/MotionConfig/index.mjs":false,"./components/LazyMotion/index.mjs":false,"./components/LayoutGroup/index.mjs":false,"./components/Reorder/index.mjs":false,"./render/dom/features-animation.mjs":false,"./render/dom/features-max.mjs":false,"./value/use-motion-value.mjs":false,"./value/use-motion-template.mjs":false,"./value/utils/resolve-motion-value.mjs":false,"./value/use-transform.mjs":false,"./value/use-spring.mjs":false,"./value/use-velocity.mjs":false,"./value/use-scroll.mjs":false,"./value/scroll/use-element-scroll.mjs":false,"./value/scroll/use-viewport-scroll.mjs":false,"./value/use-time.mjs":false,"./value/use-will-change/index.mjs":false,"./utils/use-motion-value-event.mjs":false,"./utils/reduced-motion/use-reduced-motion.mjs":false,"./utils/reduced-motion/use-reduced-motion-config.mjs":false,"./animation/hooks/animation-controls.mjs":false,"./animation/hooks/use-animate.mjs":false,"./animation/hooks/use-animation.mjs":false,"./utils/use-animation-frame.mjs":false,"./animation/interfaces/visual-element.mjs":false,"./utils/use-cycle.mjs":false,"./motion/utils/valid-prop.mjs":false,"./components/AnimatePresence/use-presence.mjs":false,"./utils/use-in-view.mjs":false,"./gestures/drag/use-drag-controls.mjs":false,"./events/use-dom-event.mjs":false,"./motion/index.mjs":false,"./motion/utils/is-motion-component.mjs":false,"./motion/utils/unwrap-motion-component.mjs":false,"./render/VisualElement.mjs":false,"./projection/styles/scale-correction.mjs":false,"./utils/use-instant-transition.mjs":false,"./projection/use-instant-layout-transition.mjs":false,"./projection/use-reset-projection.mjs":false,"./render/html/utils/build-transform.mjs":false,"./render/store.mjs":false,"./animation/animators/MainThreadAnimation.mjs":false,"./value/types/color/index.mjs":"1nAma","./value/types/complex/index.mjs":false,"./value/types/numbers/units.mjs":"lGBHA","./utils/GlobalConfig.mjs":false,"./animation/animators/AcceleratedAnimation.mjs":false,"./animation/optimized-appear/start.mjs":false,"./animation/optimized-appear/data-id.mjs":false,"./animation/generators/spring/index.mjs":false,"./context/MotionContext/index.mjs":false,"./context/MotionConfigContext.mjs":false,"./context/PresenceContext.mjs":false,"./context/LayoutGroupContext.mjs":false,"./context/SwitchLayoutGroupContext.mjs":false,"./render/utils/flat-tree.mjs":false,"./context/DeprecatedLayoutGroupContext.mjs":false,"./animation/hooks/use-animated-state.mjs":false,"./value/use-inverted-scale.mjs":false,"./components/AnimateSharedLayout.mjs":false,"./value/index.mjs":false,"./animation/animate.mjs":false,"./render/dom/scroll/index.mjs":false,"./render/dom/scroll/track.mjs":false,"./render/dom/viewport/index.mjs":false,"./animation/utils/stagger.mjs":false,"./utils/transform.mjs":false,"./utils/clamp.mjs":"aZOh4","./utils/mix/index.mjs":false,"./utils/pipe.mjs":false,"./utils/progress.mjs":false,"./utils/wrap.mjs":false,"./frameloop/index-legacy.mjs":false,"./easing/anticipate.mjs":false,"./easing/back.mjs":false,"./easing/circ.mjs":false,"./easing/ease.mjs":false,"./easing/cubic-bezier.mjs":false,"./easing/modifiers/mirror.mjs":false,"./easing/modifiers/reverse.mjs":false,"./utils/delay.mjs":false,"./utils/distance.mjs":false,"./utils/errors.mjs":false,"./utils/interpolate.mjs":false,"./frameloop/frame.mjs":false,"./motion/features/animations.mjs":false,"./projection/geometry/models.mjs":false,"./projection/geometry/delta-calc.mjs":false,"./render/dom/utils/filter-props.mjs":false,"./motion/utils/use-visual-state.mjs":false,"./gestures/drag/utils/lock.mjs":false,"./events/add-pointer-event.mjs":false,"./events/event-info.mjs":false,"./value/utils/is-motion-value.mjs":false,"./utils/is-browser.mjs":false,"./utils/use-unmount-effect.mjs":false,"./utils/use-isomorphic-effect.mjs":false,"./utils/use-force-update.mjs":false,"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1nAma":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "color", ()=>color);
+var _utilsMjs = require("../utils.mjs");
+var _hexMjs = require("./hex.mjs");
+var _hslaMjs = require("./hsla.mjs");
+var _rgbaMjs = require("./rgba.mjs");
+const color = {
+    test: (v)=>(0, _rgbaMjs.rgba).test(v) || (0, _hexMjs.hex).test(v) || (0, _hslaMjs.hsla).test(v),
+    parse: (v)=>{
+        if ((0, _rgbaMjs.rgba).test(v)) return (0, _rgbaMjs.rgba).parse(v);
+        else if ((0, _hslaMjs.hsla).test(v)) return (0, _hslaMjs.hsla).parse(v);
+        else return (0, _hexMjs.hex).parse(v);
+    },
+    transform: (v)=>{
+        return (0, _utilsMjs.isString)(v) ? v : v.hasOwnProperty("red") ? (0, _rgbaMjs.rgba).transform(v) : (0, _hslaMjs.hsla).transform(v);
+    }
+};
+
+},{"../utils.mjs":"kaB0b","./hex.mjs":"5epZU","./hsla.mjs":"5FDku","./rgba.mjs":"4MXDV","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kaB0b":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "colorRegex", ()=>colorRegex);
+parcelHelpers.export(exports, "floatRegex", ()=>floatRegex);
+parcelHelpers.export(exports, "isString", ()=>isString);
+parcelHelpers.export(exports, "sanitize", ()=>sanitize);
+parcelHelpers.export(exports, "singleColorRegex", ()=>singleColorRegex);
+/**
+ * TODO: When we move from string as a source of truth to data models
+ * everything in this folder should probably be referred to as models vs types
+ */ // If this number is a decimal, make it just five decimal places
+// to avoid exponents
+const sanitize = (v)=>Math.round(v * 100000) / 100000;
+const floatRegex = /-?(?:\d+(?:\.\d+)?|\.\d+)/gu;
+const colorRegex = /(?:#[\da-f]{3,8}|(?:rgb|hsl)a?\((?:-?[\d.]+%?[,\s]+){2}-?[\d.]+%?\s*(?:[,/]\s*)?(?:\b\d+(?:\.\d+)?|\.\d+)?%?\))/giu;
+const singleColorRegex = /^(?:#[\da-f]{3,8}|(?:rgb|hsl)a?\((?:-?[\d.]+%?[,\s]+){2}-?[\d.]+%?\s*(?:[,/]\s*)?(?:\b\d+(?:\.\d+)?|\.\d+)?%?\))$/iu;
+function isString(v) {
+    return typeof v === "string";
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5epZU":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "hex", ()=>hex);
+var _rgbaMjs = require("./rgba.mjs");
+var _utilsMjs = require("./utils.mjs");
+function parseHex(v) {
+    let r = "";
+    let g = "";
+    let b = "";
+    let a = "";
+    // If we have 6 characters, ie #FF0000
+    if (v.length > 5) {
+        r = v.substring(1, 3);
+        g = v.substring(3, 5);
+        b = v.substring(5, 7);
+        a = v.substring(7, 9);
+    // Or we have 3 characters, ie #F00
+    } else {
+        r = v.substring(1, 2);
+        g = v.substring(2, 3);
+        b = v.substring(3, 4);
+        a = v.substring(4, 5);
+        r += r;
+        g += g;
+        b += b;
+        a += a;
+    }
+    return {
+        red: parseInt(r, 16),
+        green: parseInt(g, 16),
+        blue: parseInt(b, 16),
+        alpha: a ? parseInt(a, 16) / 255 : 1
+    };
+}
+const hex = {
+    test: (0, _utilsMjs.isColorString)("#"),
+    parse: parseHex,
+    transform: (0, _rgbaMjs.rgba).transform
+};
+
+},{"./rgba.mjs":"4MXDV","./utils.mjs":"kSu8U","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4MXDV":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "rgbUnit", ()=>rgbUnit);
+parcelHelpers.export(exports, "rgba", ()=>rgba);
+var _clampMjs = require("../../../utils/clamp.mjs");
+var _indexMjs = require("../numbers/index.mjs");
+var _utilsMjs = require("../utils.mjs");
+var _utilsMjs1 = require("./utils.mjs");
+const clampRgbUnit = (v)=>(0, _clampMjs.clamp)(0, 255, v);
+const rgbUnit = {
+    ...(0, _indexMjs.number),
+    transform: (v)=>Math.round(clampRgbUnit(v))
+};
+const rgba = {
+    test: (0, _utilsMjs1.isColorString)("rgb", "red"),
+    parse: (0, _utilsMjs1.splitColor)("red", "green", "blue"),
+    transform: ({ red , green , blue , alpha: alpha$1 = 1  })=>"rgba(" + rgbUnit.transform(red) + ", " + rgbUnit.transform(green) + ", " + rgbUnit.transform(blue) + ", " + (0, _utilsMjs.sanitize)((0, _indexMjs.alpha).transform(alpha$1)) + ")"
+};
+
+},{"../../../utils/clamp.mjs":"aZOh4","../numbers/index.mjs":"bI9mf","../utils.mjs":"kaB0b","./utils.mjs":"kSu8U","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aZOh4":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "clamp", ()=>clamp);
+const clamp = (min, max, v)=>{
+    if (v > max) return max;
+    if (v < min) return min;
+    return v;
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bI9mf":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "alpha", ()=>alpha);
+parcelHelpers.export(exports, "number", ()=>number);
+parcelHelpers.export(exports, "scale", ()=>scale);
+var _clampMjs = require("../../../utils/clamp.mjs");
+const number = {
+    test: (v)=>typeof v === "number",
+    parse: parseFloat,
+    transform: (v)=>v
+};
+const alpha = {
+    ...number,
+    transform: (v)=>(0, _clampMjs.clamp)(0, 1, v)
+};
+const scale = {
+    ...number,
+    default: 1
+};
+
+},{"../../../utils/clamp.mjs":"aZOh4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kSu8U":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "isColorString", ()=>isColorString);
+parcelHelpers.export(exports, "splitColor", ()=>splitColor);
+var _utilsMjs = require("../utils.mjs");
+/**
+ * Returns true if the provided string is a color, ie rgba(0,0,0,0) or #000,
+ * but false if a number or multiple colors
+ */ const isColorString = (type, testProp)=>(v)=>{
+        return Boolean((0, _utilsMjs.isString)(v) && (0, _utilsMjs.singleColorRegex).test(v) && v.startsWith(type) || testProp && Object.prototype.hasOwnProperty.call(v, testProp));
+    };
+const splitColor = (aName, bName, cName)=>(v)=>{
+        if (!(0, _utilsMjs.isString)(v)) return v;
+        const [a, b, c, alpha] = v.match((0, _utilsMjs.floatRegex));
+        return {
+            [aName]: parseFloat(a),
+            [bName]: parseFloat(b),
+            [cName]: parseFloat(c),
+            alpha: alpha !== undefined ? parseFloat(alpha) : 1
+        };
+    };
+
+},{"../utils.mjs":"kaB0b","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5FDku":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "hsla", ()=>hsla);
+var _indexMjs = require("../numbers/index.mjs");
+var _unitsMjs = require("../numbers/units.mjs");
+var _utilsMjs = require("../utils.mjs");
+var _utilsMjs1 = require("./utils.mjs");
+const hsla = {
+    test: (0, _utilsMjs1.isColorString)("hsl", "hue"),
+    parse: (0, _utilsMjs1.splitColor)("hue", "saturation", "lightness"),
+    transform: ({ hue , saturation , lightness , alpha: alpha$1 = 1  })=>{
+        return "hsla(" + Math.round(hue) + ", " + (0, _unitsMjs.percent).transform((0, _utilsMjs.sanitize)(saturation)) + ", " + (0, _unitsMjs.percent).transform((0, _utilsMjs.sanitize)(lightness)) + ", " + (0, _utilsMjs.sanitize)((0, _indexMjs.alpha).transform(alpha$1)) + ")";
+    }
+};
+
+},{"../numbers/index.mjs":"bI9mf","../numbers/units.mjs":"lGBHA","../utils.mjs":"kaB0b","./utils.mjs":"kSu8U","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lGBHA":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "degrees", ()=>degrees);
+parcelHelpers.export(exports, "percent", ()=>percent);
+parcelHelpers.export(exports, "progressPercentage", ()=>progressPercentage);
+parcelHelpers.export(exports, "px", ()=>px);
+parcelHelpers.export(exports, "vh", ()=>vh);
+parcelHelpers.export(exports, "vw", ()=>vw);
+var _utilsMjs = require("../utils.mjs");
+const createUnitType = (unit)=>({
+        test: (v)=>(0, _utilsMjs.isString)(v) && v.endsWith(unit) && v.split(" ").length === 1,
+        parse: parseFloat,
+        transform: (v)=>`${v}${unit}`
+    });
+const degrees = createUnitType("deg");
+const percent = createUnitType("%");
+const px = createUnitType("px");
+const vh = createUnitType("vh");
+const vw = createUnitType("vw");
+const progressPercentage = {
+    ...percent,
+    parse: (v)=>percent.parse(v) / 100,
+    transform: (v)=>percent.transform(v * 100)
+};
+
+},{"../utils.mjs":"kaB0b","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"inBKr":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$89ee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$89ee.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const Feedback = ()=>{
+    _s();
+    const [name, setName] = (0, _react.useState)("");
+    const [email, setEmail] = (0, _react.useState)("");
+    const [phone, setPhone] = (0, _react.useState)("");
+    const [text, setText] = (0, _react.useState)("");
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex flex-col justify-center items-center w-full",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                className: "flex flex-col border-2 border-slate-200 shadow-xl shadow-slate-200 rounded-xl p-4 m-4",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "font-semibold text-2xl text-blue-400",
+                        children: "Need Help ?"
+                    }, void 0, false, {
+                        fileName: "src/Components/Feedback.js",
+                        lineNumber: 12,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "text-slate-400",
+                        children: "Just let us know. We will be happy to assist you."
+                    }, void 0, false, {
+                        fileName: "src/Components/Feedback.js",
+                        lineNumber: 13,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        placeholder: "Full Name",
+                        type: "text",
+                        onChange: (e)=>setName(e.target.value),
+                        className: "p-2 m-2 outline-none border-2 border-slate-200"
+                    }, void 0, false, {
+                        fileName: "src/Components/Feedback.js",
+                        lineNumber: 14,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        placeholder: "Email",
+                        type: "text",
+                        onChange: (e)=>setEmail(e.target.value),
+                        className: "p-2 m-2 outline-none border-2 border-slate-200"
+                    }, void 0, false, {
+                        fileName: "src/Components/Feedback.js",
+                        lineNumber: 15,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                        placeholder: "Phone Number",
+                        type: "text",
+                        onChange: (e)=>setPhone(e.target.value),
+                        className: "p-2 m-2 outline-none border-2 border-slate-200"
+                    }, void 0, false, {
+                        fileName: "src/Components/Feedback.js",
+                        lineNumber: 16,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("textarea", {
+                        placeholder: "Describe your treatment requirement",
+                        type: "text",
+                        onChange: (e)=>setText(e.target.value),
+                        className: "p-2 m-2 outline-none border-2 border-slate-200"
+                    }, void 0, false, {
+                        fileName: "src/Components/Feedback.js",
+                        lineNumber: 17,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        type: "submit",
+                        className: "p-2 m-2 bg-blue-400 text-white",
+                        children: "Send Enquiry"
+                    }, void 0, false, {
+                        fileName: "src/Components/Feedback.js",
+                        lineNumber: 18,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Feedback.js",
+                lineNumber: 11,
+                columnNumber: 13
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/Components/Feedback.js",
+            lineNumber: 10,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
+};
+_s(Feedback, "WbwaC3E4cCaCgW2mNPXDVAcEJ7U=");
+_c = Feedback;
+exports.default = Feedback;
+var _c;
+$RefreshReg$(_c, "Feedback");
+
+  $parcel$ReactRefreshHelpers$89ee.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dFZtS":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e7dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e7dc.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const testimonials = [
+    {
+        id: "person01",
+        name: "Luke Olfert",
+        location: "New York, USA",
+        person_img_url: "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.693548172.1671363486&semt=ais",
+        content: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("iframe", {
+            src: "https://www.youtube.com/embed/74DWwSxsVSs",
+            controls: true,
+            children: " "
+        }, void 0, false, {
+            fileName: "src/Components/Testimonial.js",
+            lineNumber: 9,
+            columnNumber: 18
+        }, undefined),
+        title: "Underwent procedure for retinal detachment"
+    },
+    {
+        id: "person02",
+        name: "John Doe",
+        location: "Sydney, Australia",
+        person_img_url: "https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?size=626&ext=jpg&ga=GA1.1.693548172.1671363486&semt=ais",
+        content: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }, void 0, false, {
+            fileName: "src/Components/Testimonial.js",
+            lineNumber: 17,
+            columnNumber: 18
+        }, undefined),
+        title: "Underwent Colonoscopy and Medical Management"
+    }
+];
+function Testimonial() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "w-full flex justify-center items-center",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "w-11/12 py-10",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "text-xl font-semibold",
+                        children: [
+                            "Patient Stories & Videos",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                                className: "text-red-600",
+                                children: "."
+                            }, void 0, false, {
+                                fileName: "src/Components/Testimonial.js",
+                                lineNumber: 28,
+                                columnNumber: 75
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Testimonial.js",
+                        lineNumber: 28,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex items-center px-4 max-lg:flex-col",
+                        children: testimonials.map((test)=>{
+                            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "max-w-96 border-2 border-slate-200 m-5 p-5",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "flex justify-center items-center",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                                className: "font-semibold ",
+                                                children: test.title
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Testimonial.js",
+                                                lineNumber: 34,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: "https://cdn.iconscout.com/icon/premium/png-512-thumb/quotes-2113375-1781184.png?f=webp&w=256",
+                                                className: "w-1/4 "
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Testimonial.js",
+                                                lineNumber: 35,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Testimonial.js",
+                                        lineNumber: 33,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "min-h-60 text-sm font-semibold text-slate-400",
+                                        children: test.content
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Testimonial.js",
+                                        lineNumber: 38,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "flex items-center",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: test.person_img_url,
+                                                alt: "person",
+                                                className: "h-10 w-10 m-2 rounded-full"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Testimonial.js",
+                                                lineNumber: 40,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                                        className: "font-semibold",
+                                                        children: test.name
+                                                    }, void 0, false, {
+                                                        fileName: "src/Components/Testimonial.js",
+                                                        lineNumber: 42,
+                                                        columnNumber: 37
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                                                        className: "text-slate-400 text-sm",
+                                                        children: test.location
+                                                    }, void 0, false, {
+                                                        fileName: "src/Components/Testimonial.js",
+                                                        lineNumber: 43,
+                                                        columnNumber: 37
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/Components/Testimonial.js",
+                                                lineNumber: 41,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Testimonial.js",
+                                        lineNumber: 39,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, test.id, true, {
+                                fileName: "src/Components/Testimonial.js",
+                                lineNumber: 32,
+                                columnNumber: 25
+                            }, this);
+                        })
+                    }, void 0, false, {
+                        fileName: "src/Components/Testimonial.js",
+                        lineNumber: 29,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/Components/Testimonial.js",
+                lineNumber: 27,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "src/Components/Testimonial.js",
+            lineNumber: 26,
+            columnNumber: 5
+        }, this)
+    }, void 0, false);
+}
+_c = Testimonial;
+exports.default = Testimonial;
+var _c;
+$RefreshReg$(_c, "Testimonial");
+
+  $parcel$ReactRefreshHelpers$e7dc.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6z3Fk":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$420e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$420e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const images = [
+    {
+        id: "img01",
+        img_url: "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.693548172.1671363486&semt=ais",
+        name: "Dr. Faique Falke",
+        hospital: "Mussafah Industrial - Abu Dhabi",
+        achievement: "Doctor degree & Specialist"
+    },
+    {
+        id: "img02",
+        img_url: "https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?size=626&ext=jpg&ga=GA1.1.693548172.1671363486&semt=ais",
+        name: "Dr. Faique Falke",
+        hospital: "Mussafah Industrial - Abu Dhabi",
+        achievement: "Doctor degree & Specialist"
+    },
+    {
+        id: "img03",
+        img_url: "https://img.freepik.com/free-photo/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray_171337-629.jpg?size=626&ext=jpg&ga=GA1.1.693548172.1671363486&semt=ais",
+        name: "Dr. Faique Falke",
+        hospital: "Mussafah Industrial - Abu Dhabi",
+        achievement: "Doctor degree & Specialist"
+    },
+    {
+        id: "img04",
+        img_url: "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?size=626&ext=jpg&ga=GA1.1.693548172.1671363486&semt=ais",
+        name: "Dr. Faique Falke",
+        hospital: "Mussafah Industrial - Abu Dhabi",
+        achievement: "Doctor degree & Specialist"
+    }, 
+];
+function Doctors() {
+    _s();
+    const [currentImageIndex, setCurrentImageIndex] = (0, _react.useState)(0);
+    const prevSlide = ()=>{
+        setCurrentImageIndex((prevIndex)=>(prevIndex - 1 + images.length / 2) % (images.length / 2));
+    };
+    const nextSlide = ()=>{
+        setCurrentImageIndex((nextIndex)=>(nextIndex + 1) % (images.length / 2));
+    };
+    (0, _react.useEffect)(()=>{
+        const timer = setInterval(()=>{
+            nextSlide();
+        }, 5000);
+        return ()=>{
+            clearInterval(timer);
+        };
+    }, [
+        currentImageIndex
+    ]);
+    const handleDotClick = (index)=>{
+        setCurrentImageIndex(index);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "bg-slate-200 py-10 flex flex-col justify-center items-center",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "text-xl font-semibold italic text-red-400",
+                    children: "Doctors"
+                }, void 0, false, {
+                    fileName: "src/Components/Doctors.js",
+                    lineNumber: 62,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "text-2xl font-semibold",
+                    children: [
+                        "Top Orthopaedic ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "text-blue-400",
+                            children: "Doctors"
+                        }, void 0, false, {
+                            fileName: "src/Components/Doctors.js",
+                            lineNumber: 63,
+                            columnNumber: 72
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Doctors.js",
+                    lineNumber: 63,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex items-center justify-center",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "w-96 p-2 m-2 bg-white flex flex-col justify-center items-center",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: images[currentImageIndex * 2].img_url,
+                                    alt: "weddingimage",
+                                    className: "w-full"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Doctors.js",
+                                    lineNumber: 66,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-xl font-semibold italic text-red-400",
+                                    children: images[currentImageIndex * 2].name
+                                }, void 0, false, {
+                                    fileName: "src/Components/Doctors.js",
+                                    lineNumber: 67,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "font-semibold",
+                                    children: images[currentImageIndex * 2].hospital
+                                }, void 0, false, {
+                                    fileName: "src/Components/Doctors.js",
+                                    lineNumber: 68,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-slate-400 font-semibold text-sm",
+                                    children: images[currentImageIndex * 2].achievement
+                                }, void 0, false, {
+                                    fileName: "src/Components/Doctors.js",
+                                    lineNumber: 69,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Doctors.js",
+                            lineNumber: 65,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "w-96 p-2 m-2 bg-white flex flex-col justify-center items-center",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: images[currentImageIndex * 2 + 1].img_url,
+                                    alt: "weddingimage"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Doctors.js",
+                                    lineNumber: 72,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-xl font-semibold italic text-red-400",
+                                    children: images[currentImageIndex * 2 + 1].name
+                                }, void 0, false, {
+                                    fileName: "src/Components/Doctors.js",
+                                    lineNumber: 73,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "font-semibold",
+                                    children: images[currentImageIndex * 2 + 1].hospital
+                                }, void 0, false, {
+                                    fileName: "src/Components/Doctors.js",
+                                    lineNumber: 74,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-slate-400 font-semibold text-sm",
+                                    children: images[currentImageIndex * 2 + 1].achievement
+                                }, void 0, false, {
+                                    fileName: "src/Components/Doctors.js",
+                                    lineNumber: 75,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Doctors.js",
+                            lineNumber: 71,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Doctors.js",
+                    lineNumber: 64,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex justify-center mt-5",
+                    children: [
+                        ...Array(Math.ceil(images.length / 2))
+                    ].map((_, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: ()=>handleDotClick(index),
+                            className: `h-2 w-2 rounded-full mx-1 ${index === Math.floor(currentImageIndex) ? "bg-blue-400" : "bg-slate-400"}`
+                        }, index, false, {
+                            fileName: "src/Components/Doctors.js",
+                            lineNumber: 82,
+                            columnNumber: 25
+                        }, this))
+                }, void 0, false, {
+                    fileName: "src/Components/Doctors.js",
+                    lineNumber: 80,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Doctors.js",
+            lineNumber: 61,
+            columnNumber: 13
+        }, this)
+    }, void 0, false);
+}
+_s(Doctors, "iwdYV/csWqs0gMEM0R8yiwCHnVs=");
+_c = Doctors;
+exports.default = Doctors;
+var _c;
+$RefreshReg$(_c, "Doctors");
+
+  $parcel$ReactRefreshHelpers$420e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eeQTI":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5854 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5854.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _s = $RefreshSig$();
+const images = [
+    {
+        id: "img01",
+        img_url: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvc3BpdGFsfGVufDB8fDB8fHww",
+        name: "Appolo Hospital",
+        location: "Bangalore"
+    },
+    {
+        id: "img02",
+        img_url: "https://images.unsplash.com/photo-1586773860383-dab5f3bc1bcc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9zcGl0YWwlMjBidWlsZGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        name: "Medanta Hospital",
+        location: "Gurgaon"
+    },
+    {
+        id: "img03",
+        img_url: "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9zcGl0YWwlMjBidWlsZGluZ3xlbnwwfHwwfHx8MA%3D%3D",
+        name: "Jaslok Hospital",
+        location: "Mumbai"
+    },
+    {
+        id: "img04",
+        img_url: "https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhvc3BpdGFsJTIwYnVpbGRpbmd8ZW58MHx8MHx8fDA%3D",
+        name: "Jupiter Hospital",
+        location: "Mumbai"
+    }, 
+];
+function Hospitals() {
+    _s();
+    const [currentImageIndex, setCurrentImageIndex] = (0, _react.useState)(0);
+    const prevSlide = ()=>{
+        setCurrentImageIndex((prevIndex)=>(prevIndex - 1 + images.length / 2) % (images.length / 2));
+    };
+    const nextSlide = ()=>{
+        setCurrentImageIndex((nextIndex)=>(nextIndex + 1) % (images.length / 2));
+    };
+    (0, _react.useEffect)(()=>{
+        const timer = setInterval(()=>{
+            nextSlide();
+        }, 5000);
+        return ()=>{
+            clearInterval(timer);
+        };
+    }, [
+        currentImageIndex
+    ]);
+    const handleDotClick = (index)=>{
+        setCurrentImageIndex(index);
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "py-10 flex flex-col justify-center items-center",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "text-xl font-semibold italic text-red-400",
+                    children: "Hospitals"
+                }, void 0, false, {
+                    fileName: "src/Components/Hospitals.js",
+                    lineNumber: 58,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "text-2xl font-semibold",
+                    children: [
+                        "Recommended ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "text-blue-400",
+                            children: "Hospitals"
+                        }, void 0, false, {
+                            fileName: "src/Components/Hospitals.js",
+                            lineNumber: 59,
+                            columnNumber: 68
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Hospitals.js",
+                    lineNumber: 59,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex items-center justify-center",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "w-96 m-2 border-2 border-red-400 flex flex-col justify-center items-center",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: images[currentImageIndex * 2].img_url,
+                                    alt: "weddingimage",
+                                    className: "w-full h-60"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Hospitals.js",
+                                    lineNumber: 62,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-xl font-semibold ",
+                                    children: images[currentImageIndex * 2].name
+                                }, void 0, false, {
+                                    fileName: "src/Components/Hospitals.js",
+                                    lineNumber: 63,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "font-semibold italic text-red-400",
+                                    children: images[currentImageIndex * 2].location
+                                }, void 0, false, {
+                                    fileName: "src/Components/Hospitals.js",
+                                    lineNumber: 64,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Hospitals.js",
+                            lineNumber: 61,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "w-96 m-2 border-2 border-red-400 flex flex-col justify-center items-center",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                    src: images[currentImageIndex * 2 + 1].img_url,
+                                    alt: "weddingimage",
+                                    className: "w-full h-60"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Hospitals.js",
+                                    lineNumber: 67,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "text-xl font-semibold",
+                                    children: images[currentImageIndex * 2 + 1].name
+                                }, void 0, false, {
+                                    fileName: "src/Components/Hospitals.js",
+                                    lineNumber: 68,
+                                    columnNumber: 25
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "font-semibold italic text-red-400",
+                                    children: images[currentImageIndex * 2 + 1].location
+                                }, void 0, false, {
+                                    fileName: "src/Components/Hospitals.js",
+                                    lineNumber: 69,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Hospitals.js",
+                            lineNumber: 66,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Hospitals.js",
+                    lineNumber: 60,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex justify-center mt-5",
+                    children: [
+                        ...Array(Math.ceil(images.length / 2))
+                    ].map((_, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: ()=>handleDotClick(index),
+                            className: `h-2 w-2 rounded-full mx-1 ${index === Math.floor(currentImageIndex) ? "bg-blue-400" : "bg-slate-400"}`
+                        }, index, false, {
+                            fileName: "src/Components/Hospitals.js",
+                            lineNumber: 76,
+                            columnNumber: 25
+                        }, this))
+                }, void 0, false, {
+                    fileName: "src/Components/Hospitals.js",
+                    lineNumber: 74,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "py-5 font-semibold",
+                    children: [
+                        "Don't hesitate, contact us for better help and services. ",
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                            className: "text-red-400 underline cursor-pointer",
+                            children: "Explore all hospitals"
+                        }, void 0, false, {
+                            fileName: "src/Components/Hospitals.js",
+                            lineNumber: 84,
+                            columnNumber: 108
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Hospitals.js",
+                    lineNumber: 84,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Hospitals.js",
+            lineNumber: 57,
+            columnNumber: 13
+        }, this)
+    }, void 0, false);
+}
+_s(Hospitals, "iwdYV/csWqs0gMEM0R8yiwCHnVs=");
+_c = Hospitals;
+exports.default = Hospitals;
+var _c;
+$RefreshReg$(_c, "Hospitals");
+
+  $parcel$ReactRefreshHelpers$5854.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hiW44":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$08b6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$08b6.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const ContactUs = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "bg-blue-400 flex flex-col justify-center align-middle items-center p-6 py-10",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-white text-xl font-semibold",
+                    children: "Stay healthy and strong to enjoy life"
+                }, void 0, false, {
+                    fileName: "src/Components/ContactUs.js",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    className: "text-5xl font-semibold text-white p-2 max-md:text-3xl",
+                    children: "We have a team of healthcare experts"
+                }, void 0, false, {
+                    fileName: "src/Components/ContactUs.js",
+                    lineNumber: 8,
+                    columnNumber: 13
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex justify-center items-center",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            className: "bg-blue-600 p-2 px-8 font-semibold text-white mx-2",
+                            children: "Get In Touch"
+                        }, void 0, false, {
+                            fileName: "src/Components/ContactUs.js",
+                            lineNumber: 10,
+                            columnNumber: 17
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            className: "text-white text-xl font-semibold border-l-2 border-l-white pl-2",
+                            children: "+918987779999"
+                        }, void 0, false, {
+                            fileName: "src/Components/ContactUs.js",
+                            lineNumber: 11,
+                            columnNumber: 17
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/ContactUs.js",
+                    lineNumber: 9,
+                    columnNumber: 13
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/ContactUs.js",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
+};
+_c = ContactUs;
+exports.default = ContactUs;
+var _c;
+$RefreshReg$(_c, "ContactUs");
+
+  $parcel$ReactRefreshHelpers$08b6.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eUZ6J":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$fbbd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$fbbd.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Footer = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "flex flex-col justify-center items-center w-full bg-cyan-950 py-10",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "flex justify-between gap-20 text-white",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: "list-disc",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "font-bold py-2",
+                                    children: "Important Links"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 9,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Home"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 10,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "About Us"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 11,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "FAQ"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 12,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Blog"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 13,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Contact Us"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 14,
+                                    columnNumber: 17
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Footer.js",
+                            lineNumber: 8,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: "list-disc",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "font-bold",
+                                    children: "Top Hospitals"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 17,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Appolo Hospital Delhi"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 18,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Medanta Hospital Gurgoan"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 19,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Max Hospital Delhi"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 20,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Jaslok Hospital Mumbai"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 21,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Artemis Hospital Gurgaon"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 22,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Fortis Hospital Gurgaon"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 23,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "View All"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 24,
+                                    columnNumber: 17
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Footer.js",
+                            lineNumber: 16,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: "list-disc",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "font-bold",
+                                    children: "Special Treatment"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 27,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Knee Replacement Surgeon"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 28,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Urologist"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 29,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Spine Surgeon"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 30,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "ENT Surgeon"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 31,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Orthopaedic"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 32,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Cardiologist"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 33,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "View All"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 34,
+                                    columnNumber: 17
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Footer.js",
+                            lineNumber: 26,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                            className: "list-disc",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "font-bold",
+                                    children: "Medical Tourism Destination"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 37,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Medical Tourism in India"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 38,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Medical Tourism in Sri Lanka"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 39,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "Medical Tourism in UAE"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 40,
+                                    columnNumber: 17
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                    children: "View All"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Footer.js",
+                                    lineNumber: 41,
+                                    columnNumber: 17
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Components/Footer.js",
+                            lineNumber: 36,
+                            columnNumber: 13
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Footer.js",
+                    lineNumber: 7,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                    className: "p-2 w-11/12 mt-5"
+                }, void 0, false, {
+                    fileName: "src/Components/Footer.js",
+                    lineNumber: 45,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "w-full py-10",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "flex justify-center items-center",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                src: "https://aveshkhan.github.io/Aafiya-Mediretreats/image/logo.png",
+                                className: "w-1/4"
+                            }, void 0, false, {
+                                fileName: "src/Components/Footer.js",
+                                lineNumber: 50,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-1/2 text-white flex flex-col justify-center items-center",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        className: "font-semibold text-xl",
+                                        children: "About Aafiya MedireTreats"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Footer.js",
+                                        lineNumber: 52,
+                                        columnNumber: 21
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Footer.js",
+                                        lineNumber: 53,
+                                        columnNumber: 21
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Footer.js",
+                                lineNumber: 51,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                className: "w-1/4 text-white text-center flex flex-col justify-center items-center",
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        children: "Follow Us On"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Footer.js",
+                                        lineNumber: 56,
+                                        columnNumber: 21
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                        className: "flex",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: "https://cdn.iconscout.com/icon/premium/png-512-thumb/instagram-2752153-2284970.png?f=webp&w=256",
+                                                className: "h-4 w-4 m-2"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Footer.js",
+                                                lineNumber: 58,
+                                                columnNumber: 25
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: "https://cdn.iconscout.com/icon/free/png-512/free-facebook-262-721949.png?f=webp&w=256",
+                                                className: "h-4 w-4 m-2"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Footer.js",
+                                                lineNumber: 59,
+                                                columnNumber: 25
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                                                src: "https://cdn.iconscout.com/icon/free/png-512/free-youtube-268-721990.png?f=webp&w=256",
+                                                className: "w-4 h-4 m-2"
+                                            }, void 0, false, {
+                                                fileName: "src/Components/Footer.js",
+                                                lineNumber: 60,
+                                                columnNumber: 25
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/Components/Footer.js",
+                                        lineNumber: 57,
+                                        columnNumber: 21
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                        children: "Customer service"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Footer.js",
+                                        lineNumber: 62,
+                                        columnNumber: 21
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                        className: "font-bold text-blue-400",
+                                        children: "+91 9856555666"
+                                    }, void 0, false, {
+                                        fileName: "src/Components/Footer.js",
+                                        lineNumber: 63,
+                                        columnNumber: 21
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Footer.js",
+                                lineNumber: 55,
+                                columnNumber: 17
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/Components/Footer.js",
+                        lineNumber: 48,
+                        columnNumber: 13
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/Components/Footer.js",
+                    lineNumber: 47,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/Components/Footer.js",
+            lineNumber: 6,
+            columnNumber: 9
+        }, undefined)
+    }, void 0, false);
+};
+_c = Footer;
+exports.default = Footer;
+var _c;
+$RefreshReg$(_c, "Footer");
+
+  $parcel$ReactRefreshHelpers$fbbd.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iQH4s":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$24a5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38436,284 +40623,20 @@ $RefreshReg$(_c, "Error");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7pgwL":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2fbe = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2fbe.prelude(module);
-
-try {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"k2jPV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRouterDom = require("react-router-dom");
-var _config = require("../config");
-var _shimmer = require("./Shimmer");
-var _shimmerDefault = parcelHelpers.interopDefault(_shimmer);
-var _cartSlice = require("../utils/cartSlice");
-var _reactRedux = require("react-redux");
-var _s = $RefreshSig$();
-function RestaurantMenu() {
-    _s();
-    const { resId  } = (0, _reactRouterDom.useParams)();
-    const [restaurant, setRestaurant] = (0, _react.useState)({});
-    const cartItems = (0, _reactRedux.useSelector)((state)=>state.cart.items);
-    const dispatch = (0, _reactRedux.useDispatch)();
-    (0, _react.useEffect)(()=>{
-        const foundRestaurant = (0, _config.fooditem).find((item)=>item.info.id === resId);
-        if (foundRestaurant) setRestaurant(foundRestaurant.info);
-    }, [
-        resId
-    ]);
-    const handleAdd = (menuItem)=>{
-        dispatch((0, _cartSlice.additem)(menuItem));
-    };
-    const handleRemove = (menuItem)=>{
-        dispatch((0, _cartSlice.decrementItem)(menuItem));
-    };
-    return !restaurant ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, {
-        fileName: "src/Components/RestaurantMenu.js",
-        lineNumber: 28,
-        columnNumber: 25
-    }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex mt-10 justify-center items-center max-sm:flex-col comic-neue",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _config.IMG_CDN_URL) + restaurant.cloudinaryImageId,
-                            className: "mr-5 h-40 rounded-xl"
-                        }, void 0, false, {
-                            fileName: "src/Components/RestaurantMenu.js",
-                            lineNumber: 32,
-                            columnNumber: 17
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                                    className: "font-bold font-xl",
-                                    children: [
-                                        " ",
-                                        restaurant.name
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 34,
-                                    columnNumber: 21
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "text-slate-400",
-                                    children: [
-                                        " ",
-                                        restaurant.costForTwo
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 35,
-                                    columnNumber: 21
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "text-slate-400",
-                                    children: [
-                                        " ",
-                                        restaurant.locality
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 36,
-                                    columnNumber: 21
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "text-slate-400",
-                                    children: [
-                                        " ",
-                                        restaurant.areaName
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 37,
-                                    columnNumber: 21
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "text-slate-400",
-                                    children: [
-                                        " ",
-                                        restaurant.avgRating
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 38,
-                                    columnNumber: 21
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/RestaurantMenu.js",
-                            lineNumber: 33,
-                            columnNumber: 17
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/RestaurantMenu.js",
-                    lineNumber: 31,
-                    columnNumber: 13
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex justify-center items-center w-full flex-wrap comic-neue",
-                    children: restaurant.menu?.items.map((menuItem, index)=>{
-                        const itemInCart = cartItems.find((item)=>item.id === menuItem.id);
-                        const quantity = itemInCart ? itemInCart.quantity : 0;
-                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "bg-slate-50 p-4 m-4 w-60 shadow-xl shadow-orange-50 hover:scale-105",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                    src: (0, _config.IMG_CDN_URL) + menuItem.id,
-                                    alt: "food",
-                                    className: "h-40 w-full rounded-2xl"
-                                }, void 0, false, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 47,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "font-bold",
-                                    children: menuItem.name
-                                }, void 0, false, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 48,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    children: [
-                                        " ₹ ",
-                                        menuItem.price
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 49,
-                                    columnNumber: 29
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                    className: "flex border-2 border-orange-600 max-w-20",
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                            onClick: ()=>handleRemove(menuItem),
-                                            className: "w-7 py-2 bg-orange-600 text-white font-bold",
-                                            children: "-"
-                                        }, void 0, false, {
-                                            fileName: "src/Components/RestaurantMenu.js",
-                                            lineNumber: 51,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                                            className: "p-2",
-                                            children: quantity
-                                        }, void 0, false, {
-                                            fileName: "src/Components/RestaurantMenu.js",
-                                            lineNumber: 52,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                            onClick: ()=>handleAdd(menuItem),
-                                            className: "w-7 py-2 bg-orange-600 text-white font-bold",
-                                            children: "+"
-                                        }, void 0, false, {
-                                            fileName: "src/Components/RestaurantMenu.js",
-                                            lineNumber: 53,
-                                            columnNumber: 33
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "src/Components/RestaurantMenu.js",
-                                    lineNumber: 50,
-                                    columnNumber: 29
-                                }, this)
-                            ]
-                        }, index, true, {
-                            fileName: "src/Components/RestaurantMenu.js",
-                            lineNumber: 46,
-                            columnNumber: 25
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "src/Components/RestaurantMenu.js",
-                    lineNumber: 41,
-                    columnNumber: 13
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/RestaurantMenu.js",
-            lineNumber: 30,
-            columnNumber: 9
-        }, this)
-    }, void 0, false);
-}
-_s(RestaurantMenu, "5uDoVEAcf5Jozg1TT50HU0vrUtM=", false, function() {
-    return [
-        (0, _reactRouterDom.useParams),
-        (0, _reactRedux.useSelector),
-        (0, _reactRedux.useDispatch)
-    ];
-});
-_c = RestaurantMenu;
-exports.default = RestaurantMenu;
-var _c;
-$RefreshReg$(_c, "RestaurantMenu");
-
-  $parcel$ReactRefreshHelpers$2fbe.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","../config":"jtCLN","./Shimmer":"c7s09","../utils/cartSlice":"5RXlr","react-redux":"62sf7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5RXlr":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "additem", ()=>additem);
-parcelHelpers.export(exports, "removeItem", ()=>removeItem);
-parcelHelpers.export(exports, "clearCart", ()=>clearCart);
-parcelHelpers.export(exports, "incrementItem", ()=>incrementItem);
-parcelHelpers.export(exports, "decrementItem", ()=>decrementItem);
 var _toolkit = require("@reduxjs/toolkit");
-const cartSlice = (0, _toolkit.createSlice)({
-    name: "cart",
-    initialState: {
-        items: []
-    },
-    reducers: {
-        additem: (state, action)=>{
-            const existingItem = state.items.find((item)=>item.id === action.payload.id);
-            if (existingItem) existingItem.quantity += 1;
-            else state.items.push({
-                ...action.payload,
-                quantity: 1
-            });
-        },
-        removeItem: (state, action)=>{
-            state.items = state.items.filter((item)=>item.id !== action.payload.id);
-        },
-        clearCart: (state, action)=>{
-            state.items = [];
-        },
-        incrementItem: (state, action)=>{
-            const item = state.items.find((item)=>item.id === action.payload.id);
-            if (item) item.quantity += 1;
-        },
-        decrementItem: (state, action)=>{
-            const itemIndex = state.items.findIndex((item)=>item.id === action.payload.id);
-            if (itemIndex !== -1) {
-                const item = state.items[itemIndex];
-                if (item && item.quantity > 1) item.quantity -= 1;
-                else state.items.splice(itemIndex, 1);
-            }
-        }
+var _cartSlice = require("./cartSlice");
+var _cartSliceDefault = parcelHelpers.interopDefault(_cartSlice);
+const store = (0, _toolkit.configureStore)({
+    reducer: {
+        cart: (0, _cartSliceDefault.default)
     }
 });
-const { additem , removeItem , clearCart , incrementItem , decrementItem  } = cartSlice.actions;
-exports.default = cartSlice.reducer;
+exports.default = store;
 
-},{"@reduxjs/toolkit":"fuua8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuua8":[function(require,module,exports) {
+},{"@reduxjs/toolkit":"fuua8","./cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuua8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ReducerType", ()=>ReducerType);
@@ -42640,545 +44563,52 @@ function createThunkMiddleware(extraArgument) {
 var thunk = createThunkMiddleware();
 var withExtraArgument = createThunkMiddleware;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k2jPV":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5RXlr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "additem", ()=>additem);
+parcelHelpers.export(exports, "removeItem", ()=>removeItem);
+parcelHelpers.export(exports, "clearCart", ()=>clearCart);
+parcelHelpers.export(exports, "incrementItem", ()=>incrementItem);
+parcelHelpers.export(exports, "decrementItem", ()=>decrementItem);
 var _toolkit = require("@reduxjs/toolkit");
-var _cartSlice = require("./cartSlice");
-var _cartSliceDefault = parcelHelpers.interopDefault(_cartSlice);
-const store = (0, _toolkit.configureStore)({
-    reducer: {
-        cart: (0, _cartSliceDefault.default)
-    }
-});
-exports.default = store;
-
-},{"@reduxjs/toolkit":"fuua8","./cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c9G2d":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$d05f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$d05f.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRedux = require("react-redux");
-var _foodItem = require("./FoodItem");
-var _foodItemDefault = parcelHelpers.interopDefault(_foodItem);
-var _cartSlice = require("../utils/cartSlice");
-var _emptyCart = require("./EmptyCart");
-var _emptyCartDefault = parcelHelpers.interopDefault(_emptyCart);
-var _bill = require("./Bill");
-var _billDefault = parcelHelpers.interopDefault(_bill);
-var _s = $RefreshSig$();
-const Cart = ()=>{
-    _s();
-    const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
-    const dispatch = (0, _reactRedux.useDispatch)();
-    const handleClear = ()=>{
-        dispatch((0, _cartSlice.clearCart)());
-    };
-    if (cartItems.length === 0) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _emptyCartDefault.default), {}, void 0, false, {
-        fileName: "src/Components/Cart.js",
-        lineNumber: 14,
-        columnNumber: 40
-    }, undefined);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>handleClear(),
-                className: "h-4 p-4 bg-orange-600 text-white cursor-pointer font-bold flex justify-center items-center border-2 border-orange-600 shadow-lg shadow-orange-200 hover:shadow-none float-right mt-2",
-                children: "Clear Cart"
-            }, void 0, false, {
-                fileName: "src/Components/Cart.js",
-                lineNumber: 17,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "src/Components/Cart.js",
-                lineNumber: 18,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                fileName: "src/Components/Cart.js",
-                lineNumber: 19,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex justify-center items-center float-right max-sm:float-none max-md:float-none",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _billDefault.default), {}, void 0, false, {
-                    fileName: "src/Components/Cart.js",
-                    lineNumber: 20,
-                    columnNumber: 107
-                }, undefined)
-            }, void 0, false, {
-                fileName: "src/Components/Cart.js",
-                lineNumber: 20,
-                columnNumber: 9
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "flex flex-col justify-center items-center comic-neue",
-                children: cartItems.map((items, index)=>{
-                    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _foodItemDefault.default), {
-                        ...items,
-                        quantity: items.quantity
-                    }, index, false, {
-                        fileName: "src/Components/Cart.js",
-                        lineNumber: 23,
-                        columnNumber: 24
-                    }, undefined);
-                })
-            }, void 0, false, {
-                fileName: "src/Components/Cart.js",
-                lineNumber: 21,
-                columnNumber: 9
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/Cart.js",
-        lineNumber: 16,
-        columnNumber: 5
-    }, undefined);
-};
-_s(Cart, "ClsVU7OzYQ50hVvtHIih2dVFL+s=", false, function() {
-    return [
-        (0, _reactRedux.useSelector),
-        (0, _reactRedux.useDispatch)
-    ];
-});
-_c = Cart;
-exports.default = Cart;
-var _c;
-$RefreshReg$(_c, "Cart");
-
-  $parcel$ReactRefreshHelpers$d05f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-redux":"62sf7","./FoodItem":"2TP12","../utils/cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./EmptyCart":"4cxCd","./Bill":"49nV3"}],"2TP12":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$559a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$559a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _reactRedux = require("react-redux");
-var _config = require("../config");
-var _cartSlice = require("../utils/cartSlice");
-var _s = $RefreshSig$();
-const FoodItem = ({ id , name , category , price , quantity  })=>{
-    _s();
-    const dispatch = (0, _reactRedux.useDispatch)();
-    const handleIncrement = ()=>{
-        dispatch((0, _cartSlice.incrementItem)({
-            id
-        }));
-    };
-    const handleDecrement = ()=>{
-        dispatch((0, _cartSlice.decrementItem)({
-            id
-        }));
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "m-5 p-5 text-black shadow-2xl shadow-orange-100 w-4/6 flex max-sm:w-full max-md:w-full",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "w-60",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                        src: (0, _config.IMG_CDN_URL) + id,
-                        alt: "food",
-                        className: "h-40 rounded-2xl w-full"
-                    }, void 0, false, {
-                        fileName: "src/Components/FoodItem.js",
-                        lineNumber: 17,
-                        columnNumber: 21
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/Components/FoodItem.js",
-                    lineNumber: 16,
-                    columnNumber: 17
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "ml-10 flex flex-col justify-center",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            className: "truncate font-bold",
-                            children: [
-                                " ",
-                                name
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/FoodItem.js",
-                            lineNumber: 20,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                            className: "flex italic text-slate-600",
-                            children: [
-                                " ",
-                                category,
-                                " "
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/FoodItem.js",
-                            lineNumber: 21,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                            className: "flex",
-                            children: [
-                                " ₹ ",
-                                price,
-                                " "
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/FoodItem.js",
-                            lineNumber: 22,
-                            columnNumber: 21
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "flex border-2 border-orange-600 max-w-20",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    onClick: handleDecrement,
-                                    className: "w-7 py-2 bg-orange-600 text-white font-bold",
-                                    children: "-"
-                                }, void 0, false, {
-                                    fileName: "src/Components/FoodItem.js",
-                                    lineNumber: 24,
-                                    columnNumber: 25
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                    className: "bg-white p-2",
-                                    children: quantity
-                                }, void 0, false, {
-                                    fileName: "src/Components/FoodItem.js",
-                                    lineNumber: 25,
-                                    columnNumber: 25
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                    onClick: handleIncrement,
-                                    className: "w-7 py-2 bg-orange-600 text-white font-bold",
-                                    children: "+"
-                                }, void 0, false, {
-                                    fileName: "src/Components/FoodItem.js",
-                                    lineNumber: 26,
-                                    columnNumber: 25
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Components/FoodItem.js",
-                            lineNumber: 23,
-                            columnNumber: 21
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/FoodItem.js",
-                    lineNumber: 19,
-                    columnNumber: 17
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/FoodItem.js",
-            lineNumber: 15,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false);
-};
-_s(FoodItem, "rgTLoBID190wEKCp9+G8W6F7A5M=", false, function() {
-    return [
-        (0, _reactRedux.useDispatch)
-    ];
-});
-_c = FoodItem;
-exports.default = FoodItem;
-var _c;
-$RefreshReg$(_c, "FoodItem");
-
-  $parcel$ReactRefreshHelpers$559a.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react-redux":"62sf7","../config":"jtCLN","../utils/cartSlice":"5RXlr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4cxCd":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$b4df = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$b4df.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _config = require("../config");
-var _reactRouterDom = require("react-router-dom");
-const EmptyCart = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "flex flex-col justify-center items-center",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _config.IMG_CDN_URL) + "2xempty_cart_yfxml0",
-                    alt: "emptycart"
-                }, void 0, false, {
-                    fileName: "src/Components/EmptyCart.js",
-                    lineNumber: 9,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "p-10 text-center",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                            className: "font-bold text-xl",
-                            children: "Your cart is empty"
-                        }, void 0, false, {
-                            fileName: "src/Components/EmptyCart.js",
-                            lineNumber: 11,
-                            columnNumber: 15
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                            className: "text-sm text-slate-600",
-                            children: "You can go to home page to view more restaurants"
-                        }, void 0, false, {
-                            fileName: "src/Components/EmptyCart.js",
-                            lineNumber: 12,
-                            columnNumber: 15
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                            to: "/",
-                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                                className: "font-bold p-2 bg-orange-600 text-white m-2",
-                                children: "SEE RESTAURANTS NEAR YOU"
-                            }, void 0, false, {
-                                fileName: "src/Components/EmptyCart.js",
-                                lineNumber: 13,
-                                columnNumber: 28
-                            }, undefined)
-                        }, void 0, false, {
-                            fileName: "src/Components/EmptyCart.js",
-                            lineNumber: 13,
-                            columnNumber: 15
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/EmptyCart.js",
-                    lineNumber: 10,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/EmptyCart.js",
-            lineNumber: 8,
-            columnNumber: 9
-        }, undefined)
-    }, void 0, false);
-};
-_c = EmptyCart;
-exports.default = EmptyCart;
-var _c;
-$RefreshReg$(_c, "EmptyCart");
-
-  $parcel$ReactRefreshHelpers$b4df.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../config":"jtCLN","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"49nV3":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$826b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$826b.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _reactRedux = require("react-redux");
-var _s = $RefreshSig$();
-const Bill = ()=>{
-    _s();
-    const cartItems = (0, _reactRedux.useSelector)((store)=>store.cart.items);
-    const totalCost = cartItems.reduce((total, item)=>total + item.price * item.quantity, 0);
-    const deliveryCost = 30;
-    const total = totalCost + deliveryCost;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "m-5 p-5 shadow-2xl shadow-orange-100",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    className: "text-center font-bold text-xl",
-                    children: "Bill"
-                }, void 0, false, {
-                    fileName: "src/Components/Bill.js",
-                    lineNumber: 11,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: [
-                        "Total Items - ",
-                        cartItems.length
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/Bill.js",
-                    lineNumber: 12,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: [
-                        "Total - ₹ ",
-                        totalCost.toFixed(2)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/Bill.js",
-                    lineNumber: 13,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: [
-                        "Delivery Cost - ₹ ",
-                        deliveryCost.toFixed(2)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/Bill.js",
-                    lineNumber: 14,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
-                    className: "m-2"
-                }, void 0, false, {
-                    fileName: "src/Components/Bill.js",
-                    lineNumber: 15,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "font-bold",
-                    children: [
-                        "To Pay - ₹ ",
-                        total.toFixed(2)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/Components/Bill.js",
-                    lineNumber: 16,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "flex justify-center items-center",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        className: "border-2 border-orange-600 p-2 font-bold rounded-xl m-2 hover:bg-orange-600 hover:text-white",
-                        children: " Pay Now"
-                    }, void 0, false, {
-                        fileName: "src/Components/Bill.js",
-                        lineNumber: 18,
-                        columnNumber: 17
-                    }, undefined)
-                }, void 0, false, {
-                    fileName: "src/Components/Bill.js",
-                    lineNumber: 17,
-                    columnNumber: 13
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/Components/Bill.js",
-            lineNumber: 10,
-            columnNumber: 9
-        }, undefined)
-    }, void 0, false);
-};
-_s(Bill, "sOGYiwJY+kD+ABxufRt7JbvggIE=", false, function() {
-    return [
-        (0, _reactRedux.useSelector)
-    ];
-});
-_c = Bill;
-exports.default = Bill;
-var _c;
-$RefreshReg$(_c, "Bill");
-
-  $parcel$ReactRefreshHelpers$826b.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-redux":"62sf7"}],"9eaVN":[function(require,module,exports) {
-module.exports = require("./helpers/browser/js-loader")(require("./helpers/bundle-url").getBundleURL("1ADHI") + "InstaMart.8397d466.js" + "?" + Date.now()).catch((err)=>{
-    delete module.bundle.cache[module.id];
-    throw err;
-}).then(()=>module.bundle.root("lhzf5"));
-
-},{"./helpers/browser/js-loader":"61B45","./helpers/bundle-url":"lgJ39"}],"61B45":[function(require,module,exports) {
-"use strict";
-var cacheLoader = require("../cacheLoader");
-module.exports = cacheLoader(function(bundle) {
-    return new Promise(function(resolve, reject) {
-        // Don't insert the same script twice (e.g. if it was already in the HTML)
-        var existingScripts = document.getElementsByTagName("script");
-        if ([].concat(existingScripts).some(function isCurrentBundle(script) {
-            return script.src === bundle;
-        })) {
-            resolve();
-            return;
+const cartSlice = (0, _toolkit.createSlice)({
+    name: "cart",
+    initialState: {
+        items: []
+    },
+    reducers: {
+        additem: (state, action)=>{
+            const existingItem = state.items.find((item)=>item.id === action.payload.id);
+            if (existingItem) existingItem.quantity += 1;
+            else state.items.push({
+                ...action.payload,
+                quantity: 1
+            });
+        },
+        removeItem: (state, action)=>{
+            state.items = state.items.filter((item)=>item.id !== action.payload.id);
+        },
+        clearCart: (state, action)=>{
+            state.items = [];
+        },
+        incrementItem: (state, action)=>{
+            const item = state.items.find((item)=>item.id === action.payload.id);
+            if (item) item.quantity += 1;
+        },
+        decrementItem: (state, action)=>{
+            const itemIndex = state.items.findIndex((item)=>item.id === action.payload.id);
+            if (itemIndex !== -1) {
+                const item = state.items[itemIndex];
+                if (item && item.quantity > 1) item.quantity -= 1;
+                else state.items.splice(itemIndex, 1);
+            }
         }
-        var preloadLink = document.createElement("link");
-        preloadLink.href = bundle;
-        preloadLink.rel = "preload";
-        preloadLink.as = "script";
-        document.head.appendChild(preloadLink);
-        var script = document.createElement("script");
-        script.async = true;
-        script.type = "text/javascript";
-        script.src = bundle;
-        script.onerror = function(e) {
-            var error = new TypeError("Failed to fetch dynamically imported module: ".concat(bundle, ". Error: ").concat(e.message));
-            script.onerror = script.onload = null;
-            script.remove();
-            reject(error);
-        };
-        script.onload = function() {
-            script.onerror = script.onload = null;
-            resolve();
-        };
-        document.getElementsByTagName("head")[0].appendChild(script);
-    });
-});
-
-},{"../cacheLoader":"j49pS"}],"j49pS":[function(require,module,exports) {
-"use strict";
-var cachedBundles = {};
-var cachedPreloads = {};
-var cachedPrefetches = {};
-function getCache(type) {
-    switch(type){
-        case "preload":
-            return cachedPreloads;
-        case "prefetch":
-            return cachedPrefetches;
-        default:
-            return cachedBundles;
     }
-}
-module.exports = function(loader, type) {
-    return function(bundle) {
-        var cache = getCache(type);
-        if (cache[bundle]) return cache[bundle];
-        return cache[bundle] = loader.apply(null, arguments).catch(function(e) {
-            delete cache[bundle];
-            throw e;
-        });
-    };
-};
+});
+const { additem , removeItem , clearCart , incrementItem , decrementItem  } = cartSlice.actions;
+exports.default = cartSlice.reducer;
 
-},{}]},["1xC6H","lO3Mf","kY5kY"], "kY5kY", "parcelRequire47c6")
+},{"@reduxjs/toolkit":"fuua8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["1xC6H","lO3Mf","kY5kY"], "kY5kY", "parcelRequire47c6")
 
 //# sourceMappingURL=index.dc264952.js.map
