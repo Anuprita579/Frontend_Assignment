@@ -7,7 +7,7 @@
 - [Technologies Used](#technologies-used)
 
 ## Demo
-https://food-vista.vercel.app/
+https://frontend-assignment-anuprita579s-projects.vercel.app/
 
 ## Installation
 
